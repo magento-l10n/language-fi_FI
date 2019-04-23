@@ -1343,6 +1343,7 @@ Replace,Korvaa
 "Gift Card:",Lahjakortti:
 "The field isn't complete.","Kenttään kirjoitettu syöte ei vielä täysin täytä vaatimuksia."
 "Go to Checkout","Siirry kassalle"
+"Go to Checkout?","Siirry kassalle?"
 "%fieldName is a required field.","%fieldName on pakollinen kenttä."
 "Default Config",Oletusasetukset
 "Save Config","Tallenna asetus"
@@ -1538,6 +1539,7 @@ Extensions,Laajennukset
 "The SKU was not found in the catalog.","SKU:ta ei löytynyt luettelosta."
 "Invalid item option format.","Virheellinen nimikkeen vaihtoehdon muoto."
 "Cannot specify product.","Tuotetta ei voida määrittää."
+"The requested qty is not available","Pyydettyä määrää ei ole saatavilla"
 items,tuotteet
 item,tuote
 "Edit item","Muokkaa tuotetta"
