@@ -2173,7 +2173,7 @@ Contacts,Kontaktit
 "Save Role","Tallenna rooli"
 "Add New User","Lisää uusi käyttäjä"
 "Create an Account","Luo tili"
-"%name,","%nimi,"
+"Dear %name,","Hyvä %name,"
 "When you sign in to your account, you will be able to:","Kirjauduttuasi tilillesi voit:"
 "No results","Ei tuloksia"
 Proceed,Jatka
@@ -3725,6 +3725,7 @@ Length,Pituus
 "Hide Details","Piilota tiedot"
 "Show Details","Näytä tiedot"
 "Leave Comment","Jätä kommentti"
+"Customer %name has left a new comment:","Asiakas %name on jättänyt uuden kommentin:"
 "%store_name: New Return #%increment_id","%store_name: uusi palauttaa #%increment_id"
 "%store_name: Return #%increment_id update","%store_name: palauttaa #%increment_id päivitys"
 "Create Packages","Luo paketteja"
@@ -3814,6 +3815,7 @@ Transactions,Tapahtumat
 Value,Arvo
 "Back to My Orders","Palaa omiin tilauksiin"
 "View Another Order","Katso toinen tilaus"
+"About Your Invoice","Lisätietoja laskustasi"
 "Print Order # %1","Tulosta tilaus # %1"
 "Grand Total to be Charged","Veloitettava loppusumma"
 "You sent the message.","Lähetit viestin."
@@ -3911,9 +3913,11 @@ Complete,Valmis
 "Billing Last Name","Laskutettavan sukunimi"
 "Find Order By","Etsi tilaus käyttäen"
 "ZIP Code",Postinumero
+"Print All Refunds","Tulosta kaikki hyvitykset"
 "You have placed no orders.","Et ole tehnyt tilauksia."
 "Print Order","Tulosta tilaus"
-"Invoice #",Laskunumero
+"Print All Invoices","Tulosta kaikki laskut"
+"Invoice #","Lasku # "
 "Print Invoice","Tulosta lasku"
 "<span class=""label"">Order Date:</span> %1","<span class=""label"">Tilauspäivämäärä:</span> %1"
 "Shipment #%1","Lähetysnumero %1"
