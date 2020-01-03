@@ -826,6 +826,7 @@ Security,Turvallisuusasetukset
 "Admin Session Lifetime (seconds)","Järjestelmänvalvojan istunnon kesto (sekuntia)"
 "Please enter at least 60 and at most 31536000 (one year).","Syötä vähintään 60 ja enintään 31536000 (vuosi)."
 "Enable Charts","Salli diagrammit"
+Web,Verkko
 "Url Options",Url-asetukset
 "Add Store Code to Urls","Lisää kaupan kielikoodi URL-osoitteisiin"
 "Auto-redirect to Base URL","Automaattisesti uudelleenohjaa Base URL:ään"
@@ -1050,12 +1051,15 @@ Header,Ylätunniste
 "This dynamic block does not exist.","Tätä dynaamista lohkoa ei ole olemassa."
 "You saved the dynamic block.","Dynaaminen lohko tallennettiin."
 "We cannot save the dynamic block.","Dynaamista lohkoa ei voida tallentaa."
+"Manage Dynamic Blocks","Hallinnoi dynaamisia lohkoja"
 "General Information",Yleistä
 "Enable Dynamic Block","Ota käyttöön dynaaminen lohko"
 "Use Default Value","Käytä oletusarvoa"
 "Cart price rules allows you to setup promotions for items that are in the shopping cart.","Ostoskorin säännöt mahdollistavat ostoskorissa olevien kohteiden myynninedistämisen."
 "Add Cart Price Rules","Muokkaa ostoskorin hintasääntöjä"
 "Related Catalog Price Rule","Uusi tuoteluettelon hintasääntö"
+"Add Selected","Lisää valitut"
+"All Segments","Kaikki segmentit"
 "Allowed Credit Card Types","Sallitut luottokorttityypit"
 "Add Rule","Lisää sääntö"
 "Braintree Settlement Report",Braintree-maksuraportti
@@ -1107,6 +1111,7 @@ YY,VV
 "Dynamic Descriptors","Dynaaminen kuvaukset"
 Phone,Puhelin
 URL,Osoite
+"CVV is required.","CVV vaaditaan."
 "CVV must be 4 digits for American Express and 3 digits for other card types.","CVV on oltava 4 numeroa American Express ja 3 numeroa muissa korteissa."
 "Expiration year is invalid. It must be between 1975 and 2201.","Expiration vuosi on virheellinen. Pitää olla vuosina1975-2201."
 "CVV verification failed.","CVV tarkistaminen epäonnistui."
@@ -1255,7 +1260,7 @@ Shipped,Lähetetty
 Refunded,Hyvitetty
 Canceled,Peruutettu
 "As low as",Alkaen
-"Regular Price","Normaali hinta"
+"Regular Price",Normaalihinta
 "Go back to product details","Palaa tuotetietoihin"
 "Customize and Add to Cart","Muokkaa ja lisää ostoskoriin"
 Availability,Saatavuus
@@ -1536,8 +1541,10 @@ Category,Kategoria
 "Please enter a number 0 or greater in this field.","Syötä tähän kenttää numero, joka on nolla (0) tai sitä suurempi."
 "Please enter a valid number in this field.","Kirjoita kelvollinen numero tähän kenttään."
 "Use config","Käytä kokoonpanon asetuksia"
+"Attribute Set already exists.","Attribuuttiryhmä on jo olemassa."
 "The image content is not valid.","Kuvan sisältö ei kelpaa."
 "Cannot save product.","Tuotetta ei voida tallentaa."
+"There is no image with provided ID.","Kuvaa ei ole annetulla tunnuksella."
 "Such product doesn't exist","Tuotetta ei ole olemassa"
 "Such image doesn't exist","Kuvaa ei ole olemassa"
 "The image does not exist.","Kuvaa ei ole olemassa."
@@ -1574,6 +1581,7 @@ name,nimi
 Groups,Ryhmät
 "Unassigned Attributes","Määrittämättömät attribuutit"
 "A name is required.","Nimi on pakollinen."
+"This is a required option.","Tämä on pakollinen kenttä."
 "The field isn't complete.","Kenttään kirjoitettu syöte ei vielä täysin täytä vaatimuksia."
 "Maximum image width","Kuvan enimmäisleveys"
 "Maximum image height","Kuvan enimmäiskorkeus"
@@ -1593,6 +1601,7 @@ Backorders,Jälkitoimitukset
 "and above","ja yli"
 "Delete image","Poista kuva"
 Hidden,Piilotettu
+"Alt Text","Alt teksti"
 Role,Rooli
 "Image Size","Kuvan koko"
 "Image Resolution","Kuvan resoluutio"
@@ -1629,6 +1638,7 @@ Show,Näytä
 "Set Ascending Direction","Aseta nousevaan järjestykseen"
 "Set Descending Direction","Aseta laskevaan järjestykseen"
 "More Information",Lisätietoja
+"Image Detail","Kuvan tiedot"
 Adding...,Lisätään...
 Added,Lisätty
 "unselect all","poista kaikki valinnat"
@@ -1636,6 +1646,7 @@ Inventory,Varasto
 "Catalog Section","Katalogin osa"
 Small,Pieni
 "Product Fields Auto-Generation","Tuotteen tietokenttien automaattinen luonti"
+Storefront,Etusivu
 "List Mode",Luettelotila
 "Products per Page on Grid Allowed Values","Tuotetta per sivu ruudukkotilassa, sallitut arvot"
 Comma-separated.,"Pilkuin erotettu."
@@ -1647,6 +1658,7 @@ Comma-separated.,"Pilkuin erotettu."
 "Product Image Placeholders","Tuotekuvien paikanpitäjät"
 "Page Title Separator","Sivuotsikon erotinmerkki"
 "Use JavaScript Calendar","Käytä JavaScript-kalenteria"
+"Please use a four-digit year format.","Käytä nelinumeroista vuosilukua."
 "Top Level Category","Ylätason kategoria"
 "Category Products","Tuoteryhmän tuotteet"
 "Product Categories",Tuotekategoriat
@@ -1716,8 +1728,13 @@ text,teksti
 "Page not found","Sivua ei löydy"
 from,alkaen
 to,asti
+"Maximum %1 characters","Enintään %1 merkkiä"
+remaining,jäljellä
 Quality,Laatu
+Cost,Kustannus
 "The product can't be saved.","Tuotetta ei voida tallentaa."
+"The image doesn't exist.","Kuvaa ei ole olemassa."
+"Product Name or SKU","Tuotenimi tai -koodi"
 "Edit Event","Muokkaa tapahtumaa"
 "Add Event","Lisää Tapahtuma"
 Events,Tapahtumat
@@ -1728,6 +1745,7 @@ Events,Tapahtumat
 Upcoming,Tuleva(t)
 Open,Avaa
 Closed,Suljettu
+"Category Page",Kategoriasivu
 "Product Page",Tuotesivu
 "Coming Soon","Tulossa pian"
 "Sale Ends In","Alennusmyynnin päättymiseen"
@@ -1782,6 +1800,8 @@ End,Loppu
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Meillä ei ole niin montaa kappaletta tuotetta ""%1"" kuin haluat, mutta siirretään tilaukselle jäljellä olevat %2."
 "Stock Status",Varastotilanne
 "Only %1 left","Vain %1 jäljellä"
+"Product availability","Tuotteen saatavuus"
+"Stock Options","Varaston asetukset"
 "Only X left Threshold","""Vain X jäljellä"" kynnysarvo"
 "Display Products Availability in Stock on Storefront","Näytä tuotteiden määrä varastossa kaupan etusivulla"
 Stock,Varasto
@@ -2138,7 +2158,6 @@ Keywords,Avainsanat
 "Search Engine Optimisation",Hakukoneoptimointi
 "Delete Selected","Poista Valitut"
 "Create Folder","Luo kansio"
-"Add Selected","Lisää valitut"
 "You duplicated the block.","Lohkosta luotiin kaksoiskappale."
 "You duplicated the page.","Sivusta luotiin kaksoiskappale."
 "Upload Images","Lähetä Kuva"
@@ -2149,15 +2168,21 @@ Keywords,Avainsanat
 "Delete Customer","Poista asiakas"
 Companies,Yritykset
 "Company Name:","Yrityksen nimi:"
+"Street Address:",Katuosoite:
 City:,Kaupunki:
 Country:,Maa:
 State/Province:,Osavaltio/provinssi:
 "ZIP/Postal Code:",Postinumero:
 "Phone Number:",Puhelinnumero:
+"Job Title:",Tehtävänimike:
 "Email Address:",Sähköpostiosoite:
+Prefix:,Etuliite:
 "First Name:",Etunimi:
 "Last Name:",Sukunimi:
+Suffix:,Jälkiliite:
 Gender:,Sukupuoli:
+"New Company","Uusi yritys"
+"Thank you! We're reviewing your request and will contact you soon","Kiitos! Pyyntöäsi käsitellään ja otamme sinuun yhteyttä mahdollisimman pian"
 "Create New Company","Luo uusi yritys"
 "A total of %1 record(s) were deleted.","Yhteensä %1 tietue(tta) poistettiin."
 "Add New Role","Lisää uusi rooli"
@@ -2167,8 +2192,12 @@ Rejected,Hylätty
 "Invalid login or password.","Virheellinen sähköpostiosoite tai salasana."
 "This account is locked.","Tili on lukittu."
 "Role Name","Roolin nimi"
+Company:,Yritys:
 "Please select a region, state or province.","Valitse alue, osavaltio tai provinssi."
 "Phone Number",Puhelinnumero
+"Job Title",Tehtävänimike
+"Add User","Lisää käyttäjä"
+"Add Team","Lisää tiimi"
 "User Role",Käyttäjärooli
 "You have no other address entries in your address book.","Osoitekirjassasi ei ole muita tallennettuja osoitteita."
 Contacts,Kontaktit
@@ -4123,7 +4152,6 @@ Pricing,Hinnoittelu
 "Requested product doesn't exist: %1.","Pyydettyä tuotetta ei ole olemassa: %1."
 Assigned,Osoitettu
 "Adjust Fixed Price","Muuta kiinteää hintaa"
-Cost,Kustannus
 "New Price","Uusi hinta"
 "New Shipment for Order #%1","Uusi lähetys tilaukselle #%1"
 "Submit Shipment","Hyväksy lähetys"
