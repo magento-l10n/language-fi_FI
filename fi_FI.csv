@@ -1019,8 +1019,12 @@ Inactive,"Ei käytössä"
 "Applies To","Liittyy kohteeseen"
 "Specify Types","Määritä tyypit"
 Visibility,Näkyvyys
+"Related Banners","Liittyvät bannerit"
 Position,Sijainti
 "This rule no longer exists.","Tätä sääntöä ei ole enää olemassa."
+"You deleted the banner.","Banneri poistettiin."
+"Edit Banner","Muokkaa banneria"
+"Please select a banner(s).","Valitse banneri(t)."
 "You deleted %1 record(s).","%1 merkintä(ä) poistettu."
 "Please enter a name.","Kirjoita nimi."
 "Please specify default content for at least one store view.","Määritä oletussisältöä vähintään yhden myymälän näkymän."
@@ -1728,6 +1732,7 @@ text,teksti
 "Page not found","Sivua ei löydy"
 from,alkaen
 to,asti
+"You added product %1 to the <a href=""%2"">comparison list</a>.","Lisäsit tuotteen %1 <a href=""%2"">vertailulistalle</a>."
 "Maximum %1 characters","Enintään %1 merkkiä"
 remaining,jäljellä
 Quality,Laatu
@@ -2096,7 +2101,7 @@ Modified,Muokattu
 "Insert File","Lisää tiedosto"
 "Are you sure you want to delete this folder?","Haluatko varmasti poistaa tämän kansion?"
 "Are you sure you want to delete this file?","Haluatko varmasti poistaa tämän tiedoston?"
-"You deleted the block.","Poistit lohkon."
+"You deleted the block.","Lohko poistettiin."
 "We can't find a block to delete.","Poistettavaa lohkoa ei löydy."
 "This block no longer exists.","Tätä lohkoa ei ole enää olemassa."
 "Edit Block","Muokkaa lohkoa"
@@ -4625,6 +4630,7 @@ Next/Previous,Seuraava/Edellinen
 "Menu Layout","Valikon asettelu"
 "Page ID","Sivun tunnus"
 Hierarchy,Hierarkia
+CMS,Sisällönhallinta
 Protected,Suojattu
 "Delete Multiple Hierarchies","Poista useita hierarkioita"
 Both,Molemmat
@@ -4634,10 +4640,12 @@ Both,Molemmat
 "Upper Alpha (A, B, C, ...)","Suuraakkoset (A, B, C...)"
 Disc,Levy
 "This URL key is already in use.","Tämä URL-osoite on jo käytössä."
+"CMS Pages",Sisältösivut
 Node,"Ei mikään"
 "Not Selected","Ei valittu"
 Page:,Sivu:
 "CMS Hierarchy","CMS hierarkia"
+Publish,Julkaise
 "Save and continue edit.","Tallenna ja jatka muokkaamista."
 "Please wait...","Ole hyvä ja odota..."
 "Search All Products","Etsi kaikista tuotteista"
@@ -4700,7 +4708,6 @@ Choose...,Valitse...
 "Add Layout Update","Lisää asettelun päivitys"
 "Remove Layout Update","Poista asettelun päivitys"
 "Widget Options","Widgetin asetukset"
-CMS,Sisällönhallinta
 "New Widget","Uusi Widget"
 Widgets,Widgetit
 description,kuvaus
@@ -4746,8 +4753,12 @@ error-message,virheviesti
 "User Description","Käyttäjän kuvaus"
 "Product Details and Comment","Tuotetiedot ja kommentti"
 "Add To Wishlist","Lisää toivelistaan"
+"Are you sure you want to remove this product from your Wish List?","Oletko varma, että haluat poistaa tämän tuotteen toivelistaltasi?"
+"%1 has been removed from your Wish List.","%1 on poistettu toivelistaltasi."
 "10 by default. Max - 10000","Oletus 10. Max - 10000"
 "255 by default","Oletus 255"
+"The cart item doesn't exist.","Ostoskorin tuotetta ei ole olemassa."
+"You must login or register to add items to your wishlist.","Sinun täytyy kirjautua sisään tai rekisteröityä, jotta voit lisätä tuotteita toivelistalle."
 "Show in Sidebar","Näytä sivupalkissa"
 "Credit card type",Luottokorttityyppi
 "CVV result",CVV-tulos
