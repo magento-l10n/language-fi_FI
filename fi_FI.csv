@@ -1018,11 +1018,15 @@ Active,Aktiivinen
 Inactive,"Ei käytössä"
 "Applies To","Liittyy kohteeseen"
 "Specify Types","Määritä tyypit"
+Banner,Banneri
+"Banner Type",Bannerityyppi
 Visibility,Näkyvyys
+"Are you sure you want to delete these banners?","Haluatko varmasti poistaa nämä bannerit?"
 "Related Banners","Liittyvät bannerit"
 Position,Sijainti
 "This rule no longer exists.","Tätä sääntöä ei ole enää olemassa."
 "You deleted the banner.","Banneri poistettiin."
+"This banner no longer exists.","Tätä banneria ei ole enää olemassa."
 "Edit Banner","Muokkaa banneria"
 "Please select a banner(s).","Valitse banneri(t)."
 "You deleted %1 record(s).","%1 merkintä(ä) poistettu."
@@ -1034,6 +1038,7 @@ Footer,Alatunniste
 Header,Ylätunniste
 "Left Column","Vasen sarake"
 "Right Column","Oikea sarake"
+"Manage Banners","Hallinnoi bannereita"
 "Shopping Cart Promotions Related","Ostoskorin tarjoukset liittyvät"
 "Catalog Promotions Related","Katalogin tarjoukset liityvät"
 "Rotation Mode",Kiertomoodi
@@ -1049,6 +1054,7 @@ Header,Ylätunniste
 "Dynamic Block Properties","Dynaamisen lohkon ominaisuudet"
 "Dynamic Block Name","Dynaamisen lohkon nimi"
 "Dynamic Block","Dynaaminen lohko"
+"Dynamic Block Type","Dynaamisen lohkon typpi"
 "Related Dynamic Blocks","Liittyvät dynaamiset lohkot"
 "Edit Dynamic Block","Muokkaa Dynaamista lohkoa"
 "Please select a dynamic block(s).","Valitse dynaaminen lohko(t)."
@@ -1088,6 +1094,7 @@ YY,VV
 "Please try again with another form of payment.","Koita uudelleen toisella maksutavalla."
 "Sorry, but something went wrong.","Pahoittelut, jotain meni pieleen."
 "Payment ","Maksu "
+"Refund amount is too large.","Hyvitettävä summa on liian suuri."
 "Enable this Solution","Ota lisäosa käyttöön"
 "Enable PayPal through Braintree","PayPal Braintreen kautta"
 "Merchant ID",Kauppias-ID
@@ -1118,10 +1125,12 @@ URL,Osoite
 "CVV is required.","CVV vaaditaan."
 "CVV must be 4 digits for American Express and 3 digits for other card types.","CVV on oltava 4 numeroa American Express ja 3 numeroa muissa korteissa."
 "Expiration year is invalid. It must be between 1975 and 2201.","Expiration vuosi on virheellinen. Pitää olla vuosina1975-2201."
+"Cardholder name is too long.","Kortinhaltijan nimi on liian pitkä."
 "CVV verification failed.","CVV tarkistaminen epäonnistui."
 "Postal code verification failed.","Postinumeron tarkistus epäonnistui."
 "Credit card number is prohibited.","Luottokorttinumero on kielletty."
 "Addresses must have at least one field filled in.","Osoitteessa on oltava vähintään yksi kenttä täytetty."
+"First name is too long.","Etunimi on liian pitkä."
 "US state codes must be two characters to meet PayPal Seller Protection requirements.","Yhdysvaltain valtion on oltava kaksi merkkiä täyttää PayPal myyjän vaatimukset."
 "Incomplete PayPal account information.","Epätäydellinen PayPal tilin tiedot."
 "Invalid PayPal account information.","Virheellinen PayPal tilin tiedot."
@@ -1350,7 +1359,7 @@ Scope,Kohde
 "Use in Search","Käytä haussa"
 "Visible in Advanced Search","Näkyvissä tarkennetussa haussa"
 "Comparable on Storefront","Vertailtavissa kaupan etusivulla"
-"Use for Promo Rule Conditions","Mainossääntö määritteiden ehdot"
+"Use for Promo Rule Conditions","Käytä mainossäännön ehdoissa"
 "Enable WYSIWYG","Ota WYSIWYG-editori käyttöön"
 "Allow HTML Tags on Storefront","Salli HTML-tunnisteet kaupan etusivulla"
 "Visible on Catalog Pages on Storefront","Näkyvillä katalogin sivuilla kaupassa"
@@ -1366,9 +1375,9 @@ Static,Staattinen
 Decimal,Desimaali
 Integer,Kokonaisluku
 "Globally Editable","Globaalisti muokattavissa"
-"Attribute Information","Määritteen tiedot"
+"Attribute Information","Attribuutin tiedot"
 Properties,Ominaisuudet
-"Manage Labels","Hallita nimikkeitä"
+"Manage Labels","Hallinnoi nimikkeitä"
 Visible,Näkyvissä
 Searchable,Haettavissa
 Comparable,Vertailtavissa
