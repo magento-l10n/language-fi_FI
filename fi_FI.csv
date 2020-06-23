@@ -2059,7 +2059,7 @@ Payment,Maksu
 item,tuote
 items,tuotteet
 "Go to Checkout","Siirry kassalle"
-"Recently added item(s)","Äskettäin lisätyt kohteet"
+"Recently added item(s)","Äskettäin lisätyt nimikkeet"
 "View and edit cart","Tarkastele ja muokkaa ostoskoria"
 "No Payment Methods","Ei maksutapoja"
 "Shipping Methods",Toimitustavat
@@ -2072,6 +2072,7 @@ items,tuotteet
 "Require Customer To Be Logged In To Checkout","Vaadi asiakkaan kirjautuminen tilauksen tekemiseksi"
 "Maximum Display Recently Added Item(s)","Näytettävien viimeksi lisättyjen tuotteiden maksimimäärä"
 of,/
+"You added %1 to your <a href=""%2"">shopping cart</a>.","%1 lisättiin <a href=""%2"">ostoskoriin</a>."
 "Terms and Conditions",Käyttöehdot
 "Add New Condition","Lisää ehto"
 "Save Condition","Tallenna ehto"
