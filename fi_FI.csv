@@ -1014,9 +1014,11 @@ Banners,Bannerit
 Rule,Sääntö
 "Start Date",Alkamispäivä
 "End Date",Päättymispäivä
+"Banner Name","Bannerin nimi"
 Active,Aktiivinen
 Inactive,"Ei käytössä"
 "Applies To","Liittyy kohteeseen"
+"Specified Banner Types","Määritellyt bannerityypit"
 "Specify Types","Määritä tyypit"
 Banner,Banneri
 "Banner Type",Bannerityyppi
@@ -1030,6 +1032,7 @@ Position,Sijainti
 "Edit Banner","Muokkaa banneria"
 "Please select a banner(s).","Valitse banneri(t)."
 "You deleted %1 record(s).","%1 merkintä(ä) poistettu."
+"We cannot save the banner.","Banneria ei voida tallentaa."
 "Please enter a name.","Kirjoita nimi."
 "Please specify default content for at least one store view.","Määritä oletussisältöä vähintään yhden myymälän näkymän."
 "-- None --","--Ei mitään --"
@@ -1131,6 +1134,7 @@ URL,Osoite
 "Credit card number is prohibited.","Luottokorttinumero on kielletty."
 "Addresses must have at least one field filled in.","Osoitteessa on oltava vähintään yksi kenttä täytetty."
 "First name is too long.","Etunimi on liian pitkä."
+"Street address is too long.","Katuosoite on liian pitkä."
 "US state codes must be two characters to meet PayPal Seller Protection requirements.","Yhdysvaltain valtion on oltava kaksi merkkiä täyttää PayPal myyjän vaatimukset."
 "Incomplete PayPal account information.","Epätäydellinen PayPal tilin tiedot."
 "Invalid PayPal account information.","Virheellinen PayPal tilin tiedot."
@@ -1577,9 +1581,11 @@ test,testi
 "Some exception","Jokin poikkeus"
 message,viesti
 "Advanced Pricing","Hinnoittelun lisäasetukset"
+"Customer Group Price",Asiakasryhmähinta
 "Customer Group",Asiakasryhmä
 "Special Price From","Tarjoushinta alkaen"
 "Product Alerts",Tuotehälytykset
+"Select Attribute","Valitse attribuutti"
 "Create New Attribute","Luo uusi attribuutti"
 "Custom options let customers choose the product variations they want.","Mukautetut vaihtoehdot antavat asiakkaiden valita haluamansa tuotevariaatiot."
 "Select Product","Valitse tuote"
@@ -1589,8 +1595,14 @@ message,viesti
 "This item has no weight","Tällä nimikkeellä ei ole painoa"
 "Set Product as New From","Aseta tuote uudeksi alkaen"
 "Add Related Products","Lisää liittyviä tuotteita"
+"Schedule Update From","Ajoita päivitys alkaen"
+"Product in Websites","Tuote sivustoilla"
 name,nimi
+"Collapse All","Sulje kaikki"
+"Expand All","Laajenna kaikki"
 "Please confirm site switching. All data that hasn't been saved will be lost.","Vahvista sivuston vaihtaminen. Kaikki tallentamattomat tiedot menetetään."
+"Manage Titles (Size, Color, etc.)","Hallinnoi nimiä (koko, väri jne.)"
+"Manage Options (Values of Your Attribute)","Hallinnoi vaihtoehtoja (attribuutin arvoja)"
 Groups,Ryhmät
 "Unassigned Attributes","Määrittämättömät attribuutit"
 "A name is required.","Nimi on pakollinen."
@@ -1686,7 +1698,9 @@ Template,Malli
 "Select Product...","Valitse tuote..."
 "Select Category...","Valitse kategoria..."
 "Recently Viewed Products","Äskettäin katsotut tuotteet"
+"Number of Products to display","Näytettävien tuotteiden määrä"
 Image,Kuva
+"Buttons to show","Näytettävät painikkeet"
 "Add to Wishlist","Lisää toivelistaan"
 "Recently Compared Products","Äskettäin vertaillut tuotteet"
 Set,Aseta
@@ -1715,6 +1729,8 @@ Values,Arvot
 "Update attributes","Päivitä attribuutit"
 Overview,Yleiskatsaus
 "Recently Compared","Äskettäin vertaillut"
+"Add To Cart","Lisää ostoskoriin"
+"Add To Compare","Lisää vertailuun"
 "Learn more",Lisätietoja
 "Recently Viewed","Äskettäin tarkastellut"
 "Save Category","Tallenna kategoria"
@@ -1786,6 +1802,7 @@ Start,Aloita
 End,Loppu
 "Edit Event...","Muokkaa tapahtumaa..."
 "Add Event...","Lisää Tapahtuma..."
+"Category doesn't exist","Kategoriaa ei ole olemassa"
 "There are no product types available for export.","Vietäviä tuotetyyppejä ei ole saatavilla."
 "Category ""%1"" has not been created.","Kategoriaa ""%1"" ei ole luotu."
 "File directory '%1' is not readable.","Tiedostokansio '%1' ei ole luettavissa."
@@ -1870,6 +1887,7 @@ Priority,Prioriteetti
 "Smth went to exception","Jotain meni poikkeustilaan"
 "Scheduled Changes","Ajoitetut muutokset"
 "Update Information","Päivitä tiedot"
+"Schedule Update","Ajoita päivitys"
 "Update Name","Päivitä nimi"
 "Save as a New Update","Tallenna uutena päivityksenä"
 "Delete the Update","Poista päivitys"
@@ -2059,7 +2077,7 @@ Payment,Maksu
 item,tuote
 items,tuotteet
 "Go to Checkout","Siirry kassalle"
-"Recently added item(s)","Äskettäin lisätyt nimikkeet"
+"Recently added item(s)","Äskettäin lisätyt kohteet"
 "View and edit cart","Tarkastele ja muokkaa ostoskoria"
 "No Payment Methods","Ei maksutapoja"
 "Shipping Methods",Toimitustavat
@@ -2143,8 +2161,10 @@ Exception,Poikkeus
 View,Katso
 "Media Gallery",Mediagalleria
 "Content Management","Sisällön hallinta"
+"CMS Page",Sisältösivu
 "Select Page...","Valitse sivu..."
 "If empty, the Page Title will be used","Jos tyhjä, käytetään sivun otsikkoa"
+"CMS Static Block","Sisältösivun staattinen lohko"
 "Contents of a Static Block","Staattisen lohkon sisältö"
 Block,Lohko
 "Select Block...","Valitse lohko..."
@@ -2152,6 +2172,7 @@ Block,Lohko
 "Block Title","Lohkon otsikko"
 "Page Information","Sivun tiedot"
 "Enable Page","Ota sivu käyttöön"
+"Content Heading","Sisällön otsikko"
 "Page in Websites","Sivu käytössä sivustoilla"
 "New Layout","Uusi asettelu"
 "Custom design from","Muokattu ulkoasu alkaen"
@@ -2176,6 +2197,7 @@ Keywords,Avainsanat
 "You duplicated the block.","Lohkosta luotiin kaksoiskappale."
 "You duplicated the page.","Sivusta luotiin kaksoiskappale."
 "Upload Images","Lähetä Kuva"
+"CMS Pages",Sisältösivut
 "CMS Blocks",CMS-lohkot
 "Remove CMS block from Campaign","Poista CMS-lohko kampanjasta"
 "Deleting the update will remove the block from this campaign and all scheduled changes will be lost.","Päivityksen poistaminen poistaa lohkon tästä kampanjasta ja kaikki ajoitetut muutokset menetetään."
@@ -2183,6 +2205,7 @@ Keywords,Avainsanat
 "Delete Customer","Poista asiakas"
 Companies,Yritykset
 "Company Name:","Yrityksen nimi:"
+"VAT/TAX ID:","Y-tunnus /VAT-numero:"
 "Street Address:",Katuosoite:
 City:,Kaupunki:
 Country:,Maa:
@@ -2214,6 +2237,7 @@ Company:,Yritys:
 "Add User","Lisää käyttäjä"
 "Add Team","Lisää tiimi"
 "User Role",Käyttäjärooli
+"VAT/TAX ID: ","Y-tunnus /VAT-numero: "
 "You have no other address entries in your address book.","Osoitekirjassasi ei ole muita tallennettuja osoitteita."
 Contacts,Kontaktit
 "Role Information","Roolin tiedot"
@@ -2226,9 +2250,12 @@ Contacts,Kontaktit
 "No results","Ei tuloksia"
 Proceed,Jatka
 "Edit User","Muokkaa käyttäjää"
+"Delete this user?","Poista tämä käyttäjä?"
 Comment,Kommentti
 ZIP,Postinumero
 Gender,Sukupuoli
+Prefix,Etuliite
+Suffix,Jälkiliite
 "My Orders","Omat tilaukset"
 "Create New Customer","Luo uusi asiakas"
 Users,Käyttäjät
@@ -2239,6 +2266,8 @@ Purchased,Ostettu
 "Order # %1","Tilaus # %1"
 "Purchase Order Number",Ostotilausnumero
 "Purchase Order Number: %1","Ostotilausnumero: %1"
+"Credit Limit",Luottoraja
+"Cancel the Order","Peruuta tilaus"
 "This is a required field.","Tämä on pakollinen kenttä."
 Date,Päivämäärä
 "Purchase Order",Ostotilaus
@@ -2619,6 +2648,7 @@ Strong,Vahva
 "Customer Configuration","Asiakkaiden hallinnointi"
 "Default Welcome Email",Oletustervetuliaisviesti
 "Welcome Email",Tervetuliaissähköposti
+"Password Options",Salasana-asetukset
 "Forgot Email Template","Salasanan palautuksen sähköpostimalli"
 "Minimum Password Length","Salasanan vähimmäispituus"
 "Maximum Login Failures to Lockout Account","Epäonnistuneiden kirjautumisten maksimimäärä ennen tilin lukkiutumista"
@@ -3087,6 +3117,8 @@ Filter,Suodin
 "File to Import","Tuotava tiedosto"
 "Select File to Import","Valitse tuotava tiedosto"
 Import/Export,Tuo/Vie
+"Import History",Tuontihistoria
+"Import history",Tuontihistoria
 "Import successfully done","Tuonti suoritettu onnistuneesti"
 "Show more","Näytä lisää"
 "in row(s):",Riv(e)illä:
@@ -3151,7 +3183,9 @@ Link,Linkki
 "Tax Rates Export","Verokantojen vienti"
 Success,Onnistui
 IP-Address,IP-osoite
+"Error Message",Virhesanoma
 Archive,Arkisto
+"Mass Update",Massapäivitys
 Move,Siirrä
 Reorder,"Tilaa uudelleen"
 Print,Tulosta
@@ -3391,10 +3425,13 @@ Instructions,Ohjeet
 "Minimum Order Amount",Vähimmäistilausmäärä
 "Export VCL for Varnish %1","Vie VCL Varnish %1 :lle"
 "Built-in Cache","Sisäänrakennettu välimuisti"
+"Varnish Cache (Recommended)","Varnish-välimuisti (Suositeltu)"
 "Full Page Cache","Koko sivun välimuisti"
 "Page Cache","Sivun välimuisti"
+"Full page caching","Koko sivun välimuisti"
 "Export VCL for Varnish ","Vie VCL Varnish:ille "
 "Built-in Application (Not Recommended for Production Use)","Sisäänrakennettu sovellus (ei suositella tuotantokäyttöön)"
+"Full page caching.","Koko sivun välimuisti."
 "Command Executor for %1 is not defined.","Komennon suorittaja %1:lle ei ole merkitty."
 "Command %1 does not exist.","Komentoa %1 ei ole olemassa."
 "All Allowed Countries","Kaikki sallitut maat"
@@ -3407,6 +3444,7 @@ Instructions,Ohjeet
 "Please enter a valid credit card expiration date.","Anna kelvollinen luottokortin viimeinen voimassaolopäivä."
 "Failure #1","Vika #1"
 "Failure #2","Vika #2"
+"Payment method",Maksutapa
 "Please enter a valid credit card number.","Kirjoita voimassa oleva luottokorttinumero."
 "Payment Methods Section","Maksutavan valinta"
 "Payment Services",Maksupalvelut
@@ -3414,6 +3452,7 @@ Instructions,Ohjeet
 "Billing Agreement #%1","Laskutussopimus nro %1"
 "Related Orders","Liittyvät tilaukset"
 "Transaction Information",Tapahtumatiedot
+"Fetch Updates","Hae päivityksiä"
 Help,Ohje
 "See terms","Katso ehdot"
 "You will be redirected to the PayPal website.","Sinut ohjataan PayPal-verkkosivulle."
@@ -3424,6 +3463,7 @@ Help,Ohje
 "Express Checkout and Order have been canceled.","Express Checkout ja tilaus on peruutettu."
 "Express Checkout has been canceled.","Express Checkout on peruutettu."
 "To check out, please sign in with your email address.","Kirjaudu sisään sähköpostiosoitteellasi siirtyäksesi kassalle."
+"The customer ID is not set.","Asiakastunnusta ei ole asetettu."
 Auto,Autom.
 "IPN (Instant Payment Notification) Only","Vain IPN (Instant Payment Notification)"
 "API Signature",API-allekirjoitus
@@ -3567,6 +3607,8 @@ quantity,määrä
 is,on
 "is not","ei ole"
 "The item was added to wish list %1, store view %2.","Kohde on lisätty toivelistaan %1, kaupan näkymässä %2."
+"Validate error 1","Validointivirhe 1"
+"Validate error 2","Validointivirhe 2"
 Interval,Aikaväli
 "Valid range: 0-59 (default 0).","Kelvollinen alue: 0-59 (oletus 0)."
 "New Accounts","Uudet tilit"
@@ -3576,10 +3618,15 @@ Interval,Aikaväli
 "Invalid date specified","Määritetty päivämäärä ei kelpaa"
 "Show Reviews","Näytä arvostelut"
 "Low stock","Alhainen varastotilanne"
+"Most Viewed","Useimmin katsotut"
+"Show Report","Näytä raportti"
 "Refresh Statistics","Päivitä tilastot"
+"Customers Reviews","Asiakkaiden arvostelut"
 "Reviews for %1","Arvostelut tuotteelle %1"
 "Products Reviews","Tuotteiden arvostelut"
 "Price Rule",Hintasääntö
+"Sales Subtotal","Myyntien välisumma"
+"Sales Discount","Myyntien alennus"
 "Invoiced Orders","Laskutetut tilaukset"
 "Total Invoiced","Laskutettu yhteensä"
 "Paid Invoices","Maksetut laskut"
@@ -3618,6 +3665,7 @@ Refunds,Hyvitykset
 "Ordered Quantity","Tilattu määrä"
 "Last Review","Viimeinen arvostelu"
 "Order Created","Tilaus luotu"
+"Refresh Lifetime Statistics","Virkistä elinikäiset tilastot"
 "Invalid item option format.","Virheellinen nimikkeen vaihtoehdon muoto."
 "Cannot specify product.","Tuotetta ei voida määrittää."
 "Edit item","Muokkaa tuotetta"
@@ -3636,10 +3684,14 @@ Nickname,Nimimerkki
 "Add New Rating","Lisää uusi arvostelu"
 "Save Rating","Tallenna arvostelu"
 "Delete Rating","Poista arvostelu"
+"New Rating","Uusi arvostelu"
 "Rating Visibility","Pisteiden näkyvyys"
+"Summary of review: %1 <br/>","Arvostelun yhteenveto: %1 <br/>"
+"Review: %1 <br/>","Arvostelu: %1 <br/>"
 "Store: %1 <br/>","Kauppa: %1 <br/>"
 "Reviews %1","Arvostelut %1"
 "The review has been deleted.","Arvostelu on poistettu."
+"Customer Reviews","Asiakkaiden arvostelut"
 "Edit Review","Muokkaa arvostelua"
 Ratings,Arvostelut
 "You saved the rating.","Arvostelu tallennettiin."
@@ -3647,6 +3699,7 @@ Ratings,Arvostelut
 "Cannot initialize product","Tuotetta ei voi alustaa"
 "You submitted your review for moderation.","Olet lähettänyt arvostelun hyväksyttäväksi."
 Approved,Hyväksytty
+"Not Approved","Ei hyväksytyt"
 "Please enter a nickname.","Ole hyvä ja syötä nimimerkki."
 "You have submitted no reviews.","Et ole lähettänyt tuotearvosteluja."
 "View All","Näytä kaikki"
@@ -3660,6 +3713,7 @@ Approved,Hyväksytty
 "Add Your Review","Lisää arviosi"
 "%1 Review(s)","%1 arvostelu(a)"
 "Review by",Arvostellut
+"Allow Guests to Write Reviews","Salli kirjautumattomien lähettää arvioita"
 "Reward Points History","Palkintopisteiden historia"
 "Expired reward","Vanhentunut palkkio"
 "No Data","Ei tietoja"
@@ -3947,6 +4001,8 @@ Complete,Valmis
 "Email Copy of Invoice","Sähköpostikopio laskusta"
 "Items Invoiced","Laskutetut tuotteet"
 "Total Tax","Verot yhteensä"
+"From Name","Lähettäjän nimi"
+"To Name","Vastaanottajan nimi"
 "Order & Account Information","Tilaus- & tilitiedot"
 "The order confirmation email was sent","Tilausvahvistuksen sähköposti lähetettiin"
 "The order confirmation email is not sent","Tilausvahvistuksen sähköpostia ei ole lähetetty"
@@ -4055,6 +4111,7 @@ Operations,Toiminnot
 "Use Auto Generation","Käytä automaattista luontia"
 "Uses per Customer","Käyttömäärä per asiakas"
 "Public In RSS Feed","Julkinen RSS-syötteessä"
+"Your coupon was successfully applied","Alennuskupongin lisääminen onnistui"
 "
                         If you select and save the rule you will be able to generate multiple coupon codes.
                     ","
@@ -4394,12 +4451,14 @@ Taxes,Verot
 "Invalid file format.","Tiedostomuoto ei kelpaa."
 "Import Tax Rates","Tuo verokannat"
 "Country code is invalid: %1","Maakoodi on virheellinen: %1"
+"Import/Export Tax Rates","Tuo/vie veroluokkia"
 "Save and Continue","Tallenna ja jatka"
 "Save Configuration","Tallenna konfiguraatio"
 Themes,Teemat
 "Are you sure you want to delete this theme?","Oletko varma että haluat poistaa tämän teeman?"
 "Theme: %1","Teema: %1"
 "Theme CSS","Teeman CSS"
+"Custom CSS","Oma CSS"
 "Select CSS File to Upload","Valitse lähetettävä CSS-tiedosto"
 "Upload CSS File","Lähetä CSS-tiedosto"
 "Download CSS File","Lataa CSS-tiedosto"
@@ -4435,8 +4494,13 @@ Page,Sivu
 "Default Robots",Oletusrobotit
 Menu,Valikko
 Account,Tili
+"2 columns with left bar","2 saraketta ja vasen palkki"
+"2 columns with right bar","2 saraketta ja oikea palkki"
 "3 columns","3 saraketta"
+"Search Engine Robots","Hakukoneiden robotit"
 "Reset to Defaults","Palauta oletukset"
+"Logo Image Width","Logon leveys"
+"Logo Image Height","Logon korkeus"
 "Copyright © 2015 Magento. All rights reserved.","Copyright © 2015 Magento. Kaikki oikeudet pidätetään."
 "Wrong request.","Väärä pyyntö."
 "Allowed file types: ico, png, gif, jpg, jpeg, apng, svg. Not all browsers support all these formats!","Sallitut tiedostotyypit: ico, png, gif, jpg, jpeg, apng, svg. Kaikki selaimet eivät tue kaikkia näitä muotoja!"
@@ -4463,6 +4527,7 @@ Filters,Suodattimet
 Selected,Valittu
 On,Käytössä
 "Default View",Oletusnäkymä
+"${ $.visible } out of ${ $.total } visible","${ $.visible } / ${ $.total } näkyvillä"
 "Search by keyword","Etsi avainsanojen mukaan"
 Keyword,Avainsana
 "Please enter more or equal than {0} symbols.","Anna {0} merkkiä tai enemmän."
@@ -4650,7 +4715,6 @@ Both,Molemmat
 "Upper Alpha (A, B, C, ...)","Suuraakkoset (A, B, C...)"
 Disc,Levy
 "This URL key is already in use.","Tämä URL-osoite on jo käytössä."
-"CMS Pages",Sisältösivut
 Node,"Ei mikään"
 "Not Selected","Ei valittu"
 Page:,Sivu:
