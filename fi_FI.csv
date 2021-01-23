@@ -2405,7 +2405,7 @@ Alphanumeric,Aakkosnumeerinen
 region,alue
 "Save Customer","Tallenna asiakas"
 "Reset Password","Nollaa salasana"
-"Force Sign-In","Pakotta sisäänkirjautumaan"
+"Force Sign-In","Pakota sisäänkirjautuminen"
 "New Customer","Uusi asiakas"
 "Shopping Cart from %1","Ostoskori %1"
 Newsletter,Uutiskirje
@@ -3551,6 +3551,7 @@ Duration:,Kesto:
 "Coupon code is not valid","Alennuskoodi ei kelpaa"
 "Could not delete coupon code","Alennuskoodia ei voitu poistaa"
 "Cannot assign customer to the given cart. You don't have permission for this operation.","Asiakasta ei voida määrittää valittuun ostoskoriin. Käyttöoikeutesi eivät riitä tämän toiminnon suorittamiseen."
+"Product that you are trying to add is not available.","Tuote, jota yrität lisätä, ei ole saatavilla."
 "This is the wrong quote item id to update configuration.","Tämä on väärä tarjottavan tuotteen tunnus kokoonpanon päivittämiseksi."
 "This shipping method is not available. To use this shipping method, please contact us.","Tämä toimitustapa ei ole käytettävissä. Ota meihin yhteyttä käyttääksesi tätä toimitustapaa."
 "The address model is not defined.","Osoitemallia ei ole määritetty."
@@ -3585,6 +3586,9 @@ error345,virhe345
 Carts,Ostoskorit
 "Manage carts","Hallitse ostoskoreja"
 error123,virhe123
+"The coupon code couldn't be applied. Verify the coupon code and try again.","Alennuskoodia ei voitu käyttää. Vahvista alennuskoodi ja yritä uudelleen."
+"The coupon code isn't valid. Verify the code and try again.","Alennuskoodi ei ole kelvollinen. Vahvista koodi ja yritä uudelleen."
+"The coupon code couldn't be deleted. Verify the coupon code and try again.","Alennuskoodia ei voitu poistaa. Vahvista alennuskoodi ja yritä uudelleen."
 "This rule is assigned to %1 automated reminder rule(s). Deleting this rule will automatically unassign it.","Tämä sääntö on määritetty %1 automatisoidussa muistutussäännössä. Tämän säännön poistaminen poistaa määritykse(n/t) automaattisesti."
 "Run Now","Aja nyt"
 Coupon,Alennuskoodi
