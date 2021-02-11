@@ -1,35 +1,11 @@
 All,Kaikki
 None,"Poista valinnat"
 "Allowed Scopes","Sallitut kauppanäkymät"
-"You need more permissions to delete this item(s): %1.","Tämän kohte(en/iden) poistaminen vaatii enemmän käyttöoikeuksia: %1."
 "You need more permissions to apply some of the rule updates.","Joidenkin sääntöpäivitysten lisääminen vaatii enemmän käyttöoikeuksia."
-"Please assign this entity to a store view.","Määritä tämä entiteetti kauppanäkymään."
-"You can create orders only in an active store.","Voit luoda tilauksia vain aktiivisessa kaupassa."
-"Please assign this item to a store view.","Määritä tämä nimike kauppanäkymään."
-"You need more permissions to save this item.","Tämän kohteen tallentaminen vaatii enemmän käyttöoikeuksia."
-"You need more permissions to delete this item.","Tämän kohteen poistaminen vaatii enemmän käyttöoikeuksia."
-"You need more permissions to view this item.","Tämän kohteen tarkasteleminen vaatii enemmän käyttöoikeuksia."
-"Please specify at least one website or one store group.","Määritä vähintään yksi sivusto tai yksi kaupparyhmä."
-"You need more permissions to set All Scopes to a Role.","Tarvitset enemmän oikeuksia asettaaksesi kaikki toimintaoikeudet roolille."
-"Incorrect website ID: %1","Virheellinen sivuston tunnus: %1"
+"More permissions are needed to save this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen tallentamiseen."
 "You need more permissions to access website ""%1"".","Lisää käyttöoikeuksia tarvitaan pääsemiseksi sivustolle ""%1""."
-"Incorrect store ID: %1","Virheellinen kaupan tunnus: %1"
-"You need more permissions to save this setting.","Tämän asetuksen tallentaminen vaatii laajemmat käyttöoikeudet."
 "Role Scopes","Roolien toimintaoikeudet"
 Custom,Mukautettu
-"You don't have permissions to save this item in scope of current store view. Please, switch to allowed store view","Sinulla ei ole käyttöoikeuksia tämän tuotteen tallentamiseen nykyisessä kauppanäkymässä. Ole hyvä ja vaihda sallittuun kauppanäkymään"
-"More permissions are needed to delete the ""%1"" item.","Lisää käyttöoikeuksia tarvitaan kohteen ”%1” poistamiseen."
-"This entity needs to be assigned to a store view. Verify the entity assignment and try again.","Tämä kohde on varattava kauppa-näkymään. Tarkista kohteen määritys ja yritä uudelleen."
-"Orders can only be completed in an active store. Verify the store and try again.","Tilauksia voidaan suorittaa vain aktiivisessa kaupassa. Tarkista kaupan voimassaolo ja yritä uudelleen."
-"This item needs to be assigned to a store view. Assign item and try again.","Tämä kohde on määritettävä kauppa-näkymään. Määritä kohde ja yritä uudelleen."
-"More permissions are needed to save this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen tallentamiseen."
-"More permissions are needed to delete this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen poistamiseen."
-"More permissions are needed to view this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen näyttämiseen."
-"At least one website or store group needs to be selected. Select and try again.","Ainakin yksi verkkosivu- tai myymäläryhmä on valittava. Valitse ja yritä uudelleen."
-"More permissions are needed to set All Scopes to a Role.","Kaikkien toimintaoikeuksien asettamiseen roolille tarvitaan lisää oikeuksia."
-"The ""%1"" website ID is incorrect. Verify the website ID and try again.","Sivuston ”%1” tunnus on virheellinen. Tarkista sivuston tunnus ja yritä uudelleen."
-"The ""%1"" store ID is incorrect. Verify the store ID and try again.","Myymälän ”%1” tunnus on virheellinen. Tarkista myymälän tunnus ja yritä uudelleen."
-"More permissions are needed to save this setting.","Lisää käyttöoikeuksia tarvitaan tämän asetuksen tallentamiseen."
 "Read Details",Lisätietoja
 "Mark as Read","Merkitse luetuksi"
 "Are you sure?","Oletko varma?"
@@ -47,6 +23,7 @@ Notifications,Ilmoitukset
 "Total of %1 record(s) have been removed.","Yhteensä %1 tietue(tta) on poistettu."
 "We couldn't remove the messages because of an error.","Viestejä ei voitu poistaa virheen vuoksi."
 "The message has been removed.","Viesti on poistettu."
+"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Voit katsella ja ratkaista kaikki viimeisimmät järjestelmän ilmoitukset. Päivitä web-sivun Poista ilmoitus-ilmoitus."
 "1 Hour","1 tunti"
 "2 Hours","2 tuntia"
 "6 Hours","6 tuntia"
@@ -80,8 +57,6 @@ Severity,Vakavuus
 "Date Added",Lisäyspäivämäärä
 Message,Viesti
 Actions,Toiminnot
-"Close popup","Sulje ponnahdus-ikkuna"
-"You have viewed and resolved all recent system notices. Please refresh the web page to clear the notice alert.","Voit katsella ja ratkaista kaikki viimeisimmät järjestelmän ilmoitukset. Päivitä web-sivun Poista ilmoitus-ilmoitus."
 "Manage Shopping Cart","Hallitse ostoskoria"
 "Create Order","Luo tilaus"
 Back,Takaisin
@@ -118,19 +93,10 @@ Configure,Määritä
 "You must buy at least %1 of these per purchase.","Sinun täytyy ostaa vähintään %1 näitä per ostotapahtuma."
 "Specify the product's options.","Määritä tuotteen vaihtoehdot."
 "Alert me when this item is available.","Ilmoita, kun tämä tuote on saatavilla."
-"We can't find this customer.","Tätä asiakasta ei löydy."
 "Shopping cart management is disabled for this customer.","Ostoskorin hallinta ei ole käytössä tälle asiakkaalle."
-"We can't find this store.","Tätä kauppaa ei löydy."
 Customers,Asiakkaat
 "Shopping Cart",Ostoskori
-"Sorry, something went wrong. You can find out more in the error log.","Valitettavasti jokin meni pieleen. Löydät lisätietoja virhelokista."
 "You do not have access to this.","Sinulla ei ole pääsyä tähän."
-"Ordered item id is not received.","Tilatun tuotteen tunnusta ei ole vastaanotettu."
-"Ordered item is not loaded.","Tilattua nimikettä ei ole ladattu."
-"Quote item id is not received.","Mainitun tuotteen tunnusta ei ole vastaanotettu."
-"Quote item is not loaded.","Mainittua tuotetta ei ole ladattu."
-"The wish list item id is not received.","Toivelistalla olevaa tuotetta ei ole vastaanotettu."
-"The wish list item is not loaded.","Toivelistalla olevaa tuotetta ei ole ladattu."
 "An error has occurred. See error log for details.","Tapahtui virhe. Katso lisätietoja virhelokista."
 "You cannot configure a product.","Et voi määrittää tuotetta."
 "You removed the items.","Tuotteet poistettiin."
@@ -161,7 +127,6 @@ Customers,Asiakkaat
 "Yes, for Specified Customer Groups","Kyllä, määrätyille asiakasryhmille"
 "Yes, for Everyone","Kyllä, kaikille"
 No,Ei
-"The file is corrupt.","Tiedosto on vioittunut."
 "Please upload the file in .csv format.","Lähetä tiedosto .csv-muodossa."
 "%1 item(s) need your attention.","%1 kohde(tta) kaipaa(vat) huomiotasi."
 "Apply Coupon Code","Käytä alennuskoodi"
@@ -216,17 +181,6 @@ File,Tiedosto
 "The text of the link to the My Account &gt; Order by SKU page","Oman tilin linkin teksti &gt; Järjestä sivu SKU:n perusteella"
 "Load a list of SKUs","Lataa tuotenumeroiden lista"
 "Order by SKU Template"," Järjestä SKU:n perusteella Malli"
-"SKU not found in catalog.","Tuotenumeroa ei löydy luettelosta."
-"This file needs to be in .csv format.","Tiedoston pitää olla .csv muodossa."
-"This customer couldn't be found. Verify the customer and try again.","Asiakasta ei löytynyt. Tarkista asiakas ja yritä uudelleen."
-"This store couldn't be found. Verify the store and try again.","Kauppaa ei löytynyt. Tarkista kauppa ja yritä uudelleen."
-"An error occurred. For details, see the error log.","Tapahtui virhe. Lisätietoja saat virhelokista."
-"The ordered item needs to be loaded. Load the item and try again.","Tilatun tuote täytyy ladata. Lataa tuote ja yritä uudelleen."
-"The quote item ID needs to be received. Set the ID and try again.","Tarjouksen tuotetunnus on pakollinen. Laita tunnus ja yritä uudelleen."
-"The quote item needs to be loaded. Load the item and try again.","Tarjoustuote on pakollinen. Laita tuote ja yritä uudelleen."
-"The wish list item ID needs to be received. Set the ID and try again.","Toivelistan tuotetunnus on pakollinen. Määritä tunnus ja yritä uudelleen."
-"The wish list item needs to be loaded. Load the item and try again.","Toivelistaa täytyy ladata. Lataa tuote ja yritä uudelleen."
-"The file is corrupt and can't be used.","Tiedosto on korruptoitunut ja sitä ei voi käyttää."
 "Please correct the data sent.","Ole hyvä ja korjaa lähetetty tieto."
 "Entity type model '%1' is not found","Entiteetin tyyppimallia '%1' ei löydy"
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","Entiteetin tyyppimallin on oltava \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType instanssi"
@@ -255,29 +209,21 @@ Uses,Käyttökerrat
 "Redirect URL",Uudelleenohjausosoite
 "Suggested Term","Suositeltu hakutermi"
 Yes,Kyllä
-Synonym,Synonyymi
 "RPC call failed, connection timed out after %time_out.","RPC-kutsu epäonnistui, yhteys aikakatkaistiin %time_out jälkeen."
 "Message has been rejected: %1","Viesti on hylätty: %1"
 "Error while checking if topic is synchronous","Virhe tarkistettaessa, onko aihe on synkroninen"
 "Subscription status","Tilauksen tila"
 "Sorry, there has been an error processing your request. Please try again later.","Valitettavasti tapahtui virhe käsiteltäessä pyyntöä. Yritä myöhemmin uudelleen."
-"Time value has an unsupported format","Aika-arvo on ei tuetussa formaatissa"
 "Cron settings can't be saved","Cron asetuksia ei voida tallentaa"
 "There was an error save new configuration value.","Tapahtui virhe tallennettaessa uutta konfiguraation arvoa."
-"Please select a vertical.","Valitse pystysuora."
+"Please select an industry.","Valitse toimiala."
 "--Please Select--",---Valitse---
-"Command was not found.","Komentoa ei löydy."
-"Input data must be string or convertible into string.","Syötteen tulee olla merkkijono tai muunnettavissa merkkijonoksi."
-"Input data must be non-empty string.","Syöte ei voi olla tyhjä merkkijono."
-"Not valid cipher method.","Ei sallittua salausmetodia."
-"Encryption key can't be empty.","Salausavain ei voi olla tyhjä."
-"Source ""%1"" is not exist","Lähdettä ""%1"" ei ole olemassa"
 "These arguments can't be empty ""%1""","Nämä argumentit eivät olla tyhjiä ""%1"""
 "Cannot find predefined integration user!","Etukäteen määritettyä integrointikäyttäjää ei löydy!"
 "File is not ready yet.","Tiedosto ei ole valmis vielä."
 "Your Base URL has been changed and your reports are being updated. Advanced Reporting will be available once this change has been processed. Please try again later.","Sinun URL on muuttunut ja raportteja päivitetään. Editynyt raportointi on saatavilla tämän prosessin päätyttyä. Yritä uudelleen myöhemmin."
 "Failed to synchronize data to the Magento Business Intelligence service. ","Tietojen synkronointi epäonnistui Magento Business Intelligence palvelun välillä. "
-"<a href=""%1"">Retry Synchronization</a>","<a href=""%1"">Yritä uudelleen synkronointia</a>"
+"Retry Synchronization","Yritä synkronointia uudelleen"
 TestMessage,TestiViesti
 "Apps and Games","Sovellukset ja pelit"
 "Athletic/Sporting Goods",Urheilutarvikkeet
@@ -289,10 +235,6 @@ Analytics,Analytiikka
 API,Rajapinta
 Configuration,Konfigurointi
 "Business Intelligence",Bisnesvaisto
-"This service provides a dynamic suite of reports with rich insights about your business.
-                Your reports can be accessed securely on a personalized dashboard outside of the admin panel by clicking on the
-                ""Go to Advanced Reporting"" link. </br> For more information, see our <a href=""https://magento.com/legal/terms/cloud-terms"">
-                terms and conditions</a>.","Tämä palvelu tarjoaa dynaamiset raportit laajamittaisesti liiketoiminnastasi. Voit tarkastella raportteja turvallisesti personalisoidulla hallintasivulla, hallintapaneelin ulkopuolla klikkaamalla ""Mene Edistyneeseen raportointiin"" -linkkiä.</br> Lisätietoja löydät <a href=""https://magento.com/legal/terms/cloud-terms"">käyttöehdoista</a>."
 "Advanced Reporting Service","Edistynyt raportointipalvelu"
 "Time of day to send data","Datan lähetysajankohta"
 Industry,Teollisuus
@@ -316,23 +258,11 @@ Industry,Teollisuus
 "Pet Goods","Lemmikkieläinten tavarat"
 "Pharma and Medical Devices","Pharma ja lääkinnälliset laitteet"
 "Technology B2B","Teknologia B2B"
-Other,Muu
-"The time value is using an unsupported format. Enter a supported format and try again.","Aika-arvo käyttää muotoa joka ei tueta. Kirjoita tuettu muoto ja yritä uudelleen."
-"Please select an industry.","Valitse toimiala."
-"The data is invalid. Enter the data as a string or data that can be converted into a string and try again.","Tiedot eivät kelpaa. Syötä tiedot merkkijonona tai tietoina jotka voidaan muuntaa merkkijonoksi ja yritä uudelleen."
-"The data is invalid. Enter the data as a string and try again.","Tiedot eivät kelpaa. Kirjoita tiedot merkkijonona ja yritä uudelleen."
-"The data is invalid. Use a valid cipher method and try again.","Tiedot eivät kelpaa. Käytä voimassaolevaa salausmenetelmää ja yritä uudelleen."
-"Enter the encryption key and try again.","Syötä salausavain ja yritä uudelleen."
-"The ""%1"" source doesn't exist.","”%1”-lähdettä ei ole olemassa."
-"Retry Synchronization","Yritä synkronointia uudelleen"
 Done,Valmis
 Retry,"Yritä uudelleen"
 "'Action Details - #' .","'Toiminnon tiedot - #'."
 "%1 item(s) have been scheduled for update.""","%1 tuoteille on ajoitettu päivitys ”"
 "Bulk Actions Log",Massatapahtumaloki
-"Topic %1","Aihe %1"
-"Something went wrong while processing the request.","Pyyntöä käsiteltäessä tapahtui virhe."
-"Sorry, something went wrong during product prices update. Please see log for details.","Valitettavasti jotain meni pieleen tuotteiden hintojen päivityksessä. Lisätietoja on lokissa."
 "%1 item(s) are currently being updated.","%1 tuotetta päivitetään parhaillaan."
 "Task ""%1"": ","Tehtävä ""%1"": "
 "%1 item(s) have been scheduled for update.","%1 tuotetta on ajoitettu päivitys."
@@ -348,7 +278,6 @@ Dismiss,Ohita
 "Something went wrong.","Jokin meni vikaan."
 "Action Log",Toimintaloki
 "Bulk Actions",Massatoimintoja
-"Action Logs",Tapahtumalokit
 "Days Saved in Log","Päivää lokissa"
 "Description of Operation","Toimenpiteen kuvaus"
 Summary,Yhteenveto
@@ -362,9 +291,7 @@ Error,Virhe
 "Dismiss All Completed Tasks","Ohita kaikki suoritetut tehtävät"
 "Action Details - #","Toiminnon tiedot - #"
 "Number of Records Affected","Vaikuttavien tietojen määrä"
-"We can't find the role for the user you wanted.","Emme löydä roolia jonka halusit käyttäjälle."
 "Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","Jokin meni vikaan koottaessa sallittujen resurssien luetteloa. Löydät lisätietoja exceptions-lokista."
-"The role wasn't found for the user. Verify the role and try again.","Käyttäjän rooli ei löytynyt. Tarkista rooli ja yritä uudelleen."
 "You created the order.","Olet luonut tilauksen."
 "Order saving error: %1","Tilauksen tallentamisen virhe: %1"
 "Please choose a payment method.","Valitse maksutapa."
@@ -561,13 +488,11 @@ To,Asti
 "Invalid export type supplied for grid export block","Taulukosta vietävälle lohkolle on määritelty virheellinen vienti-tyyppi"
 Export,Vie
 "Please correct the column format and try again.","Korjaa sarakkeen muoto ja yritä uudelleen."
-"Please select items.","Valitse kohteet."
 Submit,Lähetä
 "Unknown block type","Tuntematon lohkon tyyppi"
 "Please correct the tab configuration and try again. Tab Id should be not empty","Korjaa välilehden määritys ja yritä uudelleen. Välilehden tunnus ei voi olla tyhjä"
 "Please correct the tab configuration and try again.","Korjaa välilehden määritys ja yritä uudelleen."
 "You have logged out.","Olet kirjautunut ulos."
-"Specified cache type(s) don't exist: %1","Määritetty välimuistin tyyp(p)i(t) ei ole: %1"
 "The image cache was cleaned.","Kuvavälimuisti puhdistettiin."
 "An error occurred while clearing the image cache.","Tapahtui virhe kuvavälimuistia tyhjennettäessä."
 "The JavaScript/CSS cache has been cleaned.","JavaScript/CSS-välimuisti on puhdistettu."
@@ -629,15 +554,11 @@ System,Järjestelmä
 "An inactive store view cannot be saved as default store view","Passiivista kauppanäkymää ei voi tallentaa oletusnäkymäksi"
 "You saved the store.","Tallensit kaupan."
 "Something went wrong while saving. Please review the error log.","Tapahtui virhe tallennettaessa. Tarkista virheloki."
+"Authentication storage is incorrect.","Virheellinen todennusvarasto."
 "Last 24 Hours","Viimeiset 24 tuntia"
 "Last 7 Days","Edelliset 7 päivää"
 "Current Month","Nykyinen kuukausi"
 YTD,"Vuoden alusta"
-"Authentication storage is incorrect.","Virheellinen todennusvarasto."
-"You did not sign in correctly or your account is temporarily disabled.","Et ole kirjautunut sisään oikein tai tilisi on poistettu väliaikaisesti käytöstä."
-"Authentication error occurred.","Tapahtui todennusvirhe."
-"Admin session lifetime must be less than or equal to 31536000 seconds (one year)","Järjestelmänvalvojan istunnon keston on oltava lyhyempi kuin 31536000 sekuntia (yksi vuosi)"
-"Admin session lifetime must be greater than or equal to 60 seconds","Järjestelmänvalvojan istunnon keston on oltava pidempi kuin 60 sekuntia"
 Order,Tilaus
 "Order #%1","Tilausnumero %1"
 "Sorry, you need permissions to view this content.","Valitan, sinulla ei ole oikeutta tälle sivulle."
@@ -651,9 +572,9 @@ Username,Käyttäjätunnus
 Password,Salasana
 password,salasana
 "Sign in","Kirjaudu sisään"
-"Select Range:","Valitse rajaukset:"
 "No Data Found","Tietoja ei löytynyt"
 "Chart is disabled. To enable the chart, click <a href=""%1"">here</a>.","Kaavio ei ole käytössä. Klikkaa <a href=""%1"">tästä</a> ottaaksesi kaavion käyttöön."
+"Select Range:","Valitse rajaukset:"
 "Last Orders","Edelliset tilaukset"
 "Last Search Terms","Viimeisimmät hakutermit"
 "Top Search Terms","Käytetyimmät hakusanat"
@@ -678,7 +599,6 @@ Minute,Minuutti
 "To use this website you must first enable JavaScript in your browser.","Käyttääksesi tätä sivustoa, JavaScript on otettava käyttöön selaimessasi."
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Tämä verkkokauppa on vain esittelykäytössä. Voit selata tuotteita ja tehdä tilauksia, mutta mitään ei käsitellä."
 "Report an Issue","Ongelmasta ilmoittaminen"
-"Store View:",Kauppanäkymä:
 "Stores Configuration","Kaupan asetukset"
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Vahvista kohdekaupan vaihtaminen. Kaikki tallentamattomat tiedot menetetään."
 "Additional Cache Management","Lisävälimuistin hallinta"
@@ -710,10 +630,8 @@ selected,valittu
 "This tab contains invalid data. Please resolve this before saving.","Tämä välilehti sisältää virheellisiä tietoja. Selvitä virheelliset tiedot ennen tallentamista."
 "The information in this tab has been changed.","Tämän välilehden tietoja on muutettu."
 Loading...,Ladataan...
+"User Agent Rules","Käyttäjäagentin säännöt"
 "We could not detect a size.","Kokoa ei voitu tunnistaa."
-"We don't recognize or support this file extension type.","Tätä tiedostotyyppiä ei tunnisteta tai tueta."
-"Warning message",Varoitus
-"This operation can take a long time","Tämä toiminto voi kestää kauan"
 "Allow everything","Salli kaikki"
 "Global Search","Globaali haku"
 Marketing,Markkinointi
@@ -723,7 +641,6 @@ Content,Sisältö
 Elements,Elementit
 Design,Ulkoasu
 Schedule,Ajastus
-"Content translation","Käännetty sisältö"
 Settings,Asetukset
 Attributes,Attribuutit
 "Other Settings","Muut asetukset"
@@ -731,14 +648,6 @@ Attributes,Attribuutit
 "Connect Manager","Yhteyden hallinta"
 "Package Extensions","Paketoidut laajennukset"
 Tools,Työkalut
-"Clean Cache Actions","Puhdistaa välimuistin toiminnot"
-"Cache Types Management","Välimuistin hallinta"
-"Toggle Cache Type","Vaihda välimuistityyppi"
-"Refresh Cache Type","Tyhjennä välimuisti"
-"Catalog Images Cache","Tyhjennä katalogikuvien välimuisti"
-"Flush Js/Css","Huuhtele Js/Css"
-"Flush Static Files","Tyhjennä staattiset tiedostojen välimuisti"
-"Web Setup Wizard","Ohjattu Web-asennus"
 Currency,Valuutta
 Communications,Viestinnät
 Services,Palvelut
@@ -753,12 +662,8 @@ Advanced,Lisäasetukset
 "Sales Representative",Myyntiedustaja
 "Customer Support",Asiakastuki
 Developer,Kehittäjä
-"Enabled Template Path Hints for Storefront","Ota käyttöön esimerkki-polkujen vihjeet kaupan Julkisivulla"
-"Enabled Template Path Hints for Admin","Ota käyttöön esimerkki-polkujen vihjeet järjestemänvalvojalle"
-"Add Block Names to Hints","Lisää nimien estäminen vihjeisiin"
 "Template Settings",Malliasetukset
 "Allow Symlinks","Salli symboliset linkit"
-"Warning! Enabling this feature is not recommended on production environments because it represents a potential security risk.","Varoitus! Tätä ominaisuutta ei suositella käytettäväksi tuotantoympäristöissä, koska se on potentiaalinen turvallisuusriski."
 "Minify Html","Pienennä Html"
 "Minification is not applied in developer mode.","Pienentämistä ei sovelleta kehittäjätilassa."
 "Translate Inline","Käännä dynaamisesti"
@@ -805,6 +710,7 @@ Host,Isäntä
 "Port (25)","Portti (25)"
 "Set Return-Path","Aseta Return-Path"
 "Return-Path Email","Return-Path sähköposti"
+"Enable Frontend Resize","Ota käyttöön kuvan rajaaminen käyttöliittymässä"
 Admin,Ylläpito
 "Admin User Emails","Järjestelmänvalvojan sähköpostit"
 "Forgot Password Email Template","""Unohtuiko salasana"" -sähköpostimalli"
@@ -857,17 +763,14 @@ Web,Verkko
 "Validate HTTP_VIA","Vahvista HTTP_VIA"
 "Validate HTTP_X_FORWARDED_FOR","Vahvista HTTP_X_FORWARDED_FOR"
 "Validate HTTP_USER_AGENT","Validoi HTTP_USER_AGENT"
-"Use SID on Storefront","Käytä SID:iä kaupan Julkisivulla"
-"Allows customers to stay logged in when switching between different stores.","Salli sisäänkirjautuneet asiakkaat verkkokaupasta toiseen siirryttäessä."
 "Cache Type",Välimuistityyppi
 Description,Kuvaus
 Tags,Tunnisteet
 "<h1 class=""page-heading"">404 Error</h1><p>Page not found.</p>","<h1 class=""page-heading""> 404 virhe</h1> <p>Sivua ei löydy.</p>"
 "Default Theme",Oletusteema
-"If no value is specified, the system default is used. The system default may be modified by third party extensions.","Jos arvoa ei määritetä, käytetään järjestelmän oletusta. Kolmansien osapuolten laajennukset saattavat muokata Järjestelmän oletusarvoja."
+"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Jos arvoa ei määritetä, käytetään järjestelmän oletusta. Kolmansien osapuolten laajennukset saattavat muokata Järjestelmän oletusarvoja."
 "Applied Theme","Käytössä oleva teema"
 "Design Rule","Design sääntö"
-"User Agent Rules","Käyttäjäagentin säännöt"
 Pagination,Sivutus
 "How many links to display at once.","Kuinka monta linkkiä esitetään yhdellä kertaa."
 "Pagination Frame","Sivutuksen runko"
@@ -878,53 +781,6 @@ Pagination,Sivutus
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Vaihtoehtoinen teksti sivutus-valikossa olevalle linkille tuleviin sivuihin. Jos tämä on tyhjä, oletusarvoisesti käytetään nuolen kuvaa."
 "Anchor Text for Next","Ankkuroi teksti tulevaan"
 "Theme Name","Teeman nimi"
-"Please correct the tab configuration and try again. Tab Id should be not empry","Korjaa välilehden määritys ja yritä uudelleen. Välilehden tunnus olisi ei voi olla tyhjä"
-"You have entered an invalid password for current user.","Kirjoittamasi salasana ei kelpaa nykyiselle käyttäjälle."
-"Unable to delete store. Please, try again later.","Kauppaa ei voida poistaa. Yritä myöhemmin uudelleen."
-"Unable to delete store view. Please, try again later.","Kauppanäkymää ei voida poistaa. Yritä myöhemmin uudelleen."
-"Unable to delete website. Please, try again later.","Sivustoa ei voida poistaa. Yritä myöhemmin uudelleen."
-"Access denied","Käyttö estetty"
-"Please try to sign out and sign in again.","Yritä kirjautua ulos ja kirjautua uudelleen sisään."
-"If you continue to receive this message, please contact the store owner.","Mikäli toistuvasti vastaanotatte tämän viestin, ottakaa yhteyttä verkkokauppamme kauppiaaseen."
-"You need more permissions to access this.","Tarvitset lisää käyttöoikeuksia käyttääksesi tätä."
-"Copyright&copy; %1 Magento Commerce Inc. All rights reserved.","Copyright &copy; %1 Magento Commerce Inc. Kaikki oikeudet pidätetään."
-"Report Bugs","Raportoi ongelmista"
-"Themes JavaScript and CSS files combined to one file.","Teeman JavaScript ja CSS-tiedostot yhdistetty yhteen tiedostoon."
-"Design Theme","Ulkoasun teema"
-"User-Agent Exceptions","Käyttäjäagentti poikkeukset"
-"Enable Javascript Bundling","Ota JavaScriptien niputtaminen käyttöön"
-"Recovery Link Expiration Period (days)","Salasanan palautuslinkin voimassaoloaika (päivää)"
-"Values less than 60 are ignored.","Arvot alle 60 ohitetaan."
-"Copyright &copy; %1 Magento, Inc. All rights reserved.","Copyright &copy; %1 Magento Inc. Kaikki oikeudet pidätetään."
-"Search String",Hakulauseke
-"Page not found.","Sivua ei löydy."
-"Add Block Class Type to Hints","Lisää lohkoluokka tyyppi vihjeisiin"
-"When the adapter was changed, please flush Catalog Images Cache.","Kun sovitinta vaihdetaan, ole hyvä ja tyhjennä katalogikuvien välimuisti."
-"For Windows server only.","Vain Windows-palvelimelle."
-"Images Upload Configuration","Kuvien Lataamisen asetukset"
-"Maximum Width","Suurin leveys"
-"Maximum allowed width for uploaded image.","Suurin sallittu leveys ladatulle kuvalle."
-"Maximum Height",Enimmäiskorkeus
-"Maximum allowed height for uploaded image.","Suurin sallittu leveys ladatulle kuvalle."
-"<strong style=""color:red"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong style=""color:red"">Varoitus!</strong> Kun käytät kaupan kielikoodia URL-osoitteissa, joissakin tapauksissa on mahdollista ettei järjestelmä toimi oikein, mikäli kolmannen osapuolen palveluissa on määritetty URL-osoitteet ilman kielikoodeja (kuten PayPal jne.)."
-"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","Esim. uudelleenohjaa URL:stä http://example.com/store osoitteeseen http://www.example.com/store/"
-"May start with {{unsecure_base_url}} placeholder.","Voi olla tyhjä tai alkaa {{unsecure_base_url}} paikanmerkillä."
-"May start with {{secure_base_url}} or {{unsecure_base_url}} placeholder.","Voi olla tyhjä tai alkaa {{secure_base_url}} tai {{unsecure_base_url}} paikanmerkillä."
-"If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Jos arvoa ei määritetä, käytetään järjestelmän oletusta. Kolmansien osapuolten laajennukset saattavat muokata Järjestelmän oletusarvoja."
-label,tunniste
-"Enable Frontend Resize","Ota käyttöön kuvan rajaaminen käyttöliittymässä"
-"Invalid security or form key. Please refresh the page.","Virheellinen lomakkeen tai turvallisuuden avain. Ole hyvä ja päivitä sivu."
-"An item needs to be selected. Select and try again.","Kohteen on oltava valittuna. Valitse ja yritä uudelleen."
-"These cache type(s) don't exist: %1","Nämä välimuistin tyypit/tyyppi ei/eivät ole olemassa: %1"
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Tilin sisäänkirjautuminen oli virheellinen tai tilisi on poistettu tilapäisesti käytöstä. Odota ja yritä myöhemmin uudelleen."
-"An authentication error occurred. Verify and try again.","Todennusvirhe ilmeni. Tarkista ja yritä uudelleen."
-"The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","Admin istunnon elinaika on virheellinen. Määritä elinajaksi 31536000 sekuntia (yksi vuosi) tai lyhyempi ja yritä uudelleen."
-"The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","Admin istunnon elinaika on virheellinen. Määritä elinajaksi 60 sekuntia tai pidempi ja yritä uudelleen."
-"Save &amp; Continue","Tallenna ja jatka"
-"Save &amp; Close","Tallenna &amp; Sulje"
-"Save &amp; New","Tallenna &amp; Uusi"
-"Enable Hints for Storefront with URL Parameter","Salli vihjeet kaupan URL parametreissä"
-"Parameter Value",Parametriarvo
 "System Backup","Järjestelmän varmuuskopiointi"
 "Database and Media Backup","Tietokannan ja median varmuuskopiointi"
 "Database Backup","Tietokannan varmuuskopiointi"
@@ -986,92 +842,58 @@ Exclude,"Rajaa pois"
 "Magento root directory","Magenton juurikansio"
 "Create Backup","Luo varmuuskopio"
 Rollback,Palautus
-"Scheduled Backup Settings","Ajoitetun varmuuskopioinnin asetukset"
 "Enable Scheduled Backup","Ota ajoitettu varmuuskopiointi käyttöön"
-"Backup Type","Varmuuskopioinnin tyyppi"
 Frequency,Tiheys
 "Maintenance Mode",Huoltotila
 "Are you sure you want to delete the selected backup(s)?","Oletko varma että haluat poistaa valitut varmuuskopiot?"
 Size(bytes),Koko(tavua)
 Type,Tyyppi
 Download,Lataa
-"Backup Settings","Varmuuskopioinnin asetukset"
-"Enable Backup","Ota varmuuskopiointi käyttöön"
-"Scheduled Backup Type","Ajoitetun varmuuskopioinnin tyyppi"
-"Disabled by default for security reasons","Oletusarvoisesti poissa käytöstä turvallisuussyistä"
-Banners,Bannerit
-"Add Banner","Lisää banneri"
-"Save Banner","Tallenna banneri"
-"Delete Banner","Poista banneri"
+"Dynamic Blocks","Dynaamiset lohkot"
+"Add Dynamic Block","Lisää Dynaaminen lohko"
+"Save Dynamic Block","Tallenna dynaaminen lohko"
+"Delete Dynamic Block","Poista dynaaminen lohko"
 "Save and Continue Edit","Tallenna ja jatka muokkaamista"
-"New Banner","Uusi banneri"
+"New Dynamic Block","Uusi dynaaminen lohko"
 "Default Content",Oletussisältö
 "No Default Content","Ei oletussisältöä"
-"Banner Default Content for All Store Views","Bannerin oletussisältö kaikille kauppanäkymille"
 "Store View Specific Content","Kauppanäkymäkohtainen sisältö"
 "Use Default","Käytä oletusta"
 "Related Promotions","Suositellut promootiot"
 Rule,Sääntö
 "Start Date",Alkamispäivä
 "End Date",Päättymispäivä
-"Banner Name","Bannerin nimi"
+"Dynamic Block Properties","Dynaamisen lohkon ominaisuudet"
+"Dynamic Block Name","Dynaamisen lohkon nimi"
 Active,Aktiivinen
 Inactive,"Ei käytössä"
 "Applies To","Liittyy kohteeseen"
-"Specified Banner Types","Määritellyt bannerityypit"
 "Specify Types","Määritä tyypit"
-Banner,Banneri
-"Banner Type",Bannerityyppi
-Visibility,Näkyvyys
-"Are you sure you want to delete these banners?","Haluatko varmasti poistaa nämä bannerit?"
-"Related Banners","Liittyvät bannerit"
+"Dynamic Block","Dynaaminen lohko"
+"Dynamic Block Type","Dynaamisen lohkon typpi"
+"Related Dynamic Blocks","Liittyvät dynaamiset lohkot"
 Position,Sijainti
 "This rule no longer exists.","Tätä sääntöä ei ole enää olemassa."
-"You deleted the banner.","Banneri poistettiin."
-"This banner no longer exists.","Tätä banneria ei ole enää olemassa."
-"Edit Banner","Muokkaa banneria"
-"Please select a banner(s).","Valitse banneri(t)."
+"Edit Dynamic Block","Muokkaa Dynaamista lohkoa"
+"Please select a dynamic block(s).","Valitse dynaaminen lohko(t)."
 "You deleted %1 record(s).","%1 merkintä(ä) poistettu."
-"We cannot save the banner.","Banneria ei voida tallentaa."
+"This dynamic block does not exist.","Tätä dynaamista lohkoa ei ole olemassa."
+"You saved the dynamic block.","Dynaaminen lohko tallennettiin."
+"We cannot save the dynamic block.","Dynaamista lohkoa ei voida tallentaa."
 "Please enter a name.","Kirjoita nimi."
-"Please specify default content for at least one store view.","Määritä oletussisältöä vähintään yhden myymälän näkymän."
 "-- None --","--Ei mitään --"
 "Content Area","Sisällön alue"
 Footer,Alatunniste
 Header,Ylätunniste
 "Left Column","Vasen sarake"
 "Right Column","Oikea sarake"
-"Manage Banners","Hallinnoi bannereita"
-"Shopping Cart Promotions Related","Ostoskorin tarjoukset liittyvät"
-"Catalog Promotions Related","Katalogin tarjoukset liityvät"
+"Manage Dynamic Blocks","Hallinnoi dynaamisia lohkoja"
 "Rotation Mode",Kiertomoodi
 "Display all instead of rotating","Näytä kaikki pyörivän sijasta"
 "One at the time, Random","Yksi kerrallaan, Random"
 "One at the time, Series","Yksi kerrallaan sarja"
 "One at the time, Shuffle","Yksi kerrallaan, shuffle"
-"Dynamic Blocks","Dynaamiset lohkot"
-"Add Dynamic Block","Lisää Dynaaminen lohko"
-"Save Dynamic Block","Tallenna dynaaminen lohko"
-"Delete Dynamic Block","Poista dynaaminen lohko"
-"New Dynamic Block","Uusi dynaaminen lohko"
-"Dynamic Block Properties","Dynaamisen lohkon ominaisuudet"
-"Dynamic Block Name","Dynaamisen lohkon nimi"
-"Dynamic Block","Dynaaminen lohko"
-"Dynamic Block Type","Dynaamisen lohkon typpi"
-"Related Dynamic Blocks","Liittyvät dynaamiset lohkot"
-"Edit Dynamic Block","Muokkaa Dynaamista lohkoa"
-"Please select a dynamic block(s).","Valitse dynaaminen lohko(t)."
-"This dynamic block does not exist.","Tätä dynaamista lohkoa ei ole olemassa."
-"You saved the dynamic block.","Dynaaminen lohko tallennettiin."
-"We cannot save the dynamic block.","Dynaamista lohkoa ei voida tallentaa."
-"Manage Dynamic Blocks","Hallinnoi dynaamisia lohkoja"
-"General Information",Yleistä
-"Enable Dynamic Block","Ota käyttöön dynaaminen lohko"
-"Use Default Value","Käytä oletusarvoa"
-"Cart price rules allows you to setup promotions for items that are in the shopping cart.","Ostoskorin säännöt mahdollistavat ostoskorissa olevien kohteiden myynninedistämisen."
-"Add Cart Price Rules","Muokkaa ostoskorin hintasääntöjä"
-"Related Catalog Price Rule","Uusi tuoteluettelon hintasääntö"
-"Add Selected","Lisää valitut"
+Visibility,Näkyvyys
 "All Segments","Kaikki segmentit"
 "Allowed Credit Card Types","Sallitut luottokorttityypit"
 "Add Rule","Lisää sääntö"
@@ -1246,9 +1068,7 @@ Fixed,Kiinteä
 "Bundle Items",Pakettituotteet
 "Add Products to Option","Tuotteiden lisääminen ryhmään"
 "What are you looking for?","Mitä olet etsimässä?"
-"Requested bundle option product doesn't exist","Pyydettyä pakettivaihtoehtoa ei ole olemassa"
-"%fieldName is a required field.","%fieldName on pakollinen kenttä."
-"Requested option doesn't exist","Pyydettyä vaihtoehtoa ei ole olemassa"
+"Use Default Value","Käytä oletusarvoa"
 "Price Range",Hintahaarukka
 "As Low as",Alkaen
 Together,Yhdessä
@@ -1276,8 +1096,8 @@ Invoiced,Laskutettu
 Shipped,Lähetetty
 Refunded,Hyvitetty
 Canceled,Peruutettu
-"As low as",Alkaen
 "Regular Price",Normaalihinta
+"As low as",Alkaen
 "Go back to product details","Palaa tuotetietoihin"
 "Customize and Add to Cart","Muokkaa ja lisää ostoskoriin"
 Availability,Saatavuus
@@ -1294,8 +1114,6 @@ Message:,Viesti:
 "Qty Invoiced","Laskutettu määrä"
 "Qty Shipped","Lähetetty määrä"
 "Add Products to Option ""%1""","Tuotteiden lisääminen vaihtoehto ”%1”"
-"Special Price",Tarjoushinta
-"Unique constraint violation found","Yksilöllinen rajoite rikkomus löytyi"
 Always,Aina
 "After number of attempts to login","Kirjautumisyritysmäärän jälkeen"
 "Provided form does not exist","Annettua lomaketta ei ole olemassa"
@@ -1320,21 +1138,20 @@ Forms,Lomakkeet
 "Case Sensitive","Kirjainkoolla on väliä"
 "Enable CAPTCHA on Storefront","Ota CAPTCHA käyttöön kaupan etusivulla"
 "CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","Jos valittu, CAPTCHA on aina käytössä lomakkeilla ""Luo käyttäjä"" ja ""Unohditko salasanasi""."
-"Please enter the letters from the image","Kirjoita kuvan kirjaimet"
-"Please type the letters below","Ole hyvä ja kirjoita alapuolella olevat kirjaimet"
 Root,Juuri
 "Use Config Settings","Käytä kokoonpanon asetuksia"
 "Use All Available Attributes","Käytä kaikkia käytettävissä olevia attribuutteja"
 "Add Subcategory","Lisää alakategoria"
 "Add Root Category","Lisää juurikategoria"
 Day,Päivä
-"<label class=""label""><span>from</span></label>","<label class=""label""> <span>alkaen</span></label>"
-"<label class=""label""><span>to</span></label>","<label class=""label""><span>asti</span></label>"
+from,alkaen
+to,asti
 [GLOBAL],[GLOBAALI]
 [WEBSITE],[VERKKOKAUPPA]
 "[STORE VIEW]",[KAUPPANÄKYMÄ]
 "WYSIWYG Editor",WYSIWYG-editori
 "Add Product","Lisää tuote"
+label,tunniste
 "Product Attributes","Tuotteen attribuutit"
 "Add New Attribute","Lisää uusi attribuutti"
 "Save Attribute","Tallenna attribuutti"
@@ -1364,7 +1181,6 @@ Scope,Kohde
 "Visible in Advanced Search","Näkyvissä tarkennetussa haussa"
 "Comparable on Storefront","Vertailtavissa kaupan etusivulla"
 "Use for Promo Rule Conditions","Käytä mainossäännön ehdoissa"
-"Enable WYSIWYG","Ota WYSIWYG-editori käyttöön"
 "Allow HTML Tags on Storefront","Salli HTML-tunnisteet kaupan etusivulla"
 "Visible on Catalog Pages on Storefront","Näkyvillä katalogin sivuilla kaupassa"
 "Used in Product Listing","Käytetään tuotelistauksessa"
@@ -1393,9 +1209,9 @@ Empty,Tyhjä
 "Add Attribute","Lisää attribuutti"
 "Add New Group","Lisää uusi ryhmä"
 "Add Group","Lisää ryhmä"
-"Edit Attribute Set Name","Muokkaa attribuuttiryhmän nimeä"
 "For internal use","Sisäiseen käyttöön"
 "Based On",Perustuu
+"Edit Attribute Set Name","Muokkaa attribuuttiryhmän nimeä"
 "Add New Attribute Set","Lisää uusi attribuuttiryhmä"
 "Add Attribute Set","Lisää attribuuttiryhmä"
 "Attribute Sets",Attribuuttiryhmät
@@ -1468,15 +1284,12 @@ Categories,Kategoriat
 "Category is not available for requested store.","Kategoria ei ole saatavilla pyytämässäsi kaupassa."
 "There was a category move error.","Katogorian siirtovirhe."
 "You moved the category.","Siirsit kategorian."
-"Attribute ""%1"" is required.","Ominaisuus ""%1"" on vaadittu."
-"You saved the category.","Tallensit kategorian."
 "Something went wrong while saving the category.","Tapahtui virhe kategoriaa tallennettaessa."
+"You saved the category.","Tallensit kategorian."
 "Please select products for attributes update.","Valitse tuotteita atribuuttien päivitykseen."
 "Please make sure to define SKU values for all processed products.","Varmista, että määrittelit SKU arvot kaikille prosessoiduille tuotteille."
-"A total of %1 record(s) were updated.","Yhteensä %1 tietuetta päivitettiin."
 "Something went wrong while updating the product(s) attributes.","Tapahtui virhe tallennettaessa tuotteen attribuuttia."
 "Unable to add attribute","Ei voi lisätä attribuuttia"
-"Please, specify attributes","Ole hyvä, ja valitse attribuutit"
 "Manage Product Attributes","Hallinnoi tuotteen attribuutteja"
 "We can't delete the attribute.","Ominaisuutta ei voida poistaa."
 "You deleted the product attribute.","Poistit tuotteen attribuutin."
@@ -1486,7 +1299,6 @@ Categories,Kategoriat
 "Edit Product Attribute","Muokkaa tuoteattribuuttia"
 "An attribute set named '%1' already exists.","Ominaisuusjoukko nimellä '%1' on jo olemassa."
 "Something went wrong while saving the attribute.","Tapahtui virhe tallennettaessa attribuuttia."
-"Attribute code ""%1"" is invalid. Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.","Attribuuttikoodi ""%1"" ei kelpaa. Käytä vain kirjaimia (a-z), numeroita (0-9) tai alaviivaa (_) tässä kentässä, ensimmäisen merkin tulisi olla kirjain."
 "We can't update the attribute.","Ominaisuutta ei voida päivittää."
 "You saved the product attribute.","Tuoteattribuutti tallennettiin."
 "An attribute with this code already exists.","Attribuutti tällä koodilla on jo olemassa."
@@ -1499,7 +1311,6 @@ Categories,Kategoriat
 "A total of %1 record(s) have been deleted.","Yhteensä %1 tietue(tta) poistettu."
 "A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty."
 "Something went wrong while updating the product(s) status.","Jotain meni pieleen päivitettäessa tuotteiden tilaa."
-"Unable to save product","Tuotetta ei voida tallentaa"
 "You saved the product.","Tuote tallennettiin."
 "The image cannot be removed as it has been assigned to the other image role","Kuvaa ei voida poistaa, koska se on liitetty toiseen tuotteeseen tai rooliin"
 "New Attribute Set","Uusi attribuuttiryhmä"
@@ -1510,7 +1321,6 @@ Categories,Kategoriat
 "This attribute set no longer exists.","Attribuuttiryhmää ei ole enää olemassa."
 "You saved the attribute set.","Tallensit attribuuttiryhmän."
 "Something went wrong while saving the attribute set.","Tapahtui virhe tallennettaessa attribuuttiryhmää."
-"You added product %1 to the comparison list.","Lisäsit tuotteen %1 vertailulistalle."
 "You cleared the comparison list.","Olet tyhjentänyt vertailulistan."
 "Something went wrong  clearing the comparison list.","Jotain meni pieleen vertailulistan tyhjennyksessä."
 "You removed product %1 from the comparison list.","Poistit tuotteen %1 vertailulistalta."
@@ -1525,7 +1335,6 @@ List,Luettelo
 "Make sure the To Date is later than or the same as the From Date.","Varmista, että viimeinen päivämäärä on myöhempi tai sama kuin alkaen-päivämäärä."
 "Something went wrong while getting the image url.","Jotiain meni pieleen haettaessa kuvan Urliä."
 "Can't delete root category.","Juurikategoriaa ei voi poistaa."
-"The value of attribute ""%1"" must be unique.","Attribuutin ""%1"" arvon on oltava yksilöllinen."
 "No layout updates","Ei asettelun päivityksiä"
 "Products only","Vain tuotteet"
 "Static block only","Vain staattinen lohko"
@@ -1553,38 +1362,23 @@ Center,Keskitetty
 Category,Kategoria
 "Clear Price","Tyhjennä hinta"
 "%1 and above","%1 ja yli"
-"Product was not registered","Tuotetta ei rekisteröity"
-"Store was not registered","Kauppaa ei ole rekisteröity"
 "Please enter a number 0 or greater in this field.","Syötä tähän kenttää numero, joka on nolla (0) tai sitä suurempi."
 "Please enter a valid number in this field.","Kirjoita kelvollinen numero tähän kenttään."
 "Use config","Käytä kokoonpanon asetuksia"
 "Attribute Set already exists.","Attribuuttiryhmä on jo olemassa."
-"The image content is not valid.","Kuvan sisältö ei kelpaa."
-"Cannot save product.","Tuotetta ei voida tallentaa."
-"There is no image with provided ID.","Kuvaa ei ole annetulla tunnuksella."
-"Such product doesn't exist","Tuotetta ei ole olemassa"
-"Such image doesn't exist","Kuvaa ei ole olemassa"
-"The image does not exist.","Kuvaa ei ole olemassa."
-"Please correct the image file type.","Korjaa kuvan tiedostotyyppi."
-"ProductSku should be specified","ProductSku pitäisi olla määritelty"
 "File '%1' is not an image.","Tiedosto '%1' ei ole kuva."
-"Option required.","Valinta vaaditaan."
-"The text is too long.","Teksti on liian pitkä."
 "Could not save Prices.","Hintoja ei voitu tallentaa."
-"This product doesn't have tier price","Tällä tuotteella ei ole määräalennushintaa"
-"The file upload failed.","Tiedoston lähettäminen epäonnistui."
 "Catalog, Search","Katalogi, Hakutulokset"
-"Requested product doesn't exist","Pyydettyä tuotetta ei ole olemassa"
 "Attribute '%1' is locked. %2","Ominaisuus '%1' on lukittu. %2"
 Dropdown,Pudotusvalikko
-test,testi
-"Some exception","Jokin poikkeus"
 message,viesti
+"Product Name or SKU","Tuotenimi tai -koodi"
 "Advanced Pricing","Hinnoittelun lisäasetukset"
 "Customer Group Price",Asiakasryhmähinta
 "Customer Group",Asiakasryhmä
 "Special Price From","Tarjoushinta alkaen"
 "Product Alerts",Tuotehälytykset
+"Add Selected","Lisää valitut"
 "Select Attribute","Valitse attribuutti"
 "Create New Attribute","Luo uusi attribuutti"
 "Custom options let customers choose the product variations they want.","Mukautetut vaihtoehdot antavat asiakkaiden valita haluamansa tuotevariaatiot."
@@ -1598,6 +1392,7 @@ message,viesti
 "Schedule Update From","Ajoita päivitys alkaen"
 "Product in Websites","Tuote sivustoilla"
 name,nimi
+"This operation can take a long time","Tämä toiminto voi kestää kauan"
 "Collapse All","Sulje kaikki"
 "Expand All","Laajenna kaikki"
 "Please confirm site switching. All data that hasn't been saved will be lost.","Vahvista sivuston vaihtaminen. Kaikki tallentamattomat tiedot menetetään."
@@ -1634,9 +1429,11 @@ Role,Rooli
 "Allow Multiple Boxes for Shipping","Salli lähetys useassa laatikossa"
 "Basic Settings",Perusasetukset
 "Advanced Settings",Lisäasetukset
+"Special Price",Tarjoushinta
 "Buy %1 for: ","Osta %1 hintaan: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Osta %1 hintaan %2/kpl ja <strong class=""benefit"">säästä<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Osta %1 hintaan %2/kpl"
+"You added product %1 to the <a href=""%2"">comparison list</a>.","Lisäsit tuotteen %1 <a href=""%2"">vertailulistalle</a>."
 "Shop By",Rajaa
 "Shopping Options",Listausvalinnat
 "Compare Products","Vertaa tuotteita"
@@ -1663,9 +1460,13 @@ Show,Näytä
 "Set Ascending Direction","Aseta nousevaan järjestykseen"
 "Set Descending Direction","Aseta laskevaan järjestykseen"
 "More Information",Lisätietoja
+"Maximum %1 characters","Enintään %1 merkkiä"
+"Warning message",Varoitus
+"We don't recognize or support this file extension type.","Tätä tiedostotyyppiä ei tunnisteta tai tueta."
 "Image Detail","Kuvan tiedot"
 Adding...,Lisätään...
 Added,Lisätty
+remaining,jäljellä
 "unselect all","poista kaikki valinnat"
 Inventory,Varasto
 "Catalog Section","Katalogin osa"
@@ -1676,7 +1477,6 @@ Storefront,Etusivu
 "Products per Page on Grid Allowed Values","Tuotetta per sivu ruudukkotilassa, sallitut arvot"
 Comma-separated.,"Pilkuin erotettu."
 "Products per Page on Grid Default Value","Tuotetta per sivu ruudukossa, oletusarvo"
-"Must be in the allowed values list","On oltava sallittujen arvojen luettelossa"
 "Products per Page on List Allowed Values","Tuotetta per sivu luettelotilassa, sallitut arvot"
 "Products per Page on List Default Value","Tuotetta per sivu luettelotilassa, oletusarvo"
 "Allow All Products per Page","Salli kaikki tuotteet samalla sivulla"
@@ -1733,38 +1533,6 @@ Overview,Yleiskatsaus
 "Add To Compare","Lisää vertailuun"
 "Learn more",Lisätietoja
 "Recently Viewed","Äskettäin tarkastellut"
-"Save Category","Tallenna kategoria"
-"Delete Category","Poista kategoria"
-"New Subcategory","Uusi alakategoria"
-"New Root Category","Uusi juurikategoria"
-"Set Root Category for Store","Aseta juurikategoria kaupalle"
-"Not shared with other products","Ei jaeta muiden tuotteiden kanssa"
-"Depends on design theme","Riippuu ulkoasun teemasta"
-"We saved the price alert subscription.","Tallensimme hintahälytyksen tilauksen."
-"Images and Videos","Kuvat ja videot"
-"Click here or drag and drop to add images.","Napsauta tästä tai lisää kuvia vetämällä ja pudottamalla."
-"This product no longer exists.","Tätä tuotetta ei enää ole olemassa."
-"Watermark Default Size","Vesileiman oletuskoko"
-"Watermark Opacity, Percent","Vesileiman sameus, prosenttia"
-Watermark,Vesileima
-"Watermark Position","Vesileiman sijainti"
-none,"ei mikään"
-text,teksti
-"Tier Price",Ryhmähinnoittelu
-"If your Magento site has multiple views, you can set the scope to apply to a specific view.","Jos sinun Magento sivustolla on monta näkymä, voit asettaa soveltamisalan sovellettavaksi tiettyyn näkymään."
-"Sort Products By","Lajittele tuotteet"
-"Default Product Sorting","Tuotteiden oletuslajittelu"
-"Page not found","Sivua ei löydy"
-from,alkaen
-to,asti
-"You added product %1 to the <a href=""%2"">comparison list</a>.","Lisäsit tuotteen %1 <a href=""%2"">vertailulistalle</a>."
-"Maximum %1 characters","Enintään %1 merkkiä"
-remaining,jäljellä
-Quality,Laatu
-Cost,Kustannushinta
-"The product can't be saved.","Tuotetta ei voida tallentaa."
-"The image doesn't exist.","Kuvaa ei ole olemassa."
-"Product Name or SKU","Tuotenimi tai -koodi"
 "Edit Event","Muokkaa tapahtumaa"
 "Add Event","Lisää Tapahtuma"
 Events,Tapahtumat
@@ -1788,20 +1556,18 @@ Closed,Suljettu
 "Please make sure the end date follows the start date.","Varmista että päättymispäivä seuraa aloituspäivää."
 "This product is no longer on sale.","Tämä tuote ei ole enää alennusmyynnissä."
 "Select Category","Valitse kategoria"
-Days,Päivää
 Hrs,Tuntia
 Mins,Minuuttia
 Sec,Sekuntia
 "Preview Sale","Esikatsele alennusmyyntiä"
 "Go To Sale","Siirry alennusmyyntiin"
 "View Sale","Tarkastele alennusmyyntiä"
+Days,Päivää
 "Catalog Events","Luettelon tapahtumat"
 "Block Custom Width","Lohkon mukautettu leveys"
 "If empty, we'll automatically set the width value in pixels.","Jos tyhjä, leveys määritetään automaattisesti pikseleinä."
 Start,Aloita
 End,Loppu
-"Edit Event...","Muokkaa tapahtumaa..."
-"Add Event...","Lisää Tapahtuma..."
 "Category doesn't exist","Kategoriaa ei ole olemassa"
 "There are no product types available for export.","Vietäviä tuotetyyppejä ei ole saatavilla."
 "Category ""%1"" has not been created.","Kategoriaa ""%1"" ei ole luotu."
@@ -1809,8 +1575,6 @@ End,Loppu
 "File directory '%1' is not writable.","Tiedostokansio '%1' ei ole kirjoitettavissa."
 "Please correct the parameters.","Korjaa parametrit."
 "File '%1' was not found or has read restriction.","Tiedostoa '%1' ei löydy tai sillä on lukurajoitus."
-"Entity type model must be an instance of Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType","Entiteetin tyyppimallin on oltava \Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType instanssi"
-"Disallowed file type.","Ei sallittu tiedostotyyppi."
 "Minimum Qty",Vähimmäismäärä
 "Add Minimum Qty","Lisää vähimmäismäärä"
 "This product is out of stock.","Tämä tuote on loppu varastosta."
@@ -1819,15 +1583,7 @@ End,Loppu
 "No Backorders","Ei jälkitoimituksia"
 "Allow Qty Below 0","Salli määrät alle 0"
 "Allow Qty Below 0 and Notify Customer","Salli määrä alle 0 ja ilmoita asiakkaalle"
-"Unable to save Stock Item","Ei voitu tallentaa Varastotuotetta"
-"Unable to remove Stock Item with id ""%1""","Varastotuotetta id: llä ""%1"" ei voitu poistaa"
-"Unable to save Stock","Ei voitu tallentaa Varastoa"
-"Unable to save Stock Status","Ei voitu tallentaa Varaston tilaa"
-"Invalid stock id: %1. Only default stock with id %2 allowed","Väärä varaston Id: %1. Vain oletusvarasto Id: llä %2 on sallittu"
-"Invalid stock item id: %1. Should be null or numeric value greater than 0","Väärä varastotuotteen id: %1. Pitäisi olla null tai numeerinen ja arvoltaan suurempi kuin 0"
-"Invalid stock item id: %1. Assigned stock item id is %2","Väärä varastotuotteen Id: %1. Määritelty varastotuotteen Id on %2"
 "The most you may purchase is %1.","Suurin sallittu ostosmäärä on %1."
-"We don't have as many ""%1"" as you requested.","Meillä ei ole pyytämääsi määrää tuotetta ""%1""."
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Meillä ei ole niin montaa kappaletta tuotetta ""%1"" kuin haluat, mutta siirretään tilaukselle jäljellä olevat %2."
 "Stock Status",Varastotilanne
 "Only %1 left","Vain %1 jäljellä"
@@ -1836,9 +1592,6 @@ End,Loppu
 "Only X left Threshold","""Vain X jäljellä"" kynnysarvo"
 "Display Products Availability in Stock on Storefront","Näytä tuotteiden määrä varastossa kaupan etusivulla"
 Stock,Varasto
-"Display products availability in stock on Storefront.","Näytä tuotteiden määrä varastossa kaupan etusivulla."
-"Use Deferred Stock Update","Käyttää laskennallista varaston tilaa"
-"The requested qty is not available","Pyydettyä määrää ei ole saatavilla"
 "New Permission","Uusi oikeus"
 "You already have a permission with this scope.","Sinulla on jo käyttöoikeus vaikutusalueen kanssa."
 (Allow),(Salli)
@@ -1866,9 +1619,6 @@ Promotions,Myynninedistäminen
 "Edit Rule","Muokkaa sääntöä"
 "New Rule","Uusi sääntö"
 "You saved the rule.","Tallensit säännön."
-"Unable to save rule %1","Sääntöä ei voi tallentaa: %1"
-"Rule with specified ID ""%1"" not found.","Sääntö ID: llä ""%1"" ei löytynyt."
-"Unable to remove rule %1","Ei voitu poistaa sääntöä %1"
 "Update the Product","Päivitä tuote"
 "Rule price","Säännön hinta"
 "To Fixed Value","Kiinteään arvoon"
@@ -1880,10 +1630,6 @@ Promotions,Myynninedistäminen
 "Rule Name","Säännön nimi"
 Priority,Prioriteetti
 "Discard subsequent rules","Hylkää seuraavat peräkkäiset säännöt"
-"Edit Rule '%1'","Muokkaa sääntöä '%1'"
-"Pricing Structure Rules","Hinnoittelurakenteen säännöt"
-"Wrong rule specified.","Väärä sääntö määritetty."
-"Future Update in this time range already exists. Select a different range to add a new Future Update.","Tuleva päivitys tällä aikavälillä on jo olemassa. Valitse toinen aikaväli uuden tulevan päivityksen lisäämiseksi."
 "Smth went to exception","Jotain meni poikkeustilaan"
 "Scheduled Changes","Ajoitetut muutokset"
 "Update Information","Päivitä tiedot"
@@ -1892,16 +1638,11 @@ Priority,Prioriteetti
 "Save as a New Update","Tallenna uutena päivityksenä"
 "Delete the Update","Poista päivitys"
 "Catalog Price Rules","Tuoteluettelon hintasäännöt"
-"Future Update End Time cannot be equal or earlier than Start Time.","Tulevan päivityksen lopetusaika ei voi olla täsmällinen tai aiemmin kuin aloitusaika."
-"Move to Another Campaign","Siirrä toiseen kampanjaan"
-"Deleting the update will remove the catalog price rule from this campaign and all scheduled changes will be lost.","Päivityksen poistaminen poistaa katalogin hintasäännöt tästä kampanjasta ja kaikki ajoitetut muutokset menetetään."
 "Catalog Advanced Search","Katalogin monipuolinen haku"
 "Search Weight","Haun painotus"
 Relevance,Liittyvyys
 "Search results for: '%1'","Hakutulokset: '%1'"
 "Minimum Search query length is %1","Hakutermin minimipituus on %1"
-"Please specify at least one search term.","Määritä vähintään yksi hakutermi."
-"Bucket does not exist","Ämpäriä ei löytynyt"
 "Search Settings","Haun asetukset"
 "Advanced Search","Laajennettu haku"
 "<strong>%1 item</strong> were found using the following search criteria","<strong>%1 nimike</strong> löytyi seuraavilla hakuehdoilla"
@@ -1911,16 +1652,14 @@ Relevance,Liittyvyys
 "Don't see what you're looking for?","Etkö löydä etsimääsi?"
 "Your search returned no results.","Hakusi ei tuottanut tuloksia."
 "Popular Search Terms","Suosituimmat hakusanat"
-"Modify your search","Muokkaa hakua"
 View/Edit,Näytä/Muokkaa
 Preview,Esikatselu
 "Set Product as New","Merkitse tuote uutuudeksi"
+"Store View:",Kauppanäkymä:
+"Sort Products By","Lajittele tuotteet"
+"Default Product Sorting","Tuotteiden oletuslajittelu"
 "New Theme","Uusi teema"
 Path,Polku
-"Remove Category from Campaign","Poista kategoria kampanjasta"
-"Deleting the update will remove the page from this campaign and all scheduled changes will be lost.","Päivityksen poistaminen poistaa sivun tästä kampanjasta ja kaikki ajoitetut muutokset menetetään."
-"Remove Product from Campaign","Poista tuote kampanjasta"
-"Deleting the update will remove the product from this campaign and all scheduled changes will be lost.","Päivityksen poistaminen poistaa tuotteen tästä kampanjasta ja kaikki ajoitetut muutokset menetetään."
 "Create Permanent Redirect for old URL","Luo pysyvä uudelleenohjaus vanhalle URL:lle"
 "Invalid URL key","Virheellinen URL-osoitteen avain"
 "Category URL Suffix","Kategorian URL-jälkiliite"
@@ -1935,7 +1674,6 @@ Path,Polku
 "Customer is already registered","Asiakas on jo rekisteröity"
 "Your session has expired","Istuntosi on vanhentunut"
 "A letter with further instructions will be sent to your email.","Viesti tarkempine ohjeineen lähetetään sähköpostiisi."
-"We can't find the quote item.","Tarjouskohdetta ei löydy."
 "We cannot configure the product.","Tuotetta ei voida määrittää."
 "You used coupon code ""%1"".","Käytit kuponkia ""%1""."
 "You canceled the coupon code.","Peruutit alennuskoodin."
@@ -1947,10 +1685,10 @@ Path,Polku
 "One-page checkout is turned off.","Yhden sivun kassa on poistettu käytöstä."
 "Guest checkout is disabled.","Vieraana tilaaminen on poistettu käytöstä."
 Checkout,Kassa
+"Page not found.","Sivua ei löydy."
 "Something went wrong while processing your order. Please try again later.","Jokin meni vikaan tilauksen käsittelyssä. Yritä myöhemmin uudelleen."
 "Payment Method",Maksutapa
 "Payment Page",Maksusivu
-"We can't find the product.","Tuotetta ei löydy."
 "We found an invalid request for adding product to quote.","Löysimme virheellisen pyynnön lisätä tuote tarjoukseen."
 "The product does not exist.","Tuotetta ei ole olemassa."
 "We don't have some of the products you want.","Meillä ei ole joitakin haluamistasi tuotteista."
@@ -1960,10 +1698,7 @@ Checkout,Kassa
 "This quote item does not exist.","Tarjouskohdetta ei ole."
 "Display number of items in cart","Ostoskorissa näytettävien tuotteiden määrä"
 "Display item quantities","Näytä nimikkeiden määrät"
-"Shipping address is not set","Toimitusosoitetta ei ole määritetty"
-"Unable to save shipping information. Please check input data.","Toimitustietoja ei voitu tallentaa. Tarkista syötetyt tiedot."
 "Carrier with such method not found: %1, %2","Toimittajaa tällä metodilla ei löytynyt: %1, %2"
-"Shipping method is not applicable for empty cart","Toimitustapaa ei sovelleta tyhjään ostoskoriin"
 " item"," nimike"
 " items"," tuotetta"
 "Totals calculation is not applicable to empty cart","Yhteenlasku ei koske tyhjää ostoskoria"
@@ -1974,7 +1709,6 @@ Checkout,Kassa
 "Sorry, guest checkout is not available.","Pahoittelut, mutta ostot ilman sisäänkirjautumista eivät ole saatavilla."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sinulle on lähetetty sähköpostilla linkki, jolla voit vahvista tilisi tai <a href=""%1"">klikkaa tästä</a> tilataksesi uuden linkin."
 "Load customer quote error","Asiakkaan tarjouksen latausvirhe"
-"Error message!",Virheilmoitus!
 Error!,Virhe!
 "DB exception",Tietokantavirhe
 "Print receipt","Tulosta kuitti"
@@ -1990,6 +1724,7 @@ Error!,Virhe!
 "Click <a href=""%1"">here</a> to continue shopping.","Klikkaa <a href=""%1""> tästä</a> jatkaaksesi ostoksia."
 "Estimate Tax","Arvioi vero"
 "Estimate Shipping and Tax","Arvioi toimituskulut ja vero"
+"You added %1 to your <a href=""%2"">shopping cart</a>.","%1 lisättiin <a href=""%2"">ostoskoriin</a>."
 "Order #",Tilausnumero
 "Proceed to Checkout","Siirry kassalle"
 "Your order number is: %1.","Tilauksesi numero on: %1."
@@ -2016,6 +1751,9 @@ Update,Päivitä
 "You can create an account after checkout.","Voit luoda tilin kassan jälkeen."
 "You already have an account with us. Sign in or continue as guest.","Sinulla on jo tili. Kirjaudu sisään tai jatkaa vieraana."
 Login,Kirjaudu
+"Items in Cart","Tuotetta ostoskorissa"
+"Item in Cart","Tuote ostoskorissa"
+"View and Edit Cart","Tarkastele ja muokkaa ostoskoria"
 "See Details","Katso lisätietoja"
 "Options Details","Vaihtoehdot tiedot"
 "Cart Subtotal","Ostoskorin välisumma"
@@ -2026,19 +1764,18 @@ Login,Kirjaudu
 "Ship Here","Lähetä tänne"
 "Ship To:",Vastaanottaja:
 edit,muokkaa
+"Shipping Address",Toimitusosoite
+"New Address","Uusi osoite"
 "Order Summary","Tilauksen yhteenveto"
-"View and Edit Cart","Tarkastele ja muokkaa ostoskoria"
-"Field ","Kenttä "
-" is required."," on pakollinen."
 "Provided Zip/Postal Code seems to be invalid.","Syöttämäsi postinumero näyttäisi olevan virheellinen."
 " Example: "," Esimerkki: "
 "If you believe it is the right one you can ignore this notice.","Jos uskot, että se on oikea voit ohittaa tämän ilmoituksen."
-"New Address","Uusi osoite"
+"Field ","Kenttä "
+" is required."," on pakollinen."
 "Are you sure you would like to remove this item from the shopping cart?","Oletko varma, että haluat poistaa tämän tuotteen ostoskorista?"
 "Review & Payments","Tarkastelu & maksut"
 "Select a new payment method","Valitse uusi maksutapa"
 "Save Address","Tallenna osoite"
-"Please specify a shipping method.","Määritä toimitustapa."
 "Checkout Options",Tilausvaihtoehdot
 "Enable Onepage Checkout","Ota yhden sivun osto käyttöön"
 "Allow Guest Checkout","Salli tilaaminen rekisteröitymättä"
@@ -2049,8 +1786,6 @@ edit,muokkaa
 "Number of Items to Display Pager","Tuotteiden määrä näytöllä"
 "My Cart Link",Ostoskorini-linkki
 "Display Cart Summary","Näytä ostoskorin yhteenveto"
-"Shopping Cart Sidebar",Ostoskorisivupalkki
-"Display Shopping Cart Sidebar","Näytä ostoskorisivupalkki"
 "Number of Items to Display Scrollbar","Tuotteiden määrä näytön vierityspalkilla"
 "Maximum Number of Items to Display","Maksimimäärä tuotteita näytöllä"
 "Payment Failed Emails","Epäonnistuneen maksun sähköpostit"
@@ -2061,36 +1796,10 @@ edit,muokkaa
 "Separate by "","".","Erota "",""-merkillä."
 "Send Payment Failed Email Copy Method","Epäonnistuneen maksun sähköpostikopion tyyppi"
 "Order Total",Loppusumma
-"Shipping Address",Toimitusosoite
 "We'll send your order confirmation here.","Lähetämme tilausvahvistuksen tähän osoitteeseen."
 Payment,Maksu
 "Not yet calculated","Ei ole vielä laskettu"
-"We received your order!","Olemme vastaanottaneet tilauksesi!"
 "Thank you for your purchase!","Kiitos ostoksestasi!"
-"Minimum order amount is %1","Vähimmäistilausmäärä on %1"
-"Unable to save address. Please, check input data.","Osoitteen tallentaminen ei onnistu. Tarkista syötetyt tiedot."
-"Unable to save shipping information. Please, check input data.","Toimitustietoja ei voitu tallentaa. Tarkista syötetyt tiedot."
-"Cart contains virtual product(s) only. Shipping address is not applicable.","Ostoskori sisältää vain virtuaalisia tuotteita. Toimitusosoite ei ole käytettävissä."
-"Wrong minimum amount.","Väärä vähimmäismäärä."
-"<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Print receipt</a>","<a href=""%1"" onclick=""this.target='_blank'"" class=""print"">Tulosta kuitti</a>"
-"Forgot Password","Salasana unohtunut"
-item,tuote
-items,tuotteet
-"Go to Checkout","Siirry kassalle"
-"Recently added item(s)","Äskettäin lisätyt kohteet"
-"View and edit cart","Tarkastele ja muokkaa ostoskoria"
-"No Payment Methods","Ei maksutapoja"
-"Shipping Methods",Toimitustavat
-"Select Method","Valitse tapa"
-"Method Title","Menetelmän nimi"
-"Carrier Title","Toimittajan nimi"
-"Sorry, no quotes are available for this order at this time","Valitettavasti tarjoukset eivät saatavilla tilaukseen tällä hetkellä"
-"Item in Cart","Tuote ostoskorissa"
-"Items in Cart","Tuotetta ostoskorissa"
-"Require Customer To Be Logged In To Checkout","Vaadi asiakkaan kirjautuminen tilauksen tekemiseksi"
-"Maximum Display Recently Added Item(s)","Näytettävien viimeksi lisättyjen tuotteiden maksimimäärä"
-of,/
-"You added %1 to your <a href=""%2"">shopping cart</a>.","%1 lisättiin <a href=""%2"">ostoskoriin</a>."
 "Terms and Conditions",Käyttöehdot
 "Add New Condition","Lisää ehto"
 "Save Condition","Tallenna ehto"
@@ -2110,23 +1819,17 @@ Sales,Myynti
 "New Condition","Uusi ehto"
 Automatically,Automaattisesti
 Manually,Manuaalisesti
-"Preview mode doesn't allow submitting the order.","Esikatselutila ei salli tilauksen lähettämistä."
 "Preview Quote Lifetime (minutes)","Esikatselun tarjouksen voimassaoloaika (min)"
 "Static Blocks","Staattiset lohkot"
 "Add New Block","Lisää uusi lohko"
 "Delete Block","Poista lohko"
-"Save Block","Tallenna lohko"
 Identifier,Tunniste
 "Manage Pages","Hallitse sivuja"
 "Add New Page","Lisää uusi sivu"
 "Delete Page","Poista sivu"
-"Save Page","Tallenna sivu"
 Created,Luotu
 Modified,Muokattu
-"Create Folder...","Luo kansio..."
 "Delete Folder","Poista kansio"
-"Delete File","Poista tiedosto"
-"Insert File","Lisää tiedosto"
 "Are you sure you want to delete this folder?","Haluatko varmasti poistaa tämän kansion?"
 "Are you sure you want to delete this file?","Haluatko varmasti poistaa tämän tiedoston?"
 "You deleted the block.","Lohko poistettiin."
@@ -2137,6 +1840,7 @@ Modified,Muokattu
 Blocks,Lohkot
 "You saved the block.","Tallensit lohkon."
 "Something went wrong while saving the block.","Tapahtui virhe tallennettaessa lohkoa."
+"You duplicated the block.","Lohkosta luotiin kaksoiskappale."
 "The page has been deleted.","Sivu on poistettu."
 "We can't find a page to delete.","Poistettavaa sivua ei löydy."
 "This page no longer exists.","Tätä sivua ei enää ole olemassa."
@@ -2148,17 +1852,16 @@ Pages,Sivut
 "A total of %1 record(s) have been enabled.","Yhteensä %1 tietue(tta) on otettu käyttöön."
 "Page Title","Sivun otsikko"
 "You saved the page.","Tallensit sivun."
-"The directory %1 is not writable by server.","Hakemisto %1 ei ole kirjoitettavissa palvelimella."
+"You duplicated the page.","Sivusta luotiin kaksoiskappale."
 "Enabled by Default","Käytössä oletuksena"
 "Disabled by Default","Oletusarvoisesti pois käytöstä"
 "Disabled Completely","Kokonaan pois käytöstä"
 "We can't upload the file right now.","Tiedostoa ei voida ladata juuri nyt."
 "We can't delete root directory %1 right now.","Juurihakemistoa %1 ei voida poistaa juuri nyt."
 "Privacy and Cookie Policy","Yksityisyys ja evästeet"
-"Error message",Virhesanoma
-Exception,Poikkeus
 "Could not create a directory.","Hakemistoa ei voitu luoda."
 View,Katso
+"Save Page","Tallenna sivu"
 "Media Gallery",Mediagalleria
 "Content Management","Sisällön hallinta"
 "CMS Page",Sisältösivu
@@ -2168,6 +1871,7 @@ View,Katso
 "Contents of a Static Block","Staattisen lohkon sisältö"
 Block,Lohko
 "Select Block...","Valitse lohko..."
+"General Information",Yleistä
 "Enable Block","Ota lohko käyttöön"
 "Block Title","Lohkon otsikko"
 "Page Information","Sivun tiedot"
@@ -2178,30 +1882,9 @@ Block,Lohko
 "Custom design from","Muokattu ulkoasu alkaen"
 "Custom design to","Muokattu ulkoasu päättyen"
 "Custom Theme","Muokattu teema"
-"Edit Block '%1'","Muokkaa lohkoa '%1'"
-"Edit Page '%1'","Muokkaa sivua '%1'"
-"Page Layout","Sivun asettelu"
-"Custom Design From","Muokattu ulkoasu alkaen"
-"Custom Design To","Muokattu ulkoasu päättyen"
-"Page Status","Sivun tila"
-"Meta Data",Metatiedot
-Keywords,Avainsanat
-"You saved this page.","Tämä sivu on tallennettu."
-"Could not create directory.","Hakemistoa ei voitu luoda."
-"Are you sure you wan't to delete a ${ $.$data.title } record?","Haluatko varmasti poistaa ${ $.$data.title } tietueen?"
-"Are you sure you wan't to delete a ""${ $.$data.title }"" record?","Oletko varma, että haluat poistaa tietueen ""${ $.$data.title }""?"
-"Are you sure you wan't to delete selected items?","Haluatko varmasti poistaa valitut kohteet?"
 "Search Engine Optimisation",Hakukoneoptimointi
-"Delete Selected","Poista Valitut"
-"Create Folder","Luo kansio"
-"You duplicated the block.","Lohkosta luotiin kaksoiskappale."
-"You duplicated the page.","Sivusta luotiin kaksoiskappale."
-"Upload Images","Lähetä Kuva"
 "CMS Pages",Sisältösivut
 "CMS Blocks",CMS-lohkot
-"Remove CMS block from Campaign","Poista CMS-lohko kampanjasta"
-"Deleting the update will remove the block from this campaign and all scheduled changes will be lost.","Päivityksen poistaminen poistaa lohkon tästä kampanjasta ja kaikki ajoitetut muutokset menetetään."
-"Remove CMS page from Campaign","Poista CMS-sivu tästä kampanjasta"
 "Delete Customer","Poista asiakas"
 Companies,Yritykset
 "Company Name:","Yrityksen nimi:"
@@ -2222,6 +1905,7 @@ Gender:,Sukupuoli:
 "New Company","Uusi yritys"
 "Thank you! We're reviewing your request and will contact you soon","Kiitos! Pyyntöäsi käsitellään ja otamme sinuun yhteyttä mahdollisimman pian"
 "Create New Company","Luo uusi yritys"
+"A total of %1 record(s) were updated.","Yhteensä %1 tietuetta päivitettiin."
 "A total of %1 record(s) were deleted.","Yhteensä %1 tietue(tta) poistettiin."
 "Add New Role","Lisää uusi rooli"
 "Edit Role","Muokkaa roolia"
@@ -2229,14 +1913,16 @@ Gender:,Sukupuoli:
 Rejected,Hylätty
 "Invalid login or password.","Virheellinen sähköpostiosoite tai salasana."
 "This account is locked.","Tili on lukittu."
+test,testi
+"Error message",Virhesanoma
 "Role Name","Roolin nimi"
 Company:,Yritys:
+"User Role",Käyttäjärooli
 "Please select a region, state or province.","Valitse alue, osavaltio tai provinssi."
 "Phone Number",Puhelinnumero
 "Job Title",Tehtävänimike
 "Add User","Lisää käyttäjä"
 "Add Team","Lisää tiimi"
-"User Role",Käyttäjärooli
 "VAT/TAX ID: ","Y-tunnus /VAT-numero: "
 "You have no other address entries in your address book.","Osoitekirjassasi ei ole muita tallennettuja osoitteita."
 Contacts,Kontaktit
@@ -2264,19 +1950,19 @@ Updated,Päivitetty
 Purchased,Ostettu
 "Store Credit","Saldo kaupassa"
 "Order # %1","Tilaus # %1"
-"Purchase Order Number",Ostotilausnumero
-"Purchase Order Number: %1","Ostotilausnumero: %1"
 "Credit Limit",Luottoraja
 "Cancel the Order","Peruuta tilaus"
 "This is a required field.","Tämä on pakollinen kenttä."
 Date,Päivämäärä
-"Purchase Order",Ostotilaus
 "Payment Methods",Maksutavat
 "Default Config",Oletusasetukset
 "Save Config","Tallenna asetus"
 "Use system value","Käytä järjestelmän arvoa"
 "Use Website","Käytä sivustoa"
 Add,Lisää
+"Delete File","Poista tiedosto"
+"Search String",Hakulauseke
+"Design Theme","Ulkoasun teema"
 "-- No Theme --","-- Ei teemaa --"
 "You saved the configuration.","Asetukset on tallennettu."
 "Something went wrong while saving this configuration:","Tapahtui virhe tallennettaessa tätä asetusta:"
@@ -2289,10 +1975,7 @@ Optional,Valinnainen
 "HTTP (unsecure)","HTTP (suojaamaton)"
 "Yes (302 Found)","Kyllä (302 löytyi)"
 "Yes (301 Moved Permanently)","Kyllä (301 siirretty pysyvästi)"
-"Visible section not found.","Näkyvää osaa ei löydy."
-"Invalid XML in file %1:\n%2","Virheellinen XML tiedostossa %1:\n%2"
 "Some error","Jokin virhe"
-"You cannot run this command because the Magento application is not installed.","Tätä komentoa ei voi suorittaa, koska Magento-sovellusta ei ole asennettu."
 "Field 2","Kenttä 2"
 "Field 3.1.1","Kenttä 3.1.1"
 "Field 4","Kenttä 4"
@@ -2304,7 +1987,6 @@ Optional,Valinnainen
 Configurations,Konfiguraatiot
 "Select Attributes","Valitse attribuutit"
 "Choose an Option...","Valitse vaihtoehto..."
-"Requested option doesn't exist: %1","Pyydettyä vaihtoehtoa ei ole olemassa: %1"
 "You can't add the item to shopping cart.","Et voi lisätä nimikettä ostoskoriin."
 Confirm,Vahvista
 "Create Configurations","Luo konfiguraatioita"
@@ -2323,23 +2005,11 @@ Select,Valitse
 "Upload Image","Lähetä kuva"
 "No Image","Ei kuvaa"
 "Create Product Configurations","Luo tuotekonfiguraatioita"
+save,tallenna
 "Disable Product","Poista tuote käytöstä"
 "Enable Product","Ota tuote käyttöön"
 "An attribute has been removed. This attribute will no longer appear in your configurations.","Attribuutti on poistettu. Tämä attribuutti ei enää esiinny konfiguroinneissa."
 "Please choose image(s).","Valitse kuva(t)."
-save,tallenna
-"As low as: ","Alkaen: "
-"Could not update option with id ""%1""","Ei voitu päivittää vaihtoehtoa tunnuksella ""%1"""
-"Product already has this option","Tuotteella on jo tämä vaihtoehto"
-"The configurable product does not have any variation attribute.","Muokattavalla tuotteella ei ole muuttuvia ominaisuuksia."
-"Product with id ""%1"" does not exist.","Tuotetta tunnuksella ""%1"" ei ole olemassa."
-"Products ""%1"" and %2 have the same set of attribute values.","Tuotteilla ""%1"" ja %2 on samat ominaisuuksien arvot."
-"Edit role","Muokkaa roolia"
-"Please, fill correct values","Täytä oikeat arvot"
-"Please, select image(s) for your attribute","Valitse kuva(t) ominaisuudelle"
-"Please choose image(s)","Valitse kuva(t)"
-"Please, select attribute(s)","Valitse ominaisuu(s/det)"
-"Configurable product ""%1"" does not have sub-products","Konfiguroitavissa olevalla tuotteella ""%1"" ei ole sivutuotteita"
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Kiitos yhteydenotostasi! Vastaamme sinulle pian."
 "An error occurred while processing your form. Please try again later.","Virhe käsiteltäessä lomaketta. Yritä myöhemmin uudelleen."
 "Write Us","Kirjoita meille"
@@ -2353,11 +2023,6 @@ save,tallenna
 "Send Emails To","Lähetä sähköpostit"
 "Email Sender","Sähköpostin Lähettäjä"
 "Email Template",Sähköpostimalli
-"We can't process your request right now. Sorry, that's all we know.","Emme voi käsitellä pyyntöäsi juuri nyt. Anteeksi, emme osaa sanoa muuta juuri nyt."
-"Name: %name","Nimi: %name"
-"Email: %email","Sähköposti: %email"
-"Phone Number: %telephone","Puhelinnumero: %telephone"
-"Comment: %comment","Kommentti: %comment"
 "Invalid domain name: %1","Virheellinen verkkotunnus: %1"
 "Invalid cookie lifetime: %1","Virheellinen evästeen elinikä: %1"
 "Invalid cookie path","Virheellinen evästepolku"
@@ -2383,11 +2048,8 @@ Monthly,Kuukausittain
 "Save Currency Symbols","Tallenna valuuttasymbolit"
 "Currency Symbols",Valuuttasymbolit
 "Use Standard","Käytä standardia"
-"Please specify a correct Import Service.","Määritä oikea tuontipalvelu."
-"We can't initialize the import model.","Tuontimallia ei voida alustaa."
 "Currency Rates",Valuuttakurssit
 "Old rate:","Vanha kurssi:"
-"Please correct the input data for %1 => %2 rate","Korjaa syöttöarvot %1 => %2 -kurssille"
 "The current module XML block name is undefined.","Nykyisen moduulin XML-lohkon nimeä ei ole määritetty."
 "Text Field",Tekstikenttä
 "Text Area",Tekstialue
@@ -2462,8 +2124,6 @@ Unlock,Avaa
 "The customer would belong to Customer Group %s.","Asiakas kuuluisi asiakasryhmään %s."
 "There was an error detecting Customer Group.","Asiakasryhmän tunnistamisessa tapahtui virhe."
 "Validate VAT Number","Tarkista y-tunnus"
-"Customer Login",Kirjaudu
-"Create New Customer Account","Uuden asiakastilin luominen"
 "Date of Birth",Syntymäaika
 "Bad request.","Virheellinen pyyntö."
 "This confirmation key is invalid or has expired.","Vahvistusavain on virheellinen tai vanhentunut."
@@ -2475,19 +2135,15 @@ Unlock,Avaa
 "This email does not require confirmation.","Tämä sähköposti ei vaadi vahvistusta."
 "Wrong email.","Väärä sähköpostiosoite."
 "Your password reset link has expired.","Salasanan palautuslinkki on vanhentunut."
-"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Tällä sähköpostiosoitteella on jo olemassaoleva asiakastili. Jos olet varma että se on sinun, <a href=""%1"">klikkaa tästä</a> ja nollaa salasana tilillesi."
 "We can't save the customer.","Asiakasta ei voida tallentaa."
 "Please make sure your passwords match.","Varmista, että salasanat täsmäävät."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your shipping address for proper VAT calculation.","Jos olet rekisteröitynyt ALV-asiakas, ole hyvä ja klikkaa <a href=""%1""> tästä</a> syöttääksesi toimitusosoitteen oikeaa ALV-laskentaa varten."
 "If you are a registered VAT customer, please <a href=""%1"">click here</a> to enter your billing address for proper VAT calculation.","Jos olet rekisteröitynyt ALV-asiakas, ole hyvä ja klikkaa <a href=""%1""> tästä</a> syöttääksesi laskutusosoitteen oikeaa ALV-laskentaa varten."
 "You saved the account information.","Tilin tiedot on tallennettu."
 "Password confirmation doesn't match entered password.","Salasanan vahvistus ei täsmää annettuun salasanaan."
-"The password doesn't match this account.","Salasana ei ole oikein."
-"Please correct the email address.","Korjaa sähköpostiosoite."
 "We're unable to send the password reset email.","Salasanan palautussähköpostia ei voitu lähettää."
 "Please enter your email.","Syötä sähköpostiosoitteesi."
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","Jos sähköpostiosoitteella %1 on olemassa tili, saat sähköpostin jossa on ohjeet uuden salasanan asettamiseksi."
-"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Tiliä ei ole vahvistettu, <a href=""%1"">klikkaa tästä</a> uudelleenlähettääksesi vahvistussähköpostin."
 "An unspecified error occurred. Please contact us for assistance.","Tapahtui virhe, ole hyvä ja ota yhteyttä meihin."
 "A login and a password are required.","Käyttäjätunnus ja salasana ovat pakolliset."
 "New Password and Confirm New Password values didn't match.","Uusi salasana ja vahvista uusi salasana -arvot eivät vastaa toisiaan."
@@ -2498,7 +2154,6 @@ Unlock,Avaa
 "We can't delete the address right now.","Osoitetta ei voida poistaa juuri nyt."
 "You saved the address.","Tallensit osoitteen."
 "We can't save the address.","Osoitetta ei voida tallentaa."
-"No customer ID defined.","Asiakastunnusta ei ole määritelty."
 "You deleted the customer group.","Asiakasryhmä poistettiin."
 "The customer group no longer exists.","Asiakasryhmää ei enää ole olemassa."
 "New Group","Uusi ryhmä"
@@ -2521,25 +2176,16 @@ Unlock,Avaa
 "Please define Wish List item ID.","Määritä toivelistan nimekkeen tunnus."
 "Please load Wish List item.","Lataa toivelistan tuote."
 "Login successful.","Kirjautuminen onnistui."
-"No confirmation needed.","Vahvistusta ei tarvita."
-"Account already active","Tili on jo aktiivinen"
 "The account is locked.","Tili on lukittu."
-"This account is not confirmed.","Tämä tili ei ole vahvistettu."
 "Please enter a password with at most %1 characters.","Kirjoita salasana, jossa on enintään %1 merkkiä."
-"Please enter a password with at least %1 characters.","Kirjoita salasana, jossa on vähintään %1 merkkiä."
-"The password can't begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä."
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Salasanan muodostamiseen käytettävien eri merkki-luokkien määrä on vähintaään %1. Merkki-luokkia ovat: isot kirjaimet, pienet kirjaimet, erikoismerkit, numerot."
-"Password cannot be the same as email address.","Salasana ei voi olla sama kuin sähköpostiosoitteesi."
 "This customer already exists in this store.","Tämä asiakas on jo olemassa tässä kaupassa."
-"A customer with the same email already exists in an associated website.","Asiakas samalla sähköpostiosoitteella on jo olemassa liitetyn verkkosivuston yhteydessä."
 """%1"" is a required value.","""%1"" on pakollinen tieto."
 "Per Website",Verkkosivukohtainen
-"The password can not begin or end with a space.","Salasana ei voi alkaa tai loppua välilyönnillä."
 """%1"" is not a valid URL.","""%1"" ei ole kelvollinen URL."
 """%1"" is not a valid date.","""%1"" ei ole kelvollinen päivämäärä."
 """%1"" length must be equal or greater than %2 characters.","""%1"" vaadittu vähimmäispituus on %2 merkkiä."
 """%1"" length must be equal or less than %2 characters.","""%1"" maksimipituus on enintään %2 merkkiä."
-"Please enter a customer email.","Syötä asiakkaan sähköpostiosoite."
 "You can't delete group ""%1"".","Ryhmää ""%1"" ei voi poistaa."
 "Customer Group already exists.","Asiakasryhmä on jo olemassa."
 "Cannot delete group.","Ryhmää ei voi poistaa."
@@ -2553,8 +2199,6 @@ Unlock,Avaa
 "Your Tax ID cannot be validated.","Alv-tunnusta ei voida vahvistaa."
 Male,Mies
 Female,Nainen
-"Thank you for registering with","Kiitos rekisteröitymisestä"
-"Please enter new password.","Kirjoita uusi salasana."
 "NOT LOGGED IN","EI KIRJAUTUNEENA SISÄÄN"
 Visitor,Vierailija
 "Personal Information","Henkilökohtaiset tiedot"
@@ -2576,14 +2220,13 @@ Newsletters,Uutiskirjeet
 "You have no default billing address in your address book.","Sinulla ei ole oletuslaskutusosoitetta osoitekirjassasi."
 "Change Shipping Address","Muuta toimitusosoite"
 "You have no default shipping address in your address book.","Sinulla ei ole oletustoimitusosoitetta osoitekirjassasi."
-"Additional Address Entries",Lisäosoitteet
-"Delete Address","Poista osoite"
 "Street Address %1","Katuosoite %1"
 "It's a default billing address.","Se on oletuslaskutusosoite."
 "Use as my default billing address","Käytä oletuslaskutusosoitteenani"
 "It's a default shipping address.","Se on oletustoimitusosoite."
 "Use as my default shipping address","Käytä oletustoimitusosoitteenani"
 "Go back",Takaisin
+"Additional Address Entries",Lisäosoitteet
 "Please enter your email below and we will send you the confirmation link.","Syötä sähköpostiosoitteesi vahvistuslinkin lähettämistä varten."
 "Send confirmation link","Lähetä vahvistuslinkki"
 "Back to Sign In","Takaisin kirjautumiseen"
@@ -2605,9 +2248,10 @@ Newsletters,Uutiskirjeet
 "Confirm Password","Vahvista Salasana"
 "Set a New Password","Aseta uusi salasana"
 "You have signed out and will go to our homepage in 5 seconds.","Olet kirjautunut ulos, palaat etusivullemme 5 sekunnin kuluessa."
+"This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","Tiliä ei ole vahvistettu, <a href=""%1"">klikkaa tästä</a> uudelleenlähettääksesi vahvistussähköpostin."
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","Tällä sähköpostiosoitteella on jo olemassaoleva asiakastili. Jos olet varma että se on sinun, <a href=""%1"">klikkaa tästä</a> ja nollaa salasana tilillesi."
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Tilin luomisesta on monia etuja: nopeammat tilaukset, useiden osoitteiden säilyttäminen, tilausten seuranta ja paljon muuta."
 Fax,Faksi
-"Tax/VAT number","ALV-numero / Y-tunnus"
 "Welcome to %store_name","Tervetuloa %store_name -kauppaan"
 "Welcome to %store_name.","Tervetuloa %store_name -kauppaan."
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:"
@@ -2624,11 +2268,8 @@ Password:,Salasana:
 "Confirm Your Account","Vahvista tilisi"
 "Thank you for confirming your %store_name account.","Kiitos %store_name tilisi vahvistamisesta."
 "To sign in to our site and set a password, click on the <a href=""%create_password_url"">link</a>:","Kirjautuaksesi sivustollemme ja asettaaksesi salasanan, klikkaa <a href=""%create_password_url"">linkkiä</a>:"
-"Hello,","Hei,"
 "We have received a request to change the following information associated with your account at %store_name: email.","Olemme saaneet pyynnön muuttaa sähköpostiosoitteen %store_name -tilissäsi."
 "If you have not authorized this action, please contact us immediately at <a href=""mailto:%store_email"">%store_email</a>","Jos et ole pyytänyt tätä toimintoa, ota välittömästi yhteyttä osoitteeseen <a href=""mailto:%store_email"">%store_email</a>"
-"or call us at <a href=""tel:%store_phone"">%store_phone</a>","tai soittaa meille numeroon <a href=""tel:%store_phone""> %store_phone</a>"
-"Thanks,<br>%store_name","Kiittäen,<br>%store_name"
 "Your %store_name email and password has been changed","Sinun %store_name -sähköpostisi ja -salasanasi on muutettu"
 "We have received a request to change the following information associated with your account at %store_name: email, password.","Olemme saaneet pyynnön muuttaa seuraavia tietoja %store_name -tilissäsi: sähköposti, salasana."
 "Reset your %store_name password","Aseta uusi salasana %store_name -verkkokauppaan"
@@ -2661,14 +2302,10 @@ Strong,Vahva
 "Show Telephone","Näytä puhelinnumero"
 "Show Company","Näytä yritys"
 "Show Fax","Näytä faksi"
-"Customer Data Lifetime","Asiakkaan tietojen käyttöikä"
-"Please specify value in minutes.","Määritä arvo minuutteina."
 "Assign a Customer Group","Määritä asiakasryhmä"
-"Are you sure to assign selected customers to new group?","Haluatko varmasti määrittää valitut asiakkaat uuteen ryhmään?"
 Group,Ryhmä
 "Add New Customer","Lisää uusi asiakas"
 "Subscribe to Newsletter","Tilaa Uutiskirje"
-"Are you sure to unsubscribe selected customers from newsletter?","Haluatko peruuttaa valittujen asiakkaiden uutiskirjeen?"
 "Unsubscribe from Newsletter","Peru uutiskirjeen tilaus"
 "Customer Since","Asiakas alkaen"
 "Confirmed email","Vahvistettu sähköposti"
@@ -2676,48 +2313,17 @@ Group,Ryhmä
 "Billing Lastname","Laskutettavan sukunimi"
 "Last Activity","Viimeksi nähty"
 Addresses,Osoitteet
-"Account Dashboard","Tilin hallintapaneeli"
 "Edit Account Information","Muokkaa tilin tietoja"
 "Password forgotten","Salasana unohtunut"
-"My Dashboard","Oma sivuni"
 "You are signed out","Olet kirjautunut ulos"
-"You subscribe to our newsletter.","Tilaat uutiskirjeemme."
-"You don't subscribe to our newsletter.","Et tilaa uutiskirjettämme."
-"Maximum length must be less then %1 symbols","Enimmäispituuden on oltava vähemmän kuin %1 symbolit"
-"Invalid input","Syöte ei kelpaa"
-"Confirm your new password.","Vahvista uusi salasana."
-"Something went wrong while changing the password.","Salasanaa vaihtaessa tapahtui virhe."
-"Please enter the first name.","Kirjoita etunimesi."
-"Please enter the last name.","Syötä sukunimi."
-"Please enter the street.","Syötä katu."
-"Please enter the city.","Anna kaupunki."
-"Please enter the phone number.","Syötä puhelinnumero."
-"Please enter the zip/postal code.","Anna postinumero."
-"Please enter the country.","Syötä maa."
-"Please correct this email address: ""%1"".","Korjaa tämä sähköpostiosoite: ""%1""."
-"Please enter a TAX/VAT number.","Syötä ALV-numero / Y-tunnus."
-"You subscribe to ""General Subscription"".","Olet tilannut kohteen ""Yleinen tilaus""."
-"The password for your account has been successfully changed.","Tilisi salasana on vaihdettu onnistuneesti."
-"If you did not request this change, please contact us.","Jos et pyytänyt tätä muutosta, ota meihin yhteyttä."
-"Checkout out as a new customer","Jatka uutena asiakkaana"
-"Create Account","Luo tili"
-"Checkout out using your account","Jatka käyttäen asiakastiliä"
-"Last Logged In","Viimeksi kirjautunut"
-"You are signed out.","Olet kirjautunut ulos."
-"The account is already active.","Tili on jo aktiivinen."
-State,Lääni
-"Name Prefix","Nimen etuliite"
-"Name Suffix","Nimen jälkiliite"
 "Customer notified","Asiakkaalle ilmoitettu"
 Notified,Ilmoitettu
 "More information",Lisätietoja
 "Notify Customer by Email","Ilmoita asiakkaalle sähköpostitse"
 "Please specify a valid customer.","Määritä kelvollinen asiakas."
 Used,Käytetty
-"You can't use more store credit than the order amount.","Et voi käyttää enempää alennusta kuin tilauksen loppusumma."
 available,saatavilla
 "Refunded to Store Credit","Hyvitetty myymäläpisteille"
-"Store credit","Kaupan saldo"
 "Customer Address Attributes","Asiakkaan osoitemääritteet"
 "Lines Count",Rivilaskuri
 "Valid range 2-20","Kelvollinen alue 2-20"
@@ -2725,7 +2331,6 @@ available,saatavilla
 "Maximum Text Length","Tekstin enimmäispituus"
 "Maximum File Size (bytes)","Tiedoston enimmäiskoko (tavua)"
 "File Extensions",Tiedostotunnisteet
-"Comma separated","Pilkuin erotettu"
 "Maximum Image Width (px)","Kuvan enimmäisleveys (px)"
 "Maximum Image Height (px)","Kuvan maksimikorkeus (pikseliä)"
 "Show on Storefront","Näytä kaupan etusivulla"
@@ -2738,7 +2343,6 @@ available,saatavilla
 "Data was imported by %1","Tiedot tuotiin %1"
 "Reward Points",Palkintopisteet
 "Please specify a website.","Ole hyvä ja määritä sivusto."
-"Please specify an email.","Ole hyvä ja määritä sähköposti."
 "Please enter a valid email.","Anna voimassa oleva sähköpostiosoite."
 Segments,Segmentit
 "Add Segment","Lisää segmentti"
@@ -2781,8 +2385,6 @@ was,oli
 "Card expiry date","Kortin viimeinen voimassaolopäivä"
 "Risk Score",Riskiluku
 "Your payment has been declined. Please try again.","Maksu on hylätty. Yritä uudelleen."
-"Cannot switch into given mode ""%1""","Ei voida vaihtaa annettuun tilaan ""%1"""
-"Parameter ""importer_class"" must be present.","""importer_class""-parametria on käytettävä."
 "Client side less compilation","Less-kääntö päätelaitteessa"
 "Frontend Development Workflow","Frontend-kehityksen työnkulku"
 "Allowed IPs (comma separated)","Sallitut IP-osoitteet (pilkulla erotettuna)"
@@ -2800,17 +2402,11 @@ Others,Muut
 "We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Currency).","DHL:n toimitustapa %1 ohitettiin, koska valuttakurssia %2 ei löydy (päävaluutta)."
 "Please specify origin country.","Määritä alkuperämaa."
 Documents,Asiakirjoja
-"Security validation of XML document has been failed.","Suojauksen kelpoisuus XML-asiakirjan epäonnistui."
-"The response is in the wrong format","Vastaus on väärässä muodossa"
 "Account Number",Tilinumero
-"Content Type",Sisältötyyppi
 "Handling Fee",Käsittelykulut
 "Select this to allow DHL to optimize shipping charges by splitting the order if it exceeds 70 kg.","Valitse tämä salliaksesi DHL:n optimoida toimituskulut jakamalla tilauksen, jos se ylittää %1 %2."
 "Weight Unit",Painoyksikkö
 Size,Koko
-"Customer services",Asiakaspalvelut
-"Please, specify origin country","Määritä alkuperämaa"
-"We can't retrieve a rate from %1.","Kurssia ei voida noutaa kohteesta %1."
 "FATAL ERROR:","VAKAVA VIRHE:"
 WARNING:,VAROITUS:
 "Your current currency is: %1.","Nykyinen valuuttasi on: %1."
@@ -2826,6 +2422,7 @@ Service,Palveluntarjoaja
 "Zip/Postal Code is Optional for","Maat, joille postinumero on valinnainen"
 "State Options","Osavaltion/maakunnan asetukset"
 "Document is not saved due to error.","Tiedostoa ei tallennettu virheen vuoksi."
+"Invalid XML in file %1:\n%2","Virheellinen XML tiedostossa %1:\n%2"
 "Downloadable Information","Ladattavat tiedot"
 "Add New Link","Lisää uusi linkki"
 "Upload Files","Lähetä tiedostoja"
@@ -2837,9 +2434,6 @@ Unlimited,Rajaton
 "The link has expired.","Linkki on vanhentunut."
 "Invalid download link type.","Virheellinen latauslinkin tyyppi."
 "Order id cannot be null","Tilausnumero ei voi olla tyhjä"
-"Provided product must be type 'downloadable'.","Annetun tuotteen tyyppi pitäisi olla 'downloadable'."
-"Cannot delete link with id %1","Linkkiä id:llä %1 ei voida poistaa"
-"Cannot delete sample with id %1","Esimerkkiä id:llä %1 ei voida poistaa"
 attachment,liite
 Pending,Odottaa
 Links,Linkit
@@ -2852,21 +2446,13 @@ Downloads,Lataukset
 "Default Label",Oletusselite
 "Default label",Oletusselite
 "Decimal Number",Desimaaliluku
-"Cannot save attribute","Attribuuttia ei voida tallentaa"
-"Cannot delete attribute.","Attribuuttia ei voida poistaa."
+"Unique constraint violation found","Yksilöllinen rajoite rikkomus löytyi"
 "Invalid date","Virheellinen päivämäärä"
-"Entity attribute with id ""%1"" not found","Entity-attribuutti ID:llä ""%1"" ei löytynyt"
-"Invalid attribute name: %1","Virheellinen attribuutin nimi: %1"
-"Invalid form type.","Virheellinen lomaketyyppi."
-"Default option value is not defined","Asetuksen oletusarvoa ei ole määritetty"
 "The value of attribute ""%1"" is invalid.","Attribuutin ""%1"" arvo on virheellinen."
-"An attribute code must not be less than %1 and more than %2 characters.","Ominaisuuden koodi on oltava vähintään %1 ja enintään %2 merkkiä."
 "EAV types and attributes","EAV-tyypit ja attribuutit"
-"These changes affect all related products.","Nämä muutokset vaikuttavat kaikkiin liittyviin tuotteisiin."
 "Could not ping search engine: %1","Ei voitu pingata hakukonetta: %1"
 "Elasticsearch Server Port","Elasticsearch-palvelimen portti"
 "Test Connection","Testaa yhteys"
-"We were unable to perform the search because of a search engine misconfiguration.","Hakua ei voitu suorittaa hakukoneen virheellisen konfiguraation vuoksi."
 "Add New Template","Lisää uusi malli"
 "Transactional Emails","Transaktioihin liittyvät sähköpostit"
 "Delete Template","Poista malli"
@@ -2895,39 +2481,24 @@ Downloads,Lataukset
 "An error occurred. The email template can not be opened for preview.","Tapahtui virhe, sähköpostimallia ei voida avata esikatselussa."
 "This email template no longer exists.","Sähköpostimallia ei enää ole olemassa."
 "You saved the email template.","Sähköpostimalli on tallennettu."
-"General Contact Name","Yleinen yhteyshenkilön nimi"
-"General Contact Email","Yleinen yhteyssähköpostiosoite"
-"Sales Representative Contact Name","Myynnin edustajan yhteyshenkilön nimi"
-"Sales Representative Contact Email","Myynnin edustajan yhteyssähköpostiosoite"
-"Custom1 Contact Name","Oma1 yhteyshenkilön nimi"
-"Custom1 Contact Email","Oma1 yhteyshenkilön sähköpostiosoite"
-"Custom2 Contact Name","Oma2 yhteyshenkilön nimi"
-"Custom2 Contact Email","Oma2 yhteyshenkilön sähköpostiosoite"
-"Store Hours",Aukioloajat
-"Street Address 1","Katuosoite 1"
-"Street Address 2","Katuosoite 2"
-"Store Contact Information","Kaupan yhteystiedot"
 "Template Variables","Mallin muuttujat"
 "Please enter a template name.","Ole hyvä ja syötä mallin nimi."
 "Duplicate Of Template Name","Mallin nimen kaksoiskappale"
 "Invalid transactional email code: %1","Virheellinen tapahtumatietosähköpostikoodi: %1"
 "Requested invalid store ""%1""","Pyydetty virheellinen kauppa ""%1"""
 """file"" parameter must be specified","""tiedosto""-parametri on määritettävä"
-"Contents of %s could not be loaded or is empty","Kohteen %s sisältöjä ei voitu ladata tai se on tyhjä"
 """file"" parameter must be specified and must not be empty","""tiedosto""-parametri on määritettävä, eikä se saa olla tyhjä"
 "Design params must be set before calling this method","Ulkoasun parametrit on määritettävä ennen tämän menetelmän kutsumista"
 "<pre> %1 </pre>",<pre>%1</pre>
 "CSS inlining error:","CSS inlining -virhe:"
 "Error filtering template: %s","Virhe suodattaessa mallia: %s"
 "Invalid sender data","Virheelliset lähettäjän tiedot"
-"Load default template","Lataa oletusmalli"
 "Are you sure you want to strip tags?","Oletko varma, että haluat poistaa tagit?"
 "Are you sure you want to delete this template?","Oletko varma, että halua poistaa tämän pohjan?"
 "The template did not load. Please review the log for details.","Malli ei lataudu. Tarkista logi lisätietoja varten."
 "Thank you, %store_name","Kiittäen, %store_name"
 "No Templates Found","Malleja ei löydy"
 "Template Type",Mallityyppi
-"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in the width/height fields below.","Sallittuja tiedostotyypit: jpg, jpeg, gif, png. Optimoidaksesi logon korkean resoluution näyttöjä varten, lataa kuva, joka on 3x normaalikokoinen ja määritä sitten 1x -mitat leveys- ja korkeuskenttiin."
 "Logo Image","Logon kuva"
 "Logo Image Alt","Logon kuvan vaihtoehtoisteksti"
 "Necessary only if an image has been uploaded above. Enter number of pixels, without appending ""px"".","Tarpeen vain, jos kuva on ladattu ylempänä. Kirjoita kuvapisteinä, ilman lisäämällä ""px""."
@@ -2937,10 +2508,6 @@ Downloads,Lataukset
 "Email template chosen based on theme fallback, when the ""Default"" option is selected.","Valittu sähköpostimalli perustuu teeman fallbackiin kun ""Default"" -vaihtoehto on valittuna."
 "Header Template","Otsikon malli"
 "Footer Template","Alatunnisteen malli"
-"We're sorry, an error has occurred while generating this email.","Pahoittelemme. Virhe luodessa tätä sähköpostia."
-Emails,Sähköpostit
-"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","Sallitut tiedostotyypit: jpg, jpeg, gif, png. Optimoidaksesi logon korkearesoluutioisia näyttöjä varten, lataa kuva, joka on 3x normaalikokoinen ja määritä sitten 1x -mitat leveys- ja korkeuskenttiin."
-"Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","Tarvitaan vain, jos kuva on ladattu edellä. Syötä pikseleiden määrä lisäämättä ""px""."
 "Change Encryption Key","Vaihda salausavain"
 "Encryption Key",Salausavain
 "New Encryption Key","Uusi salausavain"
@@ -2999,11 +2566,6 @@ Maximum,Maksimi
 "Maximum: %1","Enintään: %1"
 "You've been sent a gift from %store_name","Olet saanut lahjan %kaupan_nimi"
 "%sender has sent you a gift card for use at <a href=""%store_url"">%store_name</a> and it is now ready to be used for purchases.","%sender on lähettänyt sinulle lahjakortin käytettäväksi <a href=""%store_url"">%store_name</a> voit käyttää sitä heti ostosten tekoon."
-"Gift Card Codes:",Lahjakorttikoodit:
-"Gift Card Code:",Lahjakorttikoodi:
-"Each card has a balance of %balance that can be used at <a href=""%store_url"">%store_name</a>.","Jokaiselle kortille on ladattu %balance joka on käytettävissä at <a href=""%store_url"">%store_name</a>."
-"Click on the code(s) above to redeem them into Store Credit.","Klikkaa ylläolevaa koodia/koodeja tallentaaksesi saldon luotoksi verkkokauppaan."
-"Message from %sender_name:","%sender_name on lähettänyt sinulle viestin:"
 "Gift Cards",Lahjakortit
 "Gift Card Email Settings","Lahjakortin sähköpostiasetukset"
 Redeemable,Lunastettavissa
@@ -3015,12 +2577,9 @@ History,Historia
 "New Account","Uusi tili"
 "You deleted a total of %1 records.","Yhteensä %1 merkintää poistettu."
 "Gift Card ""%1"" was redeemed.","Lahjakortti ""%1"" lunastettiin."
-"Could not save the gift card account.","Lahjakortti-tiliä ei voida tallentaa."
-"Could not delete the gift card account.","Lahjakortti-tiliä ei voida poistaa."
 Expired,Vanhentunut
 "Order #%1.","Tilaus #%1."
 "Recipient: %1.","Vastaanottaja: %1."
-"Cart %1 doesn't contain products","Ostoskori %1 ei sisällä tuotteita"
 Numeric,Numeerinen
 "test message",testiviesti
 Generate,Luo
@@ -3029,13 +2588,6 @@ Generate,Luo
 "Gift Card:",Lahjakortti:
 "Code Length","Koodin pituus"
 "Excluding prefix, suffix and separators.","Ilman etuliitettä, loppuliitettä ja erottimia."
-"Gift Messages are not applicable for empty cart","Lahjan viestit eivät koske tyhjää ostoskoria"
-"Gift Messages are not applicable for virtual products","Lahjaviestit eivät ole käytettävissä virtuaalisille tuotteille"
-"Could not add gift message to shopping cart","Ostoskoriin ei voinut lisätä lahjaviestiä"
-"There is no item with provided id in the cart","Ostoskorissa ei ole tuotetta annetulla tunnuksella"
-"There is no order with provided id","Tilausta ei ole annetulla tunnuksella"
-"Gift Messages are not applicable for empty order","Lahjan viestit eivät koske tyhjää tilausta"
-"Could not add gift message to order's item: ""%1""","Ei voida lisätä lahjan viesti tilauksen tuotteelle ""%1"""
 "Unknown entity type","Tuntematon entiteettityyppi"
 "Do you have any gift items in your order?","Onko sinulla mitään lahjatuotteita tilauksessasi?"
 "Gift Message (optional)","Lahjaviesti (valinnainen)"
@@ -3047,6 +2599,7 @@ Requested,Pyydetty
 Note,Muistiinpano
 "Update Quantity","Päivitä määrä"
 "Remove Item","Poista kohde"
+Emails,Sähköpostit
 "Total Items","Tuotteita yhteensä"
 Remaining,Jäljellä
 Public,Julkinen
@@ -3062,6 +2615,8 @@ Private,Yksityinen
 "This product(s) is out of stock.","Tämä tuote on loppu varastosta."
 "An item option with code %1 already exists.","Nimikkeen vaihtoehto koodilla %1 on jo olemassa."
 New,Uusi
+"Please enter the first name.","Kirjoita etunimesi."
+"Please enter the last name.","Syötä sukunimi."
 "-- All --",--Kaikki--
 Owner,Omistaja
 "Created on",Luotu
@@ -3079,7 +2634,6 @@ Location,Sijainti
 "Unit Price",Yksikköhinta
 "Created For:","Luotu varten:"
 "General Options","Yleiset asetukset"
-"some name","joku nimi"
 "Gift Wrapping",Lahjapaketointi
 "Add Gift Wrapping","Lisää lahjan paketointi"
 "Are you sure you want to delete this gift wrapping?","Oletko varma, että haluat poistaa tämän lahjapakkauksen?"
@@ -3090,7 +2644,6 @@ Location,Sijainti
 "Price Excl. Tax","Veroton hinta"
 "Price Incl. Tax","Verollinen hinta"
 "No image","Ei kuvaa"
-"Custom Price","Mukautettu hinta"
 Constant,Jatkuva
 "Conversion Id value is not valid ""%1"". Conversion Id should be an integer.","Konversion ID ""%1"" ei ole kelvollinen. ID:n tulisi olla kokonaisluku."
 "Google API",Google-API
@@ -3144,31 +2697,26 @@ Integrations,Integraatiot
 "Consumer Key",Kuluttaja-avain
 Activate,Aktivoi
 Reauthorize,"Valtuuta uudelleen"
-"Cannot edit integrations created via config file.","Määritystiedoston kautta luotuja integraatioita ei voi muokata."
 "One or more <a href=""%1"">integrations</a> have been reset because of a change to their xml configs.","Yksi tai useampi <a href=""%1"">integraatio</a> on nollattu niiden xml-konfiguraatioihin tehtyjen muutosten takia."
-"Your account is temporarily disabled.","Tilisi on tilapäisesti poistettu käytöstä."
 "Resource Access","Pääsy resurssiin"
 Resources,Resurssit
 Extensions,Laajennukset
-"We will disable this feature if the value is empty.","Poistamme tämän ominaisuuden käytöstä, jos arvo on tyhjä."
 Invitations,Kutsut
 "Add Invitations","Lisää kutsuja"
 "New Invitations","Uudet kutsut"
 "Invitations Information","Kutsujen tiedot"
 "Enter Each Email on New Line","Syötä jokainen sähköposti uudelle riville"
 "Send Invitation","Lähetä kutsu"
-"You can't send an invitation with status ""%1"".","Et voi lähettää kutsua statuksella ""%1"""
 Accepted,Hyväksytty
 "Invitation Message",Kutsuviesti
 Link,Linkki
 "Filterable (with results)","Suodatettava (tuloksin)"
 "Filterable (no results)","Suodatettava (ei tuloksia)"
 "Use in Layered Navigation","Käytä kerroksittaisessa navigoinnissa"
-"Can be used only with catalog input type Dropdown, Multiple Select and Price","Voidaan käyttää vain syötetyypeillä Pudotusvalikko, Monivalinta ja Hinta"
-"Can be used only with catalog input type Dropdown, Multiple Select and Price.","Voidaan käyttää vain syötetyypeillä Pudotusvalikko, Monivalinta ja Hinta."
 "Position of attribute in layered navigation block.","Ominaisuuden sijainti kerroksittaisen navigaation lohkossa."
+item,tuote
+items,tuotteet
 "Now Shopping by","Näytetään valintojen mukaan"
-"Position of attribute in layered navigation block","Ominaisuuden sijainti kerroksittaisen navigaation lohkossa"
 "Admin Actions Log Archive","Pääkäyttäjän toimintojen lokiarkisto"
 "Log Entry #%1","Lokimerkintä #%1"
 "Log Entry Details","Lokimerkinnän tiedot"
@@ -3187,6 +2735,7 @@ IP-Address,IP-osoite
 Archive,Arkisto
 "Mass Update",Massapäivitys
 Move,Siirrä
+"Forgot Password","Salasana unohtunut"
 Reorder,"Tilaa uudelleen"
 Print,Tulosta
 Run,Suorita
@@ -3222,12 +2771,11 @@ Synchronize,Synkronoi
 "Synchronizing %1 to %2","Synkronoidaan %1 %2"
 Synchronizing...,Synkronoidaan...
 "The timeout limit for response from synchronize process was reached.","Aikakatkaisuraja synkronointiprosessin vastaukselle on saavutettu."
-"File %1 does not exist","Tiedostoa %1 ei ole olemassa"
 "File %1 is not readable","Tiedosto %1 ei ole luettavissa"
 "database ""%1""","tietokanta ""%1"""
 "File system",Tiedostojärjestelmä
 "Unable to save file: %1","Tiedostoa ei voi tallentaa: %1"
-"After selecting a new media storage location, press the Synchronize button to transfer all media to that location. Media will not be available in the new location until the synchronization process is complete.","Valittuasi uuden tallennuspaikka mediatiedoille, paina Synkronoi-painiketta siirtääksesi kaikki mediatiedot kyseiseen sijaintiin. Mediatiedot eivät ole käytettävissä uudessa sijainnissa ennen kuin synkronointi on valmis."
+"Some exception","Jokin poikkeus"
 "To see product price, add this item to your cart. You can always remove it later.","Nähdäksesi tuotteen hinnan, lisää tuote ostoskoriin. Voit aina poistaa sen myöhemmin."
 "In Cart",Ostoskorissa
 "Before Order Confirmation","Ennen tilauksen vahvistusta"
@@ -3247,8 +2795,8 @@ Wishlist,Toivelista
 "Owner Email","Omistajan sähköpostiosoite"
 "%1's Wish List","Käyttäjän %1 toivelista"
 "Sign in to edit wish lists.","Kirjaudu sisään muokataksesi toivelistoja."
-"Wish list ""%1"" already exists.","Toivelista ""%1"" on jo olemassa."
 "Only %1 wish list(s) can be created.","Vain %1 toivelista(a) voidaan luoda."
+"Wish list ""%1"" already exists.","Toivelista ""%1"" on jo olemassa."
 "Unknown Magento error","Tuntematon Magenton virhe"
 "All Wish Lists","Kaikki toivelistat"
 "Add To Order","Lisää tilaukseen"
@@ -3268,15 +2816,12 @@ Wishlist,Toivelista
 "Ship to Multiple Addresses","Toimitus useampaan osoitteeseen"
 "Billing Information - %1","Laskutustiedot - %1"
 "Review Order - %1","Tarkista tilaus - %1"
+"Shipping Methods",Toimitustavat
 "Edit Billing Address","Muokkaa laskutusosoitetta"
 "Edit Shipping Address","Muokkaa toimitusosoitetta"
 "Create Billing Address","Luo laskutusosoite"
 "Create Shipping Address","Luo toimitusosoite"
 "Please agree to all Terms and Conditions before placing the order.","Kaikki ehdot tulee hyväksyä ennen tilauksen tekemistä."
-"Please check shipping address information.","Tarkista toimitusosoitteen tiedot."
-"Please check billing address information.","Tarkista laskutusosoitteen tiedot."
-"A payment method is not defined.","Maksutapaa ei ole määritetty."
-"Please specify a payment method.","Ole hyvä ja määrittele maksutapa."
 "Select Addresses","Valitse osoitteet"
 "Shipping Information",Toimitustiedot
 "Billing Information",Laskutustiedot
@@ -3293,14 +2838,13 @@ Wishlist,Toivelista
 "Order Review","Tilauksen katselma"
 "Grand Total:",Loppusumma:
 "Submitting order information...","Lähetetään tilauksen tietoja..."
+"Ship to:",Toimitusosoite:
+Error:,Virhe:
 "Sorry, no quotes are available for this order right now.","Valitettavasti toimituskuluja ei voida laskea tälle tilaukselle toistaiseksi."
 "Continue to Billing Information","Jatka laskutustietoihin"
 "Allow Shipping to Multiple Addresses","Salli toimitus useaan osoitteeseen"
 "Review Order","Tarkastele tilausta"
 "Select Shipping Method","Valitse toimitustapa"
-"Your order number is: ","Tilauksesi numero on: "
-"Ship to:",Toimitusosoite:
-Error:,Virhe:
 "All the times are in minutes. Use ""0"" if you want to skip automatic clearance.","Kaikki ajat ovat minuutteina. Käytä ""0"", jos haluat ohittaa automaattisen tyhjennyksen."
 "Retry Messages In Progress After","Yritä keskeneräisiä viestejä jälkeen"
 "Subtotal (Incl. Tax)","Välisumma (verollinen)"
@@ -3308,15 +2852,15 @@ Error:,Virhe:
 "Shipping & Handling","Toimitus- ja käsittelykulut"
 Qty:,Määrä:
 Expires,Vanhentuu
+Cost,Kustannushinta
 "Click to change shipping method","Klikkaa vaihtaaksesi toimitustapaa"
 Created:,Luotu:
 "No shipping information available","Lähetystietoja ei ole saatavilla"
 "Thank you,","Kiittäen,"
 "Cancel coupon","Peruuta alennuskoodi"
+"Go to Checkout","Siirry kassalle"
 "Go to Checkout?","Siirry kassalle?"
 "Minimum Amount",Vähimmäismäärä
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
-                        information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","New Relic -integraatio edellyttää newrelic-php5-agenttia, joka ei ole asennettu. Lisätietoja agentin asennuksen on saatavilla <a target=""_blank"" href=""%1""> täältä</a>."
 "New Relic Reporting Section","New Relic -raporttiosio"
 "New Relic Reporting","New Relic -raportointi"
 "Enable Cron","Ota Cron käyttöön"
@@ -3353,18 +2897,14 @@ Subscribers,Tilaajat
 "The newsletter template has been saved.","Uutiskirjepohja on tallennettu."
 "Something went wrong while saving this template.","Pohjaa tallennettaessa tapahtui virhe."
 "Something went wrong while saving your subscription.","Tilauksesi tallennuksessa tapahtui virhe."
-"We saved the subscription.","Tilauksesi on tallennettu."
-"We removed the subscription.","Tilauksesi on poistettu."
 "Your subscription has been confirmed.","Tilauksesi on vahvistettu."
 "This is an invalid subscription confirmation code.","Virheellinen tilauksen vahvistuskoodi."
 "This is an invalid subscription ID.","Virheellinen tilaustunnus."
 "This email address is already assigned to another user.","Antamasi sähköpostiosoite on jo käytössä."
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Uutiskirjeen tilaus vaatii kirjautumisen. Ole hyvä ja <a href=""%1"">rekisteröidy käyttäjäksi</a>."
 "This email address is already subscribed.","Tällä sähköpostiosoitteella löytyi jo tilaus."
-"The confirmation request has been sent.","Vahvistuspyyntö on lähetetty."
-"Thank you for your subscription.","Kiitos tilaamisesta."
-"There was a problem with the subscription: %1","Tilauksessa %1 on ongelma."
 "Something went wrong with the subscription.","Tilauksen yhteydessä tapahtui virhe."
+"Thank you for your subscription.","Kiitos tilaamisesta."
 "You unsubscribed.","Tilaus on lopetettu."
 "Something went wrong while unsubscribing you.","Tilauksen perumisen yhteydessä tapahtui virhe."
 Cancelled,Peruutettu
@@ -3407,8 +2947,11 @@ Unconfirmed,"Ei vahvistettu"
 "Newsletter Subscriptions","Uutiskirjeen tilaukset"
 "Make Check payable to:","Tee shekki maksettavaksi:"
 "Send Check to:","Lähetä shekki:"
+"Purchase Order Number",Ostotilausnumero
 "Make Check payable to: %1","Tee shekki maksettavaksi: %1"
+"Purchase Order Number: %1","Ostotilausnumero: %1"
 "Check / Money Order","Shekki- / rahatilaus"
+"Purchase Order",Ostotilaus
 "Bank Transfer Payment",Tilisiirto
 Instructions,Ohjeet
 "Cash On Delivery Payment",Postiennakko
@@ -3429,11 +2972,6 @@ Instructions,Ohjeet
 "Full Page Cache","Koko sivun välimuisti"
 "Page Cache","Sivun välimuisti"
 "Full page caching","Koko sivun välimuisti"
-"Export VCL for Varnish ","Vie VCL Varnish:ille "
-"Built-in Application (Not Recommended for Production Use)","Sisäänrakennettu sovellus (ei suositella tuotantokäyttöön)"
-"Full page caching.","Koko sivun välimuisti."
-"Command Executor for %1 is not defined.","Komennon suorittaja %1:lle ei ole merkitty."
-"Command %1 does not exist.","Komentoa %1 ei ole olemassa."
 "All Allowed Countries","Kaikki sallitut maat"
 "Specific Countries","Tiettyihin maihin"
 "The payment method you requested is not available.","Valitsemasi maksutapa ei ole käytettävissä."
@@ -3444,7 +2982,6 @@ Instructions,Ohjeet
 "Please enter a valid credit card expiration date.","Anna kelvollinen luottokortin viimeinen voimassaolopäivä."
 "Failure #1","Vika #1"
 "Failure #2","Vika #2"
-"Payment method",Maksutapa
 "Please enter a valid credit card number.","Kirjoita voimassa oleva luottokorttinumero."
 "Payment Methods Section","Maksutavan valinta"
 "Payment Services",Maksupalvelut
@@ -3478,7 +3015,6 @@ Complaint,Valitus
 Dispute,Kiista
 "No match","Ei täsmää"
 "We cannot cancel this order.","Tätä tilausta ei voida peruuttaa."
-"Error processing payment. Please try again later.","Virhe tilauksen prosessoinnissa. Yritä myöhemmin uudelleen."
 "Finish Date",Päättymispäivä
 "Coupon Redemption","Alennuskoodin lunastus"
 Void,Mitätön
@@ -3510,13 +3046,13 @@ Manage,Hallitse
 "API Username",API-käyttäjänimi
 "Home Page",Kotisivu
 "PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.","PayPal suosittelee, että määrität ylimääräisiä käyttäjän manager.paypal.com, pääkäyttäjätunnuksesi ja salasanasi sijasta. Tämä parantaa turvallisuutta ja estää palvelun keskeytyksiä, jos muutat myöhemmin salasanasi. Jos et halua perustaa ylimääräistä käyttäjää, voit syöttää Merchant-kirjautumisen tästä."
-"Not you?","Et sinä?"
 "Your shopping cart has been updated with new prices.","Ostoskorisi on päivitetty uusilla hinnoilla."
-"Welcome, %1!","Tervetuloa, %1!"
 "We cannot load the configuration from file %1.","Konfiguraatiota tiedostosta %1 ei voida ladata."
 "Remember Me","Muista minut"
 "Check &quot;Remember Me&quot; to access your shopping cart on this computer even if you are not signed in.","Valitse &quot;Muista minut&quot; käyttääksesi ostoskoria tällä tietokoneella, vaikka et ole kirjautunut sisään."
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","Valitse 'Muista minut' käyttääksesi ostoskoria tällä tietokoneella, vaikka et ole kirjautunut sisään."
+"Welcome, %1!","Tervetuloa, %1!"
+"Not you?","Et sinä?"
 "Enable ""Remember Me""","Ota ""Muista minut"" käyttöön"
 """Remember Me"" Default Value","""Muista minut"" -oletusarvo"
 "Persist Wish List","Säilytä toivelista"
@@ -3526,7 +3062,6 @@ Manage,Hallitse
 "Default Product Price","Tuotteen oletushinta"
 "You saved the alert subscription.","Hälytyksen tilaus tallennettiin."
 "There are not enough parameters.","Ei ole tarpeeksi parametreja."
-"We can't update the alert subscription right now.","Emme voi päivittää ilmoitustilausta juuri nyt."
 "You deleted the alert subscription.","Hälytyksen tilaus peruutettiin."
 "The product was not found.","Tuotetta ei löytynyt."
 Price:,Hinta:
@@ -3542,15 +3077,11 @@ Url,Osoite
 Duration:,Kesto:
 "Unknown video type","Tuntematon videotyyppi"
 "Edit Video","Muokkaa videota"
+"Images and Videos","Kuvat ja videot"
 "Images And Videos","Kuvat ja videot"
 "Edit Catalog Price Rules","Muokkaa tuoteluettelon hintasääntöjä"
 "Edit Cart Price Rules","Muokkaa ostoskorin hintasääntöjä"
 "Edit Automated Email Reminder Rules","Muokkaa automaattisien sähköpostimuistutuksien sääntöjä"
-"Unable to save address. Please check input data.","Osoitteen tallentaminen ei onnistu. Tarkista syötetyt tiedot."
-"Could not apply coupon code","Alennuskoodia ei voitu lisätä"
-"Coupon code is not valid","Alennuskoodi ei kelpaa"
-"Could not delete coupon code","Alennuskoodia ei voitu poistaa"
-"Cannot assign customer to the given cart. You don't have permission for this operation.","Asiakasta ei voida määrittää valittuun ostoskoriin. Käyttöoikeutesi eivät riitä tämän toiminnon suorittamiseen."
 "Product that you are trying to add is not available.","Tuote, jota yrität lisätä, ei ole saatavilla."
 "This is the wrong quote item id to update configuration.","Tämä on väärä tarjottavan tuotteen tunnus kokoonpanon päivittämiseksi."
 "This shipping method is not available. To use this shipping method, please contact us.","Tämä toimitustapa ei ole käytettävissä. Ota meihin yhteyttä käyttääksesi tätä toimitustapaa."
@@ -3563,34 +3094,18 @@ Duration:,Kesto:
 "Some of the selected options are not currently available.","Jotkin valitut vaihtoehdot eivät ole tällä hetkellä käytettävissä."
 "Selected option(s) or their combination is not currently available.","Valitut vaihtoehdot tai niiden yhdistelmä ei ole tällä hetkellä käytettävissä."
 "Some item options or their combination are not currently available.","Joitakin nimikkeen vaihtoehtoja tai niiden yhdistelmää ei ole tällä hetkellä käytettävissä."
-"Cart %1 does not contain item %2","Ostoskori %1 ei sisällä nimikettä %2"
-"Could not save quote","Tarjousta ei voitu tallentaa"
-"Could not remove item from quote","Nimikettä ei voitu poistaa tarjoukselta"
 "The qty value is required to update quote item.","Määrän arvo vaaditaan tarjottavan nimikkeen päivittämiseksi."
+"Minimum order amount is %1","Vähimmäistilausmäärä on %1"
 "Invalid customer id %1","Virheellinen asiakastunnus %1"
-"Invalid address id %1","Virheellinen osoitetunnus %1"
 "Invalid customer address id %1","Virheellinen asiakkaan osoitetunnus %1"
-"Cannot create quote","Tarjousta ei voida luoda"
-"Cannot assign customer to the given cart. The cart belongs to different store.","Asiakasta ei voida määrittää valittuun ostoskoriin. Ostoskori kuuluu eri kauppaan."
-"Cannot assign customer to the given cart. The cart is not anonymous.","Asiakasta ei voida määrittää valittuun ostoskoriin. Ostoskori ei ole nimetön."
-"Cannot assign customer to the given cart. Customer already has active cart.","Asiakasta ei voida määrittää valittuun ostoskoriin. Asiakkaalla on jo aktiivinen ostoskori."
+"Invalid address id %1","Virheellinen osoitetunnus %1"
 "Only 1 shipping assignment can be set","Vain 1 toimitustehtävä voidaan asettaa"
 "This item price or quantity is not valid for checkout.","Tämän nimikkeen hinta tai määrä ei kelpaa kassalle."
-"Please check the shipping address information. %1","Tarkista toimitusosoitteen tiedot. %1"
-"Please check the billing address information. %1","Tarkista laskutusosoitteen tiedot. %1"
-"Please select a valid payment method.","Valitse voimassa oleva maksutapa."
-"Shipping address not set.","Toimitusosoitetta ei ole määritetty."
-"Cannot set shipping method. %1","Toimitustapaa ei voida määrittää. %1"
-"Cart contains virtual product(s) only. Shipping method is not applicable.","Ostoskori sisältää vain virtuaalisia tuotteita. Toimitusosoite ei ole käytettävissä."
-error345,virhe345
 Carts,Ostoskorit
 "Manage carts","Hallitse ostoskoreja"
-error123,virhe123
-"The coupon code couldn't be applied. Verify the coupon code and try again.","Alennuskoodia ei voitu käyttää. Vahvista alennuskoodi ja yritä uudelleen."
-"The coupon code isn't valid. Verify the code and try again.","Alennuskoodi ei ole kelvollinen. Vahvista koodi ja yritä uudelleen."
-"The coupon code couldn't be deleted. Verify the coupon code and try again.","Alennuskoodia ei voitu poistaa. Vahvista alennuskoodi ja yritä uudelleen."
 "This rule is assigned to %1 automated reminder rule(s). Deleting this rule will automatically unassign it.","Tämä sääntö on määritetty %1 automatisoidussa muistutussäännössä. Tämän säännön poistaminen poistaa määritykse(n/t) automaattisesti."
 "Run Now","Aja nyt"
+"Edit Rule '%1'","Muokkaa sääntöä '%1'"
 Coupon,Alennuskoodi
 "Cart Price Rule","Ostoskorin hintasääntö"
 "Select Rule...","Valitse sääntö..."
@@ -3613,6 +3128,7 @@ is,on
 "The item was added to wish list %1, store view %2.","Kohde on lisätty toivelistaan %1, kaupan näkymässä %2."
 "Validate error 1","Validointivirhe 1"
 "Validate error 2","Validointivirhe 2"
+text,teksti
 Interval,Aikaväli
 "Valid range: 0-59 (default 0).","Kelvollinen alue: 0-59 (oletus 0)."
 "New Accounts","Uudet tilit"
@@ -3644,7 +3160,6 @@ Paid,Maksettu
 "Abandoned carts","Hylätyt ostoskorit"
 "Applied Coupon","Käytetty alennuskoodi"
 "Products in carts","Tuotteita ostoskorissa"
-"Last updated: %1. To refresh last day's <a href=""%2"">statistics</a>, click <a href=""%3"">here</a>.","Viimeksi päivitetty: %1. Jotta viimeisen päivän <a href=""%2"">statistiikat</a> päivitettäisiin, klikkaa <a href=""%3"">tähän</a>."
 "Low Stock","Alhainen varastotilanne"
 Review,Arvostelu
 Reviews,Arvostelut
@@ -3672,6 +3187,7 @@ Refunds,Hyvitykset
 "Refresh Lifetime Statistics","Virkistä elinikäiset tilastot"
 "Invalid item option format.","Virheellinen nimikkeen vaihtoehdon muoto."
 "Cannot specify product.","Tuotetta ei voida määrittää."
+Exception,Poikkeus
 "Edit item","Muokkaa tuotetta"
 Copy,Kopioi
 "Save Review","Tallenna arvostelu"
@@ -3700,7 +3216,6 @@ Nickname,Nimimerkki
 Ratings,Arvostelut
 "You saved the rating.","Arvostelu tallennettiin."
 "My Product Reviews","Omat tuotearvosteluni"
-"Cannot initialize product","Tuotetta ei voi alustaa"
 "You submitted your review for moderation.","Olet lähettänyt arvostelun hyväksyttäväksi."
 Approved,Hyväksytty
 "Not Approved","Ei hyväksytyt"
@@ -3774,8 +3289,7 @@ RMA,Palautus
 "You submitted the RMA request.","Olet ilmoittanut palautuksesta."
 "My Returns","Omat palautukseni"
 "Tracking Information",Seurantatiedot
-"Could not save the RMA comment.","RMA-kommenttia ei voi tallentaa."
-"Could not delete the RMA comment.","RMA-kommenttia ei voi poistaa."
+"Page not found","Sivua ei löydy"
 "Return # ","Palautus # "
 "Return Date: ","Palautuspäivä: "
 "Order # ","Tilausnumero "
@@ -3789,18 +3303,13 @@ RMA,Palautus
 "You cannot return %1.","%1 ei voi palauttaa."
 "A quantity of %1 is greater than you can return.","%1 määrä on suurempi kuin sallittu palautuksen määrä."
 "You entered an invalid email address: ""%1"".","Antamasi sähköpostiosoite: ""%1"" on virheellinen."
-"Unknown service","Tuntematon palvelu"
 "Return Received","Palautus vastaanotettu"
 "Return Partially Received","Osapalautus vastaanotettu"
 "Partially Rejected","Osittain hylätty"
 Denied,Estetty
 "Processed and Closed","Käsitelty ja suljettu"
 "We received your Return request.","Olemme vastaanottaneet palautusilmoituksen."
-"Could not save the RMA entity.","RMA-yksikköä ei voi tallentaa."
-"Could not delete the RMA entity.","RMA-yksikköä ei voi poistaa."
 "No detail for number ""%1""","Ei tietoja numerolle ""%1"""
-"Could not save the RMA tracking.","RMA seurantaa ei voi tallentaa."
-"Could not delete the RMA tracking.","RMA seurantaa ei voi poistaa."
 "All Items","Kaikki tuotteet"
 "Request Details","Pyydä tietoja"
 "Customer Name","Asiakkaan nimi"
@@ -3832,13 +3341,8 @@ Length,Pituus
 "Show Details","Näytä tiedot"
 "Leave Comment","Jätä kommentti"
 "Customer %name has left a new comment:","Asiakas %name on jättänyt uuden kommentin:"
-"%store_name: New Return #%increment_id","%store_name: uusi palauttaa #%increment_id"
-"%store_name: Return #%increment_id update","%store_name: palauttaa #%increment_id päivitys"
 "Create Packages","Luo paketteja"
 "Contact Name","Yhteyshenkilön Nimi"
-"%store_name : New Return # %increment_id","%store_name: Uusi palautus #%increment_id"
-"%store_name: New Return # %increment_id","%store_name: Uusi palautus #%increment_id"
-"%store_name: Return # %increment_id update","%store_name: Palautuksen #%increment_id päivitys"
 Feed,Syöte
 "Miscellaneous Feeds","Sekalaiset syötteet"
 "RSS Feeds",RSS-syötteet
@@ -3891,7 +3395,6 @@ Capture,Talteenotto
 "Order Status Information","Tilauksen tilan tiedot"
 "Status Code",Tilakoodi
 "Total Paid","Maksettu yhteensä"
-"Total Due","Maksamatta yhteensä"
 "This will create an offline refund. To create an online refund, open an invoice and create credit memo for it. Do you want to continue?","Tämä luo offline-hyvityksen. Luodaksesi online-hyvityksen, avaa lasku ja luo hyvityslasku sille. Haluatko jatkaa?"
 Hold,Pitoon
 hold,pitoon
@@ -3921,16 +3424,15 @@ Transactions,Tapahtumat
 Value,Arvo
 "Back to My Orders","Palaa omiin tilauksiin"
 "View Another Order","Katso toinen tilaus"
+"You have placed no orders.","Et ole tehnyt tilauksia."
 "About Your Invoice","Lisätietoja laskustasi"
 "Print Order # %1","Tulosta tilaus # %1"
 "Grand Total to be Charged","Veloitettava loppusumma"
 "You sent the message.","Lähetit viestin."
 "This order no longer exists.","Tätä tilausta ei ole enää olemassa."
-"Please enter a comment.","Ole hyvä ja kirjoita kommentti."
 "We cannot add order history.","Tilaushistoriaa ei voida lisätä."
 "You updated the order address.","Päivitit tilausosoitteen."
 "You canceled the order.","Peruutit tilauksen."
-"""%1"" coupon code is not valid.","""%1"" alennuskoodi ei kelpaa."
 "The coupon code has been accepted.","Alennuskoodi hyväksytty."
 "New Order","Uusi tilaus"
 "Cannot add new comment.","Uutta kommentia ei voida lisätä."
@@ -3943,13 +3445,11 @@ Value,Arvo
 "Orders and Returns","Tilaukset ja palautukset"
 "Shipping Address: ","Toimitusosoite: "
 "Billing Address: ","Laskutusosoite: "
-"Could not delete the comment.","Kommenttia ei voi poistaa."
-"Could not delete the credit memo item.","Luottoa Muistio kohdetta ei voi poistaa."
-"Could not save the credit memo item.","Luottoa Muistio kohteen tallentaminen ei onnistunut."
-"Could not delete the invoice comment.","Laskun kommenttia ei voi poistaa."
-"Could not save the invoice comment.","Laskun kommenttia ei voitu tallentaa."
-"Could not delete the invoice item.","Laskulla olevaa tuotetta ei voi poistaa."
-"Could not save the invoice item.","Laskulla olevan tuotteen tallentaminen ei onnistunut."
+"Please enter the street.","Syötä katu."
+"Please enter the city.","Anna kaupunki."
+"Please enter the phone number.","Syötä puhelinnumero."
+"Please enter the zip/postal code.","Anna postinumero."
+"Please enter the country.","Syötä maa."
 Backordered,Jälkitoimituksessa
 "Canceled order online","Tilaus peruutettu online"
 "Canceled order offline","Tilaus peruutettu offline"
@@ -3961,15 +3461,6 @@ Backordered,Jälkitoimituksessa
 "Credit Memo # ","Hyvityslaskun numero "
 "Invoice # ","Lasku # "
 "Packing Slip # ","Pakkauslista # "
-"Received check doesn't match interface","Vastaanotettu tarkistus ei vastaa rajapintaa"
-"Could not delete the shipment comment.","Toimitukseen liittyvää kommenttia ei voi poistaa."
-"Could not save the shipment comment.","Toimitukseen liittyvää kommenttia ei voitu tallentaa."
-"Could not delete the shipment item.","Toimituksen osana olevaa kohdetta ei voi poistaa."
-"Could not save the shipment item.","Toimituksen osana olevan kohteen tallentaminen ei onnistunut."
-"Could not delete the shipment tracking.","Lähetyksen seuranta ei voi poistaa."
-"Could not save the shipment tracking.","Lähetyksen seurantaa ei voi tallentaa."
-"Could not delete the order status history.","Tilauksen tilan historiaa ei voi poistaa."
-"Could not save the order status history.","Tilauksen tilan historiaa ei voi tallentaa."
 "New Orders","Uudet tilaukset"
 "Total: %1<br/>","Yhteensä: %1<br/>"
 "Pending Payment","Odottaa maksua"
@@ -3980,10 +3471,12 @@ Complete,Valmis
 "Email has not been sent","Sähköpostia ei ole lähetetty"
 " Transaction ID: ""%1"""," Tapahtumatunnus: ""%1"""
 "Group was removed","Ryhmä poistettiin"
+"No Payment Methods","Ei maksutapoja"
 "Order Comments","Tilauksen kommentit"
 "Order Currency:","Tilauksen valuutta:"
 "Same As Billing Address","Sama kuin laskutusosoite"
 "Gift Message for the Entire Order","Lahjaviesti koko tilaukselle"
+"Custom Price","Mukautettu hinta"
 "Move to Shopping Cart","Siirrä ostoskoriin"
 "Sorry, no quotes are available for this order.","Valitettavasti toimituskuluja ei voida laskea tälle tilaukselle."
 "Append Comments","Liitä aikaisemmat kommentit"
@@ -4004,6 +3497,7 @@ Complete,Valmis
 "Capture Offline","Talteenota offline"
 "Email Copy of Invoice","Sähköpostikopio laskusta"
 "Items Invoiced","Laskutetut tuotteet"
+"Total Due","Maksamatta yhteensä"
 "Total Tax","Verot yhteensä"
 "From Name","Lähettäjän nimi"
 "To Name","Vastaanottajan nimi"
@@ -4014,7 +3508,6 @@ Complete,Valmis
 "Order Date (%1)","Tilauspäivämäärä (%1)"
 "Purchased From","Ostettu kohteesta"
 "Placed from IP","Tilaus tehty IP-osoitteesta"
-"Edit Customer","Muokkaa asiakasta"
 "Notes for this Order","Merkinnät tälle tilaukselle"
 "Shipped By",Lähettäjä
 "Tracking Number",Seurantanumero
@@ -4022,7 +3515,6 @@ Complete,Valmis
 "Find Order By","Etsi tilaus käyttäen"
 "ZIP Code",Postinumero
 "Print All Refunds","Tulosta kaikki hyvitykset"
-"You have placed no orders.","Et ole tehnyt tilauksia."
 "Print Order","Tulosta tilaus"
 "Print All Invoices","Tulosta kaikki laskut"
 "Invoice #","Lasku # "
@@ -4035,10 +3527,8 @@ Complete,Valmis
 "Thank you for your order from %store_name.","Kiitos tilauksestasi %store_name -kaupassa."
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","Voit tarkistaa tilauksesi tilan <a href=""%account_url"">kirjautumalla tilillesi</a>."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>"
-"Our hours are <span class=""no-link"">%store_hours</span>.","Aukioloaikamme ovat <span class=""no-link"">%store_hours</span>."
 "Your Credit Memo #%creditmemo_id for Order #%order_id","Hyvityslaskun tiedot #%creditmemo_id tilaukselle #%order_id"
 "Billing Info",Laskutustiedot
-"Shipping Info",Toimitustiedot
 "Update to your %store_name credit memo","Päivitys %store_name -hyvityslaskulle"
 "Your order #%increment_id has been updated with a status of <strong>%order_status</strong>.","Tilauksesi #%increment_id tila on päivitetty: <strong>%order_status</strong>."
 "Invoice for your %store_name order","Lasku tilauksellesi %store_name -kaupassa"
@@ -4060,7 +3550,6 @@ Operations,Toiminnot
 "Invoice and Packing Slip Design","Laskun ja pakkausluettelon ulkoasu"
 "Logo for PDF Print-outs (200x50)","Logo PDF-tulosteille (200 x 50)"
 "Logo for HTML Print View","Logo HTML-tulostusnäkymälle"
-"Subtotal after discount","Välisumma alennuksen jälkeen"
 "Description Message",Kuvausviesti
 "Sales Emails","Myynnin sähköpostit"
 "Shipment Comments","Lähetyksen kommentit"
@@ -4086,8 +3575,6 @@ Operations,Toiminnot
 "PDF Invoices",PDF-laskut
 "PDF Shipments",PDF-lähetysasiakirjat
 "PDF Creditmemos",PDF-hyvityslaskut
-"Could not save the comment.","Kommenttia ei voitu tallentaa."
-"Product is not salable.","Tuote ei ole kysytty."
 "Move to Archive","Siirrä arkistoon"
 "Move to Order Management","Siirrä tilausten hallintaan"
 "We have archived the order.","Tilaus on arkistoitu."
@@ -4105,31 +3592,20 @@ Operations,Toiminnot
 "New Cart Price Rule","Uusi ostoskorin hintasääntö"
 "No Coupon","Ei alennuskoodia"
 "Specific Coupon","Määritetty kuponkikoodi"
-"Quantity in cart","Määrä ostoskorissa"
-"Price in cart","Hinta ostoskorissa"
-"total quantity",kokonaismäärä
 "Fixed amount discount","Kiinteä alennus"
 "Fixed amount discount for whole cart","Kiinteä alennus koko ostoskorille"
 "Buy X get Y free (discount amount is Y)","Osta X, saat Y:n ilmaiseksi (alennuksen määrä on Y)"
+"Quantity in cart","Määrä ostoskorissa"
+"Price in cart","Hinta ostoskorissa"
+"total quantity",kokonaismäärä
 "Your coupon was successfully applied.","Kuponki käytettiin onnistuneesti."
 "Use Auto Generation","Käytä automaattista luontia"
 "Uses per Customer","Käyttömäärä per asiakas"
 "Public In RSS Feed","Julkinen RSS-syötteessä"
-"Your coupon was successfully applied","Alennuskupongin lisääminen onnistui"
-"
-                        If you select and save the rule you will be able to generate multiple coupon codes.
-                    ","
-                        Jos valitset ja tallennat tämän säännön, sinä voit luoda monta kupongien koodeja.                    "
-"
-                        Usage limit enforced for logged in customers only.
-                    ","
-                        Käytön rajoitus vain kirjautuneille asiakkaille.
-                    "
-"Remove Cart Price Rule from Campaign","Poita ostoskorihinnan sääntö kampanjasta"
-"Deleting the update will remove the cart price rule from this campaign and all scheduled changes will be lost.","Päivityksen poistaminen poistaa ostoskorin hintasäännöt tästä kampanjasta ja kaikki ajoitetut muutokset menetetään."
-"Entity Sequence profile not added to meta active profile","Entiteetin järjestysprofiilia ei lisätty aktiivimetaprofiiliin"
+"Future Update in this time range already exists. Select a different range to add a new Future Update.","Tuleva päivitys tällä aikavälillä on jo olemassa. Valitse toinen aikaväli uuden tulevan päivityksen lisäämiseksi."
 "Not enough arguments","Liian vähän argumentteja"
 "Fatal Error","Vakava virhe"
+"Use Deferred Stock Update","Käyttää laskennallista varaston tilaa"
 "Add Scheduled Export","Lisää ajastettu vienti"
 "Add Scheduled Import","Lisää ajastettu tuonti"
 "Scheduled Import/Export","Ajoitettu tuonti/vienti"
@@ -4183,30 +3659,25 @@ Successful,Onnistui
 "You saved the search term.","Hakutermi on tallennettu."
 "Something went wrong while saving the search query.","Hakukyselyn tallentaminen ei onnistunut."
 "You already have an identical search term query.","Identtinen hakukysely on jo olemassa."
-"Synonym group with id %1 cannot be deleted. %2","Synonyymiryhmää %1 ei voida poistaa. %2"
 "Merge conflict with existing synonym group(s): %1","Olemassaolevien synonyymiryhmien yhdistämisessä tapahtui virhe %1"
-"    All Store Views","    Kaikki kauppanäkymät"
 "Are you sure you want to delete synonym group with id: %1?","Haluatko varmasti poistaa synonyymiryhmän, jonka id on %1?"
+"    All Store Views","    Kaikki kauppanäkymät"
 "Search entire store here...","Hae koko sivustosta..."
 "There are no search terms available.","Hakutermejä ei ole saatavilla."
 "Search Engine",Hakukone
 Hits,Käynnit
 "Suggested Terms","Suositellut termit"
-yes,kyllä
-no,ei
 "You can adjust the scope of this synonym group by selecting an option from the list.","Voit muokata synonyymiryhmän kohdealuetta valitsemalla vaihtoehdon listasta."
 "Comma-separated list of synonyms. The terms entered (separated by commas) will be used as an “OR” search query to search your entire store. For example, if you enter “shoes,footwear”, and user were to search for ""shoes"", the search results will include any product or content with term “shoes"" or ""footwear.”","Pilkuilla erotettu luettelo synonyymeista. Syötettyjä ehtoja (pilkuilla eroteltu) käytetään ""OR"" hakulausekkeena koko kaupasta. Jos esimerkiksi kirjoitat ""kengät,jalkineet"" ja käyttäjä etsii ""kengät"", hakutuloksiin sisällytetään tuotteet tai sisällöt termillä ""kengät"" tai ""jalkineet."""
 Synonyms,Synonyymit
 "Automatically merges synonyms in groups that share the same scope. If you check this box and you add one or more of the same terms to different synonym groups in the same scope, automatically merges all the terms to one group. If this isn't what you want, uncheck the box and an error displays if you try to add the same terms.","Yhdistää automaattisesti synonyymit ryhmiin jotka jakavat saman alueen. Jos valitset tämän valintaruudun ja lisäät yhden tai useamman termin eri synonyymiryhmiin samassa alueessa, yhdistetään automaattisesti kaikki ehdot yhteen ryhmään. Jos tämä ei ole mitä haluat, älä valitse tätä valintaruutua ja saat virheen, jos yrität lisätä samoja termejä."
 "Are you sure you want to delete the selected synonym groups?","Haluatko varmasti poistaa valitut synonyymiryhmät?"
-"Merge existing synonyms","Yhdistä olemassaolevat synonyymit"
 "Account Activity","Tilin tapahtumat"
 "All other open sessions for this account were terminated.","Kaikki muut tämän tilin avoimet istunnot lopetettiin."
 "We couldn't logout because of an error.","Ei voitu kirjautua ulos virheen vuoksi."
 "Someone logged into this account from another device or browser. Your current session is terminated.","Joku kirjautui tälle tilille toisesta laitteesta tai selaimesta. Nykyinen istunto keskeytetään."
 "Your current session has been expired.","Nykyinen istuntosi on vanhentunut."
 "By Email",Sähköpostitse
-"Too many password reset requests. Please wait and try again or contact %1.","Liian monta salasanan palautuspyyntöä. Ole hyvä ja odota hetki ja yritä uudelleen tai ole yhteydessä %1."
 "This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.","Järjestelmänvalvojatili on avoinna useammassa kuin yhdessä sijainnissa. Huomaa, että muut sijainnit saattavat olla eri selaimia tai istuntoja samassa tietokoneessa."
 "Log out all other sessions","Kirjaudu ulos muista istunnoista"
 "The link to a friend was sent.","Linkki kaverille lähetettiin."
@@ -4216,7 +3687,6 @@ Synonyms,Synonyymit
 "Please enter a message.","Kirjoita viesti."
 "Please specify at least one recipient.","Määritä vähintään yksi vastaanottaja."
 "No more than %1 emails can be sent at a time.","Enintään %1 sähköposti(a) voidaan lähettää kerrallaan."
-Exception.,Poikkeus.
 "Remove Recipent","Poista vastaanottaja"
 "Welcome, %name","Tervetuloa, %name"
 "%sender_name wants to share this product with you:","%sender_name haluaa jakaa tiedon tästä tuotteesta sinulle:"
@@ -4226,6 +3696,7 @@ Pricing,Hinnoittelu
 "New Shared Catalog","Uusi jaettu katalogi"
 "The shared catalog was deleted successfully.","Jaettu katalogi poistettiin onnistuneesti."
 "Requested product doesn't exist: %1.","Pyydettyä tuotetta ei ole olemassa: %1."
+of,/
 Assigned,Osoitettu
 "Adjust Fixed Price","Muuta kiinteää hintaa"
 "New Price","Uusi hinta"
@@ -4240,10 +3711,10 @@ Assigned,Osoitettu
 "the shipment email is not sent","toimituksen sähköpostia ei ole lähetetty"
 "Shipment #%1 | %3 (%2)","Toimitus #%1 | %3 (%2)"
 "Create Shipping Label...","Luo osoitetarra..."
+"Delivered on:",Toimitettu:
 "About Your Shipment","Tietoja lähetyksestäsi"
 "Cannot add tracking number.","Seurantakoodia ei voida lisätä."
 "You created the shipping label.","Osoitekortti luotiin."
-"An email confirming the order is underway has been sent to the customer.","Asiakkaalle lähetettiin sähköposti, jossa vahvistetaan tilauksen lähetys."
 "New Shipment","Uusi lähetys"
 Live,Käytössä
 "Signature Confirmation","Vaadi allekirjoitus"
@@ -4270,17 +3741,12 @@ Carrier:,Toimittaja:
 "email us at ","lähetä meille sähköpostia "
 Info:,Tietoja:
 Track:,Seuraa:
-"Delivered on:",Toimitettu:
 "There is no tracking available for this shipment.","Tälle toimitukselle ei ole saatavilla lähetyksen seurantaa."
 "There is no tracking available.","Seurantaa ei ole saatavilla."
 "Local Time","Paikallinen aika"
 "Shipping Settings",Toimitusasetukset
 Origin,Lähtöpaikka
 "Shipping Policy",Toimitusehdot
-"Signed by:",Allekirjoittanut:
-"Delivered to:","Toimitettu osoitteeseen:"
-"Service Type:","Palvelun tyyppi:"
-Weight:,Paino:
 "API Key","API avain"
 "API URL",API-osoite
 "Save & Generate","Tallenna & luo"
@@ -4306,42 +3772,22 @@ Yearly,Vuosittain
 "File size in bytes.","Tiedostokoko tavuina."
 "Link for Google","Linkki Googlea varten"
 "Last Generated","Viimeksi luotu"
+"We were unable to perform the search because of a search engine misconfiguration.","Hakua ei voitu suorittaa hakukoneen virheellisen konfiguraation vuoksi."
 "Indexation Mode",Indeksointitila
 "Please fill in Hostname, Port, Path","Syötä isäntänimi, portti ja polku"
 "Schedule New Update","Ajoita uusi päivitys"
 "Date & Time","Päivämäärä & aika"
 "This update not exists.","Tätä päivitystä ei ole olemassa."
 "Edit Existing Update","Muokkaa olemassa olevaa päivitystä"
-"%1 is required parameter.","%1 on pakollinen parametri."
-"Invalid action type %1.","Väärä toiminnan tyyppi %1."
-"Invalid action.","Virheellinen toiminto."
-"Invalid parameter %1.","Virheellinen parametri %1."
 "Something went wrong while removing the %1.","Tapahtui virhe poistettaessa %1."
-"Requested type does not have corresponding implementation","Vaadittu tyypillä ei ole vastaavaa täytäntöönpanoa"
 "Can not be rescheduled","Ei voida ajoittaa uudelleen"
-"Please select Name for Future Update.","Ole hyvä, ja valitse nimi tulevaisuuden päivityksille."
-"Please select Start Time for Future Update.","Ole hyvä, ja valitse aloitusaika tulevaisuuden päivityksille."
-"Future Update Start Time cannot be earlier than current time.","Tulevaisuuden päivityksen aloitusaika ei voi olla aiempi kuin tämänhetkinen aika."
-"Future Update End Time cannot be earlier than current time.","Tulevaisuuden päivityksen lopetusaika ei voi olla aiempi kuin tämänhetkinen aika."
-"Update with id ""%1"" does not exist.","Päivitys ID:llä ""%1"" ei ole olemassa."
-"Active update can not be deleted","Aktiivista pävivitystä ei voda poistaa"
-"Start time could not be changed while update active","Aloitusaikaa ei voi muuttaa kun päivitys on aktiivinen"
-"Unable to save Future Update.","Ei voitu tallentaa tulevaisuuden päivitystä"
 Test,Testi
 "This action is unavailable","Tämä toiminto ei ole käytettävissä"
 Calendar,Kalenteri
 "Share Preview Link","Jaa esikatselu-linkki"
 "End Time",Lopetusaika
-"Preview Update","Esikatsele päivitystä"
-"Remove this update","Poista tämä päivitys"
-"Staging Dashboard",Kojelauta
-"Assign to Another Campaign","Määritä toiseen kampanjaan"
-"Assign to Existing Campaign","Määritä olemassa olevaan kampanjaan"
-"Create New Campaign","Luo uusi kamppania"
-"Campaign/Promo Name","Kampanjan/Promon nimi"
 "Current store is not active.","Nykyinen kauppa ei ole aktiivinen."
 "Requested store is inactive","Pyydetty kauppa on inaktiivinen"
-"Requested store is not found","Pyydettyä kauppaa ei löydy"
 "Store with the same code","Kauppa samalla koodilla"
 "Website with the same code","Sivusto samalla koodilla"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Sivustokoodi voi sisältää vain kirjaimia (a-z), numeroita (0-9) tai alaviivoja (_) ja ensimmäisen merkin on oltava kirjain."
@@ -4350,24 +3796,19 @@ Calendar,Kalenteri
 "Store is inactive","Kauppa on inaktiivinen"
 "Invalid store parameter.","Virheellinen kaupan parametri."
 "Default store is inactive","Oletuskauppa on inaktiivinen"
-"Default website is not defined","Oletussivustoa ei ole määritetty"
-"More than one default website is defined","Useampi kuin yksi oletussivusto on määritetty"
 Language,Kieli
 "Select Store","Valitse kauppa"
 "Various XML configurations that were collected across modules and merged","Useita XML-määrityksiä, joita on kerätty ja yhdistelty eri moduulien välillä"
 Layouts,Asettelut
-"Various XML configurations that were collected across modules and merged.","Useita XML-määrityksiä, joita on kerätty ja yhdistelty eri moduulien välillä."
 "Backup Log Details","Varmuuskopion lokin tiedot"
 "Are you sure you want to delete the system report?","Oletko varma, että haluat poistaa järjestelmäraportin?"
 "Go to Top","Takaisin ylös"
-"Please select item(s).","Valitse kohteet."
 Support,Tuki
 "The backup has been saved.","Varmuuskopio on tallennettu."
 "The backup has been deleted.","Varmuuskopio on poistettu."
 "Cannot delete backup","Varmuuskopiota ei voi poistaa"
 "File does not exist","Tiedostoa ei ole olemassa"
 "Log Details",Logitietoja
-"Cannot set root directory.","Ei voitu asettaa root kansiota"
 Incomplete,Epätäydellinen
 "Processing ...","Käsitellään ..."
 (now),(nyt)
@@ -4382,10 +3823,10 @@ Id,Tunnus
 "Log Files",Lokitiedostot
 "Store Views List","Kauppanäkymien lista"
 "Stores List",Kauppaluettelo
+"Error message!",Virheilmoitus!
 "Show Log","Näytä loki"
 "Delete ""%1""","Poista ""%1"""
 "Are you sure you want to delete a ""%1"" record?","Haluatko varmasti poistaa ""%1""-tietueen?"
-"Are you sure you wan't to delete a ""%1"" record?","Haluatko varmasti poistaa ""%1""-tietueen?"
 " (no data)"," (ei tietoja)"
 Top,Ylös
 "No data","Ei tietoja"
@@ -4395,9 +3836,6 @@ Logs,Lokit
 "Filtering by this attribute will update the product image on catalog page","Tällä attribuutilla suodattaminen päivittää tuotekuvan katalogisivulla"
 "Choose a color","Valitse väri"
 "Upload a file","Lähetä tiedosto"
-Swatches,"Näytteet ja mallit"
-"Swatch Helper: not valid parameter for product instantiation","Swatch Helper: virheellinen parametri tuotteen esiintymässä"
-"Admin is a required field in the each row","Pääkäyttäjä on pakollinen kenttä joka rivillä"
 "Related Products Rule","Liittyvien tuotteiden sääntö"
 "equal to","yhtä suuri kuin"
 more,lisää
@@ -4407,6 +3845,7 @@ less,vähemmän
 "Zip/Post is Range","Postinumero on alueella"
 "Zip/Post Code",Postinumero
 "'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.","'*'-vastaa mitä tahansa; 'xyz*' - vastaa kaikkia jotka alkavat 'xyz' eivätkä ole pidempiä kuin %1."
+State,Lääni
 "Tax Titles",Veronimikkeet
 "Add New Tax Rate","Lisää uusi verokanta"
 "Add New Tax Rule","Lisää uusi verosääntö"
@@ -4424,7 +3863,6 @@ less,vähemmän
 "Manage Tax Rates","Hallitse verokantoja"
 "New Tax Rate","Uusi verokanta"
 "You saved the tax rate.","Verokanta on tallennettu."
-"Maximum zip code length is 9.","Postinumeron enimmäispituus on 9."
 "Grand Total (Excl. Tax)","Loppusumma (veroton)"
 "Grand Total (Incl. Tax)","Loppusumma (verollinen)"
 "Shipping (Excl. Tax)","Toimituskulut (veroton)"
@@ -4451,10 +3889,9 @@ Taxes,Verot
 "(Incl. Tax)",(Verollinen)
 "Order Total Excl. Tax","Yhteensä veroton"
 "Order Total Incl. Tax","Yhteensä verollinen"
-"With customer tax applied “Before Discount”, the final discount calculation may not match customers’ expectations.","Asiakkaan verotuksessa ""Ennen alennusta"" valittuna lopullinen alennuslaskelma ei välttämättä vastaa asiakkaiden odotuksia."
 "Invalid file format.","Tiedostomuoto ei kelpaa."
-"Import Tax Rates","Tuo verokannat"
 "Country code is invalid: %1","Maakoodi on virheellinen: %1"
+"Import Tax Rates","Tuo verokannat"
 "Import/Export Tax Rates","Tuo/vie veroluokkia"
 "Save and Continue","Tallenna ja jatka"
 "Save Configuration","Tallenna konfiguraatio"
@@ -4466,6 +3903,7 @@ Themes,Teemat
 "Select CSS File to Upload","Valitse lähetettävä CSS-tiedosto"
 "Upload CSS File","Lähetä CSS-tiedosto"
 "Download CSS File","Lataa CSS-tiedosto"
+"Upload Images","Lähetä Kuva"
 "Edit custom.css","Muokkaa custom.css"
 "Allowed file types *.css.","Sallitut tiedostotyypit *.css."
 "CSS Editor",CSS-editori
@@ -4474,6 +3912,8 @@ Themes,Teemat
 "Theme Preview Image","Teeman esikatselukuva"
 "Copy of %1","%1:n kopio"
 "Allowed file types *.js.","Sallitut tiedostotyypit *.js."
+"Create Folder","Luo kansio"
+"Insert File","Lisää tiedosto"
 welcome,tervetuloa
 "You deleted the theme.","Poistit teeman."
 "We cannot delete the theme.","Teemaa ei voida poistaa."
@@ -4482,10 +3922,6 @@ welcome,tervetuloa
 "We cannot find the theme.","Teemaa ei löydy."
 "This theme is not editable.","Tämä teema ei ole muokattavissa."
 "You saved the theme.","Tallensit teeman."
-"Invalid scope or scope id","Väärä scope tai scopen id"
-"Backend model is not specified for %1","Backend malli ei ole spesifioitu %1:lle"
-"The %templateName contains an incorrect configuration. The template has a reference to itself. Either remove or change the reference.","%templateName sisältää väärän konfiguraation. Mallissa on viittaus itseensä. Poista tai muuta viittausta."
-"Can not save empty config","Ei voitu tallentaa tyhjää konfiguraatiota"
 "The CSS file must be less than %1M.","CSS-tiedoston on oltava pienempi kuin %1M."
 "Browse Files","Selaa tiedostoja"
 "Help Us Keep Magento Healthy","Auta meitä pitämään Magento terveenä"
@@ -4501,15 +3937,6 @@ Account,Tili
 "2 columns with left bar","2 saraketta ja vasen palkki"
 "2 columns with right bar","2 saraketta ja oikea palkki"
 "3 columns","3 saraketta"
-"Search Engine Robots","Hakukoneiden robotit"
-"Reset to Defaults","Palauta oletukset"
-"Logo Image Width","Logon leveys"
-"Logo Image Height","Logon korkeus"
-"Copyright © 2015 Magento. All rights reserved.","Copyright © 2015 Magento. Kaikki oikeudet pidätetään."
-"Wrong request.","Väärä pyyntö."
-"Allowed file types: ico, png, gif, jpg, jpeg, apng, svg. Not all browsers support all these formats!","Sallitut tiedostotyypit: ico, png, gif, jpg, jpeg, apng, svg. Kaikki selaimet eivät tue kaikkia näitä muotoja!"
-"Allowed file types: png, gif, jpg, jpeg, svg.","Sallitut tiedostotyypit: png, gif, jpg, jpeg, svg."
-"Copyright © 2016 Magento. All rights reserved.","Copyright © 2016 Magento. Kaikki oikeudet pidätetään."
 "Dictionary (Translation on Storefront side)","Sanakirja (käännös kaupan Etusivun puolella)"
 "Embedded (Translation on Admin side)","Upotettu (käännös Admin-puolella)"
 "Error while translating phrase ""%s"" in file %s.","Virhe käännettäessä lausetta ”%s” tiedostossa %s."
@@ -4518,15 +3945,10 @@ Account,Tili
 Translations,Käännökset
 "Translation files",Käännöstiedostot
 "Condition type ""%1"" is not allowed","Ehdon tyyppi ""%1"" ei ole sallittu"
-"The configuration parameter ""formElement"" is a required for ""%1"" field.","Parametri ""formElement"" vaaditaan ""%1"" -kentälle."
 "Remove %1","Poista %1"
 "Add New %1","Lisää uusi %1"
 "New %1","Uusi %1"
 "Unsupported bookmark action.","Tätä kirjanmerkkitoimintoa ei tueta."
-"Parameter ""class"" must be present.","""class""-parametria on käytettävä."
-"Parameter ""sortOrder"" must be present.","""sortOrder""-parametria on käytettävä."
-"Invalid UI Component element name: '%1'","Väärä UI Komponentin elementtinimi: '%1'"
-"Invalid UI Component element name: ''","Väärä UI Komponentin elementtinimi: ''"
 Filters,Suodattimet
 Selected,Valittu
 On,Käytössä
@@ -4578,7 +4000,6 @@ Keyword,Avainsana
 "Please input a valid CSS-length (Ex: 100px, 77pt, 20em, .5ex or 50%).","Anna kelvollinen CSS pituus (Ex: 100px, 77pt, 20em, .5ex tai 50 %)."
 "The value is not within the specified range.","Arvo ei ole määritetyissä rajoissa."
 "Please use letters only (a-z or A-Z) in this field.","Käytä vain kirjaimia (a-z tai A-Z) tässä kentässä."
-"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Ole hyvä ja käytä tässä kentässä vain kirjaimia (a–z tai A-Z), numeroita (0-9) tai alaviivaa (_), ensimmäisen merkin on oltava kirjain."
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Käytä ainoastaan kirjaimia (a–ö tai A-Ö) tai numeroita (0-9) tässä kentässä. Välilyöntejä tai muita merkkejä ei sallita."
 "Please enter a valid date.","Anna kelvollinen päivämäärä."
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Kirjoita kelvollinen URL-osoite (Esimerkiksi: ”esimerkki-sivu”, ”esimerkki-sivu.html” tai ”toinentaso/esimerkki-sivu”)."
@@ -4592,11 +4013,6 @@ Keyword,Avainsana
 "Please enter a valid value, ex: 10,20,30","Kirjoita kelvollinen arvo, esimerkiksi 10,20,30"
 "The date is not within the specified range.","Päivämäärä ei ole määritetyissä rajoissa."
 Attention,Huomio
-Columns,Sarakkeet
-"Active filters:","Aktiiviset suodattimet:"
-"Please enter 6 or more characters. Leading or trailing spaces will be ignored.","Anna vähintään 6 merkkiä. Välilyöntejä ei lasketa."
-"Please enter a value less than or equal to %s.","Anna arvo joka on vähemmän tai yhtä suuri kuin %s."
-"Please enter a value greater than or equal to %s.","Anna arvo joka on enemmän tai yhtä suuri kuin %s."
 "UPS Today Dedicated Courrier","UPS Today Dedicated Courier"
 "User ID",Käyttäjätunnus
 "Edit URL Rewrite for a Category","Muokkaa kategorian URL-uudelleenohjausta"
@@ -4613,11 +4029,6 @@ Product:,Tuote:
 "Target Path",Kohdepolku
 "URL Rewrite Management","URL-uudelleenohjauksien hallinta"
 "You deleted the URL rewrite.","URL-uudelleenohjaus on poistettu."
-"URL key for specified store already exists","Kyseisen myymälän URL-avain on jo olemassa"
-"Exception instance doesn't match %1 type","Poikkeus ei vastaa %1 tyyppiä"
-"message %1","viesti %1"
-"The value specified in the URL Key field would generate a URL that already exists.","URL Avain -kenttään syötetty arvo tuottaisi toisinnon jo olemassa olevalle URL:lle."
-"To resolve this conflict, you can either change the value of the URL Key field (located in the Search Engine Optimization section) to a unique value, or change the Request Path fields in all locations listed below:","Ratkaistaksesi tämän ristiriidan, voit joko muuttaa URL Avain -kentän arvon (sijaitsee Hakukoneoptimointi-osassa) yksilölliseksi tai muuttaa uudelleen ohjattavan URL:n asetuksia kaikissa alla listatuissa kohteissa:"
 "Delete Role","Poista rooli"
 Roles,Roolit
 "Role Users",Roolikäyttäjät
@@ -4658,9 +4069,6 @@ Forced,Pakotettu
 "Sorry, but this password has already been used. Please create another.","Anteeksi, mutta tämä salasana on jo käytetty. Luo toinen."
 email,sähköposti
 username,käyttäjätunnus
-"User Name is a required field.","Käyttäjänimi on pakollinen kenttä."
-"First Name is a required field.","Nimi on pakollinen kenttä."
-"Last Name is a required field.","Sukunimi on pakollinen kenttä."
 "Password is required field.","Salasana on pakollinen kenttä."
 "Your password must be at least %1 characters.","Salasanassa pitää olla vähintään %1 merkkiä."
 "Your password must include both numeric and alphabetic characters.","Salasanan tulee sisältää sekä numeroja, että kirjaimia."
@@ -4675,32 +4083,29 @@ username,käyttäjätunnus
 "Forgot your password?","Unohditko salasanasi?"
 "Reset a Password","Salasanan palauttaminen"
 "Roles Resources","Roolien resurssit"
-"Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","Varoitus!\r\nTämä toimenpide poistaa tämän käyttäjän jo sille määritellyistä rooleista\r\nOletko varma?"
-"Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","Varoitus!\r\nTämä toimenpide poistaa nämä käyttäjät jo niille määritellyistä rooleista\r\nOletko varma?"
+"Hello,","Hei,"
+"If you have not authorized this action, please contact us immediately at %store_email","Jos et ole pyytänyt tätä toimintoa, ota välittömästi yhteyttä osoitteeseen %store_email"
+"Thanks,","Kiitos,"
 "Password Reset Confirmation for %name","Salasanan nollausvahvistus käyttäjälle %name"
 "If you requested this change, reset your password here:","Jos olet pyytänyt tämän muutoksen, palauta salasanasi tästä:"
 "New %changes for %user_name","Uusia %changes käyttäjälle %user_name"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Olemme saaneet pyynnön muuttaa seuraavia tietoja %store_name -tilissäsi: %changes."
-"If you have not authorized this action, please contact us immediately at %store_email","Jos et ole pyytänyt tätä toimintoa, ota välittömästi yhteyttä osoitteeseen %store_email"
-"or call us at %store_phone","tai soita %store_phone"
-"Thanks,","Kiitos,"
 "User Roles",Käyttäjäroolit
 "User Notification Template","Käyttäjäilmoitusten malli"
+"We will disable this feature if the value is empty.","Poistamme tämän ominaisuuden käytöstä, jos arvo on tyhjä."
 "Password Lifetime (days)","Salasanan voimassaoloaika (päivää)"
 "Password Change","Salasanan vaihto"
 "Last login","Viimeisin kirjautuminen"
 Failures,Epäonnistumiset
 "First-Class Mail Large Envelope","First-Class Mail suuri kirjekuori"
 Gift,Lahja
-"First-Class Mail Parcel","Ykkösluokan postipaketti"
 "Add New Variable","Lisää uusi muuttuja"
 "No token found.","Tunnussanomaa ei löydy."
+"Wrong request.","Väärä pyyntö."
 "Deletion failure. Please try again.","Poistaminen epäonnistui. Yritä uudelleen."
 "Stored Payment Method was successfully removed","Tallennettu maksutapa poistettiin onnistuneesti"
 "Stored Payment Methods","Tallennetut maksutavat"
 "You have no stored payment methods.","Sinulla ei ole tallennettuja maksutapoja."
-"Credit Card was successfully removed","Luottokortti poistettiin onnistuneesti"
-"You have no credit cards.","Sinulla ei ole luottokortteja."
 "Delete Current Hierarchy","Poista nykyinen hierarkia"
 "Pages Hierarchy","Sivujen hierarkia"
 "Page Properties","Sivun ominaisuudet"
@@ -4723,9 +4128,6 @@ Node,"Ei mikään"
 "Not Selected","Ei valittu"
 Page:,Sivu:
 "CMS Hierarchy","CMS hierarkia"
-Publish,Julkaise
-"Save and continue edit.","Tallenna ja jatka muokkaamista."
-"Please wait...","Ole hyvä ja odota..."
 "Search All Products","Etsi kaikista tuotteista"
 "Add Product by SKU","Lisää tuote SKU:n mukaan"
 "%s SKU(s) processed successfully","%s tuotenro(a) käsitelty onnistuneesti"
@@ -4748,21 +4150,19 @@ Logic,Logiikka
 "Add Condition","Lisää ehto"
 "Save and Close","Tallenna ja sulje"
 "Sort order",Järjestys
-"Consumer is not authorized to access %resources","Kuluttajalla ei ole oikeutta käyttää %resources"
 "Operation allowed only in HTTPS","Käyttö sallittu vain HTTPS:llä"
 "Requested service is not available: ""%1""","Pyydetty palvelu ei ole saatavilla: ""%1"""
 "Invalid XML","Virheellinen XML"
 "Create Customer","Luo asiakas"
+"Edit Customer","Muokkaa asiakasta"
 "If empty, UTF-8 will be used.","Jos tyhjä, käytetään UTF-8."
 "Allow Anonymous Guest Access","Salli pääsy kirjautumattomille käyttäjille"
 "503 Service Unavailable","503 Palvelu ei saatavilla"
 "Website Closed","Sivusto suljettu"
 "To landing page (302 Found)","Aloitussivulle (302 kohde löytyi)"
-"Can not register new customer due to restrictions are enabled.","Uutta asiakasta ei voi rekisteröidä käytössä olevien rajoitteiden vuoksi."
 "HTTP Response",HTTP-vastaus
 "Add Tax","Lisää vero"
 "Delete Tax","Poista vero"
-"You must set unique country-state combinations within the same fixed product tax","Sinun on asetettava ainutlaatuiset maakohtaiset yhdistelmät samaan kiinteään tuoteveroon"
 "Fixed Product Tax","Kiinteä tuotevero"
 Country/State,Maa/osavaltio
 "Total Incl. Tax","Verollinen yhteensä"
@@ -4784,21 +4184,22 @@ Choose...,Valitse...
 "All Product Types","Kaikki tuotetyypit"
 "All Pages","Kaikki sivut"
 "Add Layout Update","Lisää asettelun päivitys"
-"Remove Layout Update","Poista asettelun päivitys"
 "Widget Options","Widgetin asetukset"
 "New Widget","Uusi Widget"
 Widgets,Widgetit
 description,kuvaus
+"Remove Layout Update","Poista asettelun päivitys"
 "Wish List Sharing","Toivelistan jakaminen"
 "My Wish List","Oma toivelista"
 "We can't add the item to Wish List right now: %1.","Emme voi lisätä tätä tuotetta toivelistallesi juuri nyt: %1."
 "We can't add the item to Wish List right now.","Emme voi lisätä tätä tuotetta toivelistallesi juuri nyt."
 "%1 has been moved to your wish list.","%1 on siirretty toivelistallesi."
+"You must login or register to add items to your wishlist.","Sinun täytyy kirjautua sisään tai rekisteröityä, jotta voit lisätä tuotteita toivelistalle."
 "Message length must not exceed %1 symbols","Viestin pituus ei saa ylittää %1 symbolia"
-"This wish list can be shared %1 more times.","Tämä toivelista voidaan jakaa vielä %1 kertaa."
 "Your wish list has been shared.","Toivelistasi on jaettu."
 "%1 has been updated in your Wish List.","%1 on päivitetty toivelistallasi."
 "Display number of items in wish list","Näytä nimikkeiden määrä toivelistalla"
+"Product is not salable.","Tuote ei ole kysytty."
 Comment:,Kommentti:
 "We cannot retrieve the Wish List.","Toivelistaa ei voida noutaa."
 error-message,virheviesti
@@ -4819,25 +4220,18 @@ error-message,virheviesti
 "You have no items in your wish list.","Sinulla ei ole tuotteita toivelistallasi."
 "Take a look at %customer_name's Wish List","Tarkastele käyttäjän %customer_name toivelistaa"
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name haluaa jakaa tämän toivelistan verkkokaupassa %store_name kanssasi:"
-"Message from %customer_name:","Viesti käyttäjältä %customer_name:"
 "View all Wish List items","Tarkastele kaikkia toivelistan nimikkeitä"
 "Wish List Section","Toivelistan osa"
 "Share Options","Jakamisen asetukset"
 "Max Emails Allowed to be Sent","Sähköpostien lähettämisen sallittu enimmäismäärä"
+"10 by default. Max - 10000","Oletus 10. Max - 10000"
 "Email Text Length Limit","Sähköpostin tekstin enimmäispituus"
+"Show in Sidebar","Näytä sivupalkissa"
 "My Wish List Link","Toivelistan linkki"
 "Display Wish List Summary","Näytä toivelistan yhteenveto"
 "No Items Found","Yhtään kohdetta ei löytynyt"
 "User Description","Käyttäjän kuvaus"
 "Product Details and Comment","Tuotetiedot ja kommentti"
-"Add To Wishlist","Lisää toivelistaan"
-"Are you sure you want to remove this product from your Wish List?","Oletko varma, että haluat poistaa tämän tuotteen toivelistaltasi?"
-"%1 has been removed from your Wish List.","%1 on poistettu toivelistaltasi."
-"10 by default. Max - 10000","Oletus 10. Max - 10000"
-"255 by default","Oletus 255"
-"The cart item doesn't exist.","Ostoskorin tuotetta ei ole olemassa."
-"You must login or register to add items to your wishlist.","Sinun täytyy kirjautua sisään tai rekisteröityä, jotta voit lisätä tuotteita toivelistalle."
-"Show in Sidebar","Näytä sivupalkissa"
 "Credit card type",Luottokorttityyppi
 "CVV result",CVV-tulos
 "Postcode AVS check","Postinumeron AVS-tarkistus"
@@ -4857,27 +4251,23 @@ Captured,Talteenotettu
 "Quick Checkout","Nopea tilaus"
 "Store alternative addresses","Tallenna vaihtoehtoinen osoite"
 "For shipping to multiple family members and friends","Jos haluat useita toimitusosoitteita eri perheenjäseniä ja ystäviä varten"
-"<a href=%url_about_us>About Us</a>","<a href=%url_about_us>Tietoja meistä</a>"
-"<a href=url_customer_service>Customer Service</a>","<a href=url_customer_service>Asiakaspalvelu</a>"
-"<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>"
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Aukioloaika: <br /> <span class=""no-link"">%store_hours</span>."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>."
-"About Us","Tietoja meistä"
 "Backup options","Varmuuskopioinnin asetukset"
 Warning,Varoitus
-"Insert Widget...","Lisää Widget..."
 "Recent items","Äskeiset tuotteet"
 "Show all...","Näytä kaikki..."
 "Please enter a number greater 0 in this field.","Syötä nollaa (0) suurempi numero tähän kenttään."
 "Please select one of each ratings above.","Valitse yksi jokaisesta ylläolevasta luokitukseta."
 "Please specify Url.","Määritä URL-osoite."
 "Method %s does not exist on jQuery.decorate","Menetelmää %s ei ole jQuery.decorate:ssa"
-"All ","Kaikki "
+"Please wait...","Ole hyvä ja odota..."
 Translate,Käännä
 "Please remove invalid characters: {0}.","Poista virheelliset merkit: {0}."
 "Please select one of the options above.","Valitse yksi vaihtoehdoista edellä."
 "Please select a file.","Valitse tiedosto."
 "Please select one of the options.","Valitse yksi vaihtoehdoista."
+"Please enter a value less than or equal to %s.","Anna arvo joka on vähemmän tai yhtä suuri kuin %s."
+"Please enter a value greater than or equal to %s.","Anna arvo joka on enemmän tai yhtä suuri kuin %s."
 "Card type does not match credit card number.","Korttityyppi ei vastaa luottokorttinumeroa."
 "Credit card number does not match credit card type.","Luottokorttinumero ei vastaa luottokorttityyppi."
 "Incorrect credit card expiration date.","Väärä luottokortin vanhentumispäivämäärä."
@@ -4903,13 +4293,3 @@ Translate,Käännä
 "Please enter a valid year (1900-%1).","Kirjoita kelvollinen vuosi (1900-%1)."
 "Please enter a valid day (1-%1).","Kirjoita kelvollinen päivä (1-%1)."
 "Please enter a date from the past.","Kirjoita päivämäärä menneisyydestä."
-"Maximum length of this field must be equal or less than %1 symbols.","Kentän enimmäispituus on oltava yhtä suuri tai pienempi kuin %1 merkkiä."
-"Admin is a required field in the each row.","Pääkäyttäjä on pakollinen kenttä joka rivillä."
-"Please enter a quantity greater than 0.","Ole hyvä ja syötä määrä joka on suurempi kuin 0."
-"The fewest you may purchase is %1.","Pienin sallittu määrä jonka voit ostaa, on %1."
-"The maximum you may purchase is %1.","Suurin sallittu määrä jonka voit ostaa, on %1."
-"You can buy this product only in quantities of %1 at a time.","Voit ostaa tämän tuotteen vain määrinä %1 kerrallaan."
-"Forbidden extensions has been used. Avoid usage of ","Kiellettyjä laajennuksia on käytetty. Vältä käyttämästä "
-"The widget %1 is no longer available. Select a different widget.","Widget %1 ei ole enää käytettävissä. Valitse toinen widget."
-"First character must be letter.","Ensimmäisen merkin on oltava kirjain."
-"The password can't be the same as the email address. Create a new password and try again.","Salasana ei voi olla sama kuin sähköpostiosoite. Luo uusi salasana ja yritä uudelleen."
