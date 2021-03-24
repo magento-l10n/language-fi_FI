@@ -3433,7 +3433,10 @@ Value,Arvo
 "We cannot add order history.","Tilaushistoriaa ei voida lisätä."
 "You updated the order address.","Päivitit tilausosoitteen."
 "You canceled the order.","Peruutit tilauksen."
+"""%1"" coupon code was not applied. Do not apply discount is selected for item(s)","Alennuskoodia ""%1"" ei käytetty. Tuotteelle (tuotteille) on asetettu älä käytä alennusta"
+"The ""%1"" coupon code isn't valid. Verify the code and try again.","Alennuskoodi ""%1"" ei ole kelvollinen. Vahvista koodi ja yritä uudelleen."
 "The coupon code has been accepted.","Alennuskoodi hyväksytty."
+"The coupon code has been removed.","Alennuskoodi on poistettu."
 "New Order","Uusi tilaus"
 "Cannot add new comment.","Uutta kommentia ei voida lisätä."
 "The order no longer exists.","Tilausta ei ole enää olemassa."
@@ -3544,6 +3547,7 @@ Complete,Valmis
 "Your shipping confirmation is below. Thank you again for your business.","Tilauksen lähetysvahvistus alapuolella. Kiitos vielä tilauksestasi!"
 "Your Shipment #%shipment_id for Order #%order_id","Toimitus #%shipment_id tilaukselle #%order_id"
 "Update to your %store_name shipment","Päivitys %store_name -toimitukselle"
+"Please enter a coupon code!","Ole hyvä ja syötä alennuskoodi!"
 Operations,Toiminnot
 "Hide Customer IP","Piilota asiakkaan IP"
 "Allow Reorder","Salli uudelleentilaaminen"
