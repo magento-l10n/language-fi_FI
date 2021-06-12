@@ -368,6 +368,7 @@ Environment,Ympäristö
 options,asetukset
 "Select all","Valitse kaikki"
 "Deselect all","Poista kaikki valinnat"
+Show,Näytä
 "%s of %s selected","%s / %s valittuna"
 "B2B Features","B2B ominaisuudet"
 "Invalid Form Key. Please refresh the page.","Virheellinen lomakkeen avain. Ole hyvä ja päivitä sivu."
@@ -1455,7 +1456,6 @@ Prev,Edellinen
 "Items %1-%2 of %3","Tuotteet %1-%2 / %3"
 "%1 Item","%1 tuote"
 "%1 Items","%1 tuotetta"
-Show,Näytä
 "Sort By",Järjestä
 "Set Ascending Direction","Aseta nousevaan järjestykseen"
 "Set Descending Direction","Aseta laskevaan järjestykseen"
@@ -1933,6 +1933,7 @@ Contacts,Kontaktit
 "Create an Account","Luo tili"
 "Dear %name,","Hyvä %name,"
 "When you sign in to your account, you will be able to:","Kirjauduttuasi tilillesi voit:"
+"Show All Users","Näytä kaikki käyttäjät"
 "No results","Ei tuloksia"
 Proceed,Jatka
 "Edit User","Muokkaa käyttäjää"
@@ -2058,6 +2059,7 @@ Yes/No,Kyllä/Ei
 "Image File",Kuvatiedosto
 Alphanumeric,Aakkosnumeerinen
 "Numeric Only","Vain numeerinen"
+"You are subscribed to our newsletter.","Olet tilannut uutiskirjeemme."
 "You aren't subscribed to our newsletter.","Et ole vielä tilannut uutiskirjettämme."
 "You have not set a default shipping address.","Et ole määrittänyt oletustoimitusosoitetta."
 "You have not set a default billing address.","Et ole määrittänyt oletusosoitetta."
@@ -2215,6 +2217,7 @@ Visitor,Vierailija
 "Contact Information",Yhteystiedot
 "Change Password","Vaihda salasana"
 Newsletters,Uutiskirjeet
+"You are subscribed to ""General Subscription"".","Olet tilannut kohteen ""Yleinen tilaus""."
 "Default Addresses",Oletusosoitteet
 "Change Billing Address","Muuta laskutusosoite"
 "You have no default billing address in your address book.","Sinulla ei ole oletuslaskutusosoitetta osoitekirjassasi."
@@ -2297,6 +2300,7 @@ Strong,Vahva
 "Enable Autocomplete on login/forgot password forms","Salli automaattinen täyttö kirjautumis- ja palautuslomakkeissa"
 "Number of Lines in a Street Address","Katuosoitteen rivien määrä"
 "Always optional.","Aina valinnainen."
+"Show Date of Birth","Näytä syntymäaika"
 "Show Tax/VAT Number","Näytä ALV-numero / Y-tunnus"
 "Show Gender","Näytä sukupuoli"
 "Show Telephone","Näytä puhelinnumero"
@@ -2309,6 +2313,7 @@ Group,Ryhmä
 "Unsubscribe from Newsletter","Peru uutiskirjeen tilaus"
 "Customer Since","Asiakas alkaen"
 "Confirmed email","Vahvistettu sähköposti"
+"Tax VAT Number","ALV-numero / Y-tunnus"
 "Billing Firstname","Laskutettavan etunimi"
 "Billing Lastname","Laskutettavan sukunimi"
 "Last Activity","Viimeksi nähty"
@@ -2897,6 +2902,7 @@ Subscribers,Tilaajat
 "The newsletter template has been saved.","Uutiskirjepohja on tallennettu."
 "Something went wrong while saving this template.","Pohjaa tallennettaessa tapahtui virhe."
 "Something went wrong while saving your subscription.","Tilauksesi tallennuksessa tapahtui virhe."
+"A confirmation request has been sent.","Vahvistuspyyntö on lähetetty."
 "Your subscription has been confirmed.","Tilauksesi on vahvistettu."
 "This is an invalid subscription confirmation code.","Virheellinen tilauksen vahvistuskoodi."
 "This is an invalid subscription ID.","Virheellinen tilaustunnus."
@@ -2904,6 +2910,7 @@ Subscribers,Tilaajat
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Uutiskirjeen tilaus vaatii kirjautumisen. Ole hyvä ja <a href=""%1"">rekisteröidy käyttäjäksi</a>."
 "This email address is already subscribed.","Tällä sähköpostiosoitteella löytyi jo tilaus."
 "Something went wrong with the subscription.","Tilauksen yhteydessä tapahtui virhe."
+"The confirmation request has been sent.","Vahvistuspyyntö on lähetetty."
 "Thank you for your subscription.","Kiitos tilaamisesta."
 "You unsubscribed.","Tilaus on lopetettu."
 "Something went wrong while unsubscribing you.","Tilauksen perumisen yhteydessä tapahtui virhe."
@@ -3844,6 +3851,7 @@ Logs,Lokit
 "equal to","yhtä suuri kuin"
 more,lisää
 less,vähemmän
+"Show Related Products","Näytä liittyvät tuotteet"
 "Tax Rate Information","Veroluokkien tiedot"
 "Tax Identifier",Verotunnus
 "Zip/Post is Range","Postinumero on alueella"
