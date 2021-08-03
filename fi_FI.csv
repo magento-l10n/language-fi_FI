@@ -48,6 +48,7 @@ notice,ilmoitus
 Close,Sulje
 "See All (","Katso kaikki ("
 " unread)"," lukematta)"
+"System Messages",Järjestelmäviestit
 "Show Toolbar","Näytä työkalupalkki"
 "Show List","Näytä lista"
 "Use HTTPS to Get Feed","Käytä HTTPS-yhteyttä syötteen haussa"
@@ -218,6 +219,8 @@ Yes,Kyllä
 "There was an error save new configuration value.","Tapahtui virhe tallennettaessa uutta konfiguraation arvoa."
 "Please select an industry.","Valitse toimiala."
 "--Please Select--",---Valitse---
+"Command ""%1"" was not found.","Komentoa ""%1"" ei löytynyt."
+"The ""%1"" source doesn't exist.","Lähdettä ""%1"" ei ole olemassa."
 "These arguments can't be empty ""%1""","Nämä argumentit eivät olla tyhjiä ""%1"""
 "Cannot find predefined integration user!","Etukäteen määritettyä integrointikäyttäjää ei löydy!"
 "File is not ready yet.","Tiedosto ei ole valmis vielä."
@@ -278,6 +281,7 @@ Dismiss,Ohita
 "Something went wrong.","Jokin meni vikaan."
 "Action Log",Toimintaloki
 "Bulk Actions",Massatoimintoja
+"Action Logs",Tapahtumalokit
 "Days Saved in Log","Päivää lokissa"
 "Description of Operation","Toimenpiteen kuvaus"
 Summary,Yhteenveto
@@ -347,6 +351,7 @@ Title,Otsikko
 "Merchant MD5","Kauppias MD5"
 "New Order Status","Uuden tilauksen tila"
 "Test Mode",Testitila
+"Gateway URL","Yhdyskäytävän URL"
 "Transaction Details URL","Maksutapahtuman tiedot URL"
 "Accepted Currency","Hyväksytty valuutta"
 Debug,Vianselvitys
@@ -369,6 +374,7 @@ options,asetukset
 "Select all","Valitse kaikki"
 "Deselect all","Poista kaikki valinnat"
 Show,Näytä
+"per page","per sivu"
 "%s of %s selected","%s / %s valittuna"
 "B2B Features","B2B ominaisuudet"
 "Invalid Form Key. Please refresh the page.","Virheellinen lomakkeen avain. Ole hyvä ja päivitä sivu."
@@ -618,7 +624,6 @@ Thumbnail,Pienoiskuva
 "Additional Settings",Lisäasetukset
 "records found","merkintää löytyi"
 selected,valittu
-"per page","per sivu"
 "Previous page","Edellinen sivu"
 "of %1","/ %1"
 "Next page","Seuraava sivu"
@@ -633,6 +638,7 @@ selected,valittu
 Loading...,Ladataan...
 "User Agent Rules","Käyttäjäagentin säännöt"
 "We could not detect a size.","Kokoa ei voitu tunnistaa."
+"Warning message",Varoitus
 "Allow everything","Salli kaikki"
 "Global Search","Globaali haku"
 Marketing,Markkinointi
@@ -712,6 +718,8 @@ Host,Isäntä
 "Set Return-Path","Aseta Return-Path"
 "Return-Path Email","Return-Path sähköposti"
 "Enable Frontend Resize","Ota käyttöön kuvan rajaaminen käyttöliittymässä"
+"Maximum Width","Suurin leveys"
+"Maximum Height",Enimmäiskorkeus
 Admin,Ylläpito
 "Admin User Emails","Järjestelmänvalvojan sähköpostit"
 "Forgot Password Email Template","""Unohtuiko salasana"" -sähköpostimalli"
@@ -843,7 +851,10 @@ Exclude,"Rajaa pois"
 "Magento root directory","Magenton juurikansio"
 "Create Backup","Luo varmuuskopio"
 Rollback,Palautus
+"Backup Settings","Varmuuskopioinnin asetukset"
+"Enable Backup","Ota varmuuskopiointi käyttöön"
 "Enable Scheduled Backup","Ota ajoitettu varmuuskopiointi käyttöön"
+"Scheduled Backup Type","Ajoitetun varmuuskopioinnin tyyppi"
 Frequency,Tiheys
 "Maintenance Mode",Huoltotila
 "Are you sure you want to delete the selected backup(s)?","Oletko varma että haluat poistaa valitut varmuuskopiot?"
@@ -856,6 +867,7 @@ Download,Lataa
 "Delete Dynamic Block","Poista dynaaminen lohko"
 "Save and Continue Edit","Tallenna ja jatka muokkaamista"
 "New Dynamic Block","Uusi dynaaminen lohko"
+"Are you sure you want to do this?","Haluatko varmasti jatkaa?"
 "Default Content",Oletussisältö
 "No Default Content","Ei oletussisältöä"
 "Store View Specific Content","Kauppanäkymäkohtainen sisältö"
@@ -875,6 +887,7 @@ Inactive,"Ei käytössä"
 "Related Dynamic Blocks","Liittyvät dynaamiset lohkot"
 Position,Sijainti
 "This rule no longer exists.","Tätä sääntöä ei ole enää olemassa."
+"You deleted the dynamic block.","Dynaaminen lohko poistettiin."
 "Edit Dynamic Block","Muokkaa Dynaamista lohkoa"
 "Please select a dynamic block(s).","Valitse dynaaminen lohko(t)."
 "You deleted %1 record(s).","%1 merkintä(ä) poistettu."
@@ -1115,6 +1128,7 @@ Message:,Viesti:
 "Qty Invoiced","Laskutettu määrä"
 "Qty Shipped","Lähetetty määrä"
 "Add Products to Option ""%1""","Tuotteiden lisääminen vaihtoehto ”%1”"
+"Special Price",Tarjoushinta
 Always,Aina
 "After number of attempts to login","Kirjautumisyritysmäärän jälkeen"
 "Provided form does not exist","Annettua lomaketta ei ole olemassa"
@@ -1313,6 +1327,7 @@ Categories,Kategoriat
 "A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty."
 "Something went wrong while updating the product(s) status.","Jotain meni pieleen päivitettäessa tuotteiden tilaa."
 "You saved the product.","Tuote tallennettiin."
+"SKU for product %1 has been changed to %2.","SKU tuotteelle %1 on muutettu %2."
 "The image cannot be removed as it has been assigned to the other image role","Kuvaa ei voida poistaa, koska se on liitetty toiseen tuotteeseen tai rooliin"
 "New Attribute Set","Uusi attribuuttiryhmä"
 "The attribute set has been removed.","Attribuuttiryhmä on poistettu."
@@ -1367,11 +1382,15 @@ Category,Kategoria
 "Please enter a valid number in this field.","Kirjoita kelvollinen numero tähän kenttään."
 "Use config","Käytä kokoonpanon asetuksia"
 "Attribute Set already exists.","Attribuuttiryhmä on jo olemassa."
+"The product can't be saved.","Tuotetta ei voida tallentaa."
 "File '%1' is not an image.","Tiedosto '%1' ei ole kuva."
 "Could not save Prices.","Hintoja ei voitu tallentaa."
+"Could not delete Prices","Hintoja ei voitu poistaa"
+"Not Visible Individually","Ei näkyvissä yksilöllisesti"
 "Catalog, Search","Katalogi, Hakutulokset"
 "Attribute '%1' is locked. %2","Ominaisuus '%1' on lukittu. %2"
 Dropdown,Pudotusvalikko
+"HTML is invalid","HTML on virheellinen"
 message,viesti
 "Product Name or SKU","Tuotenimi tai -koodi"
 "Advanced Pricing","Hinnoittelun lisäasetukset"
@@ -1399,6 +1418,7 @@ name,nimi
 "Please confirm site switching. All data that hasn't been saved will be lost.","Vahvista sivuston vaihtaminen. Kaikki tallentamattomat tiedot menetetään."
 "Manage Titles (Size, Color, etc.)","Hallinnoi nimiä (koko, väri jne.)"
 "Manage Options (Values of Your Attribute)","Hallinnoi vaihtoehtoja (attribuutin arvoja)"
+"Sort Option",Lajittelu
 Groups,Ryhmät
 "Unassigned Attributes","Määrittämättömät attribuutit"
 "A name is required.","Nimi on pakollinen."
@@ -1418,6 +1438,7 @@ Backorders,Jälkitoimitukset
 "Stock Availability","Saatavuus varastossa"
 "In Stock",Varastossa
 "Out of Stock","Ei varastossa"
+"Add Product To Websites","Lisää tuote sivustoille"
 "Item Price","Tuotteen hinta"
 "and above","ja yli"
 "Delete image","Poista kuva"
@@ -1430,7 +1451,6 @@ Role,Rooli
 "Allow Multiple Boxes for Shipping","Salli lähetys useassa laatikossa"
 "Basic Settings",Perusasetukset
 "Advanced Settings",Lisäasetukset
-"Special Price",Tarjoushinta
 "Buy %1 for: ","Osta %1 hintaan: "
 "Buy %1 for %2 each and <strong class=""benefit"">save<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>","Osta %1 hintaan %2/kpl ja <strong class=""benefit"">säästä<span class=""percent tier-%3"">&nbsp;%4</span>%</strong>"
 "Buy %1 for %2 each","Osta %1 hintaan %2/kpl"
@@ -1461,7 +1481,6 @@ Prev,Edellinen
 "Set Descending Direction","Aseta laskevaan järjestykseen"
 "More Information",Lisätietoja
 "Maximum %1 characters","Enintään %1 merkkiä"
-"Warning message",Varoitus
 "We don't recognize or support this file extension type.","Tätä tiedostotyyppiä ei tunnisteta tai tueta."
 "Image Detail","Kuvan tiedot"
 Adding...,Lisätään...
@@ -1479,12 +1498,14 @@ Comma-separated.,"Pilkuin erotettu."
 "Products per Page on Grid Default Value","Tuotetta per sivu ruudukossa, oletusarvo"
 "Products per Page on List Allowed Values","Tuotetta per sivu luettelotilassa, sallitut arvot"
 "Products per Page on List Default Value","Tuotetta per sivu luettelotilassa, oletusarvo"
+"Product Listing Sort by","Tuotelistauksen lajittelu"
 "Allow All Products per Page","Salli kaikki tuotteet samalla sivulla"
 "Product Image Placeholders","Tuotekuvien paikanpitäjät"
 "Page Title Separator","Sivuotsikon erotinmerkki"
 "Use JavaScript Calendar","Käytä JavaScript-kalenteria"
 "Please use a four-digit year format.","Käytä nelinumeroista vuosilukua."
 "Top Level Category","Ylätason kategoria"
+Quality,Laatu
 "Category Products","Tuoteryhmän tuotteet"
 "Product Categories",Tuotekategoriat
 "Product Price","Tuotteen hinta"
@@ -1601,6 +1622,7 @@ Stock,Varasto
 "No, Redirect to Landing Page","Ei, ohjaa aloitussivulle"
 "All Customer Groups","Kaikki asiakasryhmät"
 Allow,Salli
+Deny,Estä
 "Landing Page",Aloitussivu
 "Allow Adding to Cart","Salli lisääminen ostoskoriin"
 "Delete Rule","Poista sääntö"
@@ -1637,6 +1659,7 @@ Priority,Prioriteetti
 "Update Name","Päivitä nimi"
 "Save as a New Update","Tallenna uutena päivityksenä"
 "Delete the Update","Poista päivitys"
+"End Time",Päättymisaika
 "Catalog Price Rules","Tuoteluettelon hintasäännöt"
 "Catalog Advanced Search","Katalogin monipuolinen haku"
 "Search Weight","Haun painotus"
@@ -1681,6 +1704,7 @@ Path,Polku
 "We can't remove the item.","Emme voi poistaa tuotetta."
 "%1 was updated in your shopping cart.","%1 päivitettiin ostoskorissa."
 "We can't update the item right now.","Tuotetta ei voida päivittää juuri nyt."
+"Page Not Found","Sivua ei löytynyt"
 "We can't update the shopping cart.","Ostoskoria ei voida päivittää."
 "One-page checkout is turned off.","Yhden sivun kassa on poistettu käytöstä."
 "Guest checkout is disabled.","Vieraana tilaaminen on poistettu käytöstä."
@@ -1689,6 +1713,7 @@ Checkout,Kassa
 "Something went wrong while processing your order. Please try again later.","Jokin meni vikaan tilauksen käsittelyssä. Yritä myöhemmin uudelleen."
 "Payment Method",Maksutapa
 "Payment Page",Maksusivu
+"Please provide CAPTCHA code and try again","Anna CAPTCHA-koodi ja yritä uudelleen"
 "We found an invalid request for adding product to quote.","Löysimme virheellisen pyynnön lisätä tuote tarjoukseen."
 "The product does not exist.","Tuotetta ei ole olemassa."
 "We don't have some of the products you want.","Meillä ei ole joitakin haluamistasi tuotteista."
@@ -1830,8 +1855,10 @@ Identifier,Tunniste
 Created,Luotu
 Modified,Muokattu
 "Delete Folder","Poista kansio"
+"Create Folder","Luo kansio"
 "Are you sure you want to delete this folder?","Haluatko varmasti poistaa tämän kansion?"
 "Are you sure you want to delete this file?","Haluatko varmasti poistaa tämän tiedoston?"
+CMS,Sisällönhallinta
 "You deleted the block.","Lohko poistettiin."
 "We can't find a block to delete.","Poistettavaa lohkoa ei löydy."
 "This block no longer exists.","Tätä lohkoa ei ole enää olemassa."
@@ -1859,6 +1886,7 @@ Pages,Sivut
 "We can't upload the file right now.","Tiedostoa ei voida ladata juuri nyt."
 "We can't delete root directory %1 right now.","Juurihakemistoa %1 ei voida poistaa juuri nyt."
 "Privacy and Cookie Policy","Yksityisyys ja evästeet"
+"Error message",Virheilmoitus
 "Could not create a directory.","Hakemistoa ei voitu luoda."
 View,Katso
 "Save Page","Tallenna sivu"
@@ -1886,7 +1914,9 @@ Block,Lohko
 "CMS Pages",Sisältösivut
 "CMS Blocks",CMS-lohkot
 "Delete Customer","Poista asiakas"
+"Delete Company","Poista yritys"
 Companies,Yritykset
+"Add New Company","Lisää uusi yritys"
 "Company Name:","Yrityksen nimi:"
 "VAT/TAX ID:","Y-tunnus /VAT-numero:"
 "Street Address:",Katuosoite:
@@ -1911,6 +1941,7 @@ Gender:,Sukupuoli:
 "Edit Role","Muokkaa roolia"
 "Roles and Permissions","Roolit ja oikeudet"
 Rejected,Hylätty
+Blocked,Estetty
 "Invalid login or password.","Virheellinen sähköpostiosoite tai salasana."
 "This account is locked.","Tili on lukittu."
 test,testi
@@ -1918,11 +1949,14 @@ test,testi
 "Role Name","Roolin nimi"
 Company:,Yritys:
 "User Role",Käyttäjärooli
+"VAT/TAX ID","Y-tunnus /VAT-numero"
 "Please select a region, state or province.","Valitse alue, osavaltio tai provinssi."
 "Phone Number",Puhelinnumero
 "Job Title",Tehtävänimike
 "Add User","Lisää käyttäjä"
 "Add Team","Lisää tiimi"
+"Edit Selected","Muokkaa valittuja"
+"Delete Selected","Poista valitut"
 "VAT/TAX ID: ","Y-tunnus /VAT-numero: "
 "You have no other address entries in your address book.","Osoitekirjassasi ei ole muita tallennettuja osoitteita."
 Contacts,Kontaktit
@@ -1932,6 +1966,8 @@ Contacts,Kontaktit
 "Add New User","Lisää uusi käyttäjä"
 "Create an Account","Luo tili"
 "Dear %name,","Hyvä %name,"
+"Dear %firstname","Hei %firstname"
+"Your account is locked","Tilisi on lukittu"
 "When you sign in to your account, you will be able to:","Kirjauduttuasi tilillesi voit:"
 "Show All Users","Näytä kaikki käyttäjät"
 "No results","Ei tuloksia"
@@ -1941,10 +1977,13 @@ Proceed,Jatka
 Comment,Kommentti
 ZIP,Postinumero
 Gender,Sukupuoli
+"VAT / TAX ID","Y-tunnus / VAT-numero"
 Prefix,Etuliite
 Suffix,Jälkiliite
+"Send Welcome Email From","Lähetä tervetuliaissähköposti lähettäjältä"
 "My Orders","Omat tilaukset"
 "Create New Customer","Luo uusi asiakas"
+Team,Tiimi
 Users,Käyttäjät
 "The requested Payment Method is not available.","Valittu maksutapa ei ole käytettävissä."
 Updated,Päivitetty
@@ -1969,6 +2008,7 @@ Add,Lisää
 "Something went wrong while saving this configuration:","Tapahtui virhe tallennettaessa tätä asetusta:"
 "The file you're uploading exceeds the server size limit of %1 kilobytes.","Ladattavan tiedoston koko ylittää palvelimen kokorajoituksen %1 kilotavua."
 "Base currency",Oletusvaluutta
+"Display default currency","Näytä oletusvaluutta"
 Bcc,Piilokopio
 "%1 (Default)","%1 (oletus)"
 title,otsikko
@@ -1988,8 +2028,10 @@ Optional,Valinnainen
 Configurations,Konfiguraatiot
 "Select Attributes","Valitse attribuutit"
 "Choose an Option...","Valitse vaihtoehto..."
+"An error occurred while saving the option. Please try to save again.","Asetusta tallennettaessa tapahtui virhe. Yritä tallentaa uudelleen."
 "You can't add the item to shopping cart.","Et voi lisätä nimikettä ostoskoriin."
 Confirm,Vahvista
+"New Attribute Set Name","Uuden attribuuttiryhmän nimi"
 "Create Configurations","Luo konfiguraatioita"
 Weight,Paino
 "Step 2: Attribute Values","Vaihe 2: Attribuuttiarvot"
@@ -1998,12 +2040,14 @@ Options,Asetukset
 "Remove Attribute","Poista attribuutti"
 "Create New Value","Luo uusi arvo"
 "Remove image","Poista kuva"
+"Select attribute","Valitse attribuutti"
 Select,Valitse
 "Step 1: Select Attributes","Vaihe 1: Valitse attribuutit"
 "Selected Attributes:","Valitut attribuutit:"
 "Step 4: Summary","Vaihe 4: Yhteenveto"
 "Edit Configurations","Muokkaa konfiguraatioita"
 "Upload Image","Lähetä kuva"
+"Upload image","Lataa kuva"
 "No Image","Ei kuvaa"
 "Create Product Configurations","Luo tuotekonfiguraatioita"
 save,tallenna
@@ -2011,6 +2055,7 @@ save,tallenna
 "Enable Product","Ota tuote käyttöön"
 "An attribute has been removed. This attribute will no longer appear in your configurations.","Attribuutti on poistettu. Tämä attribuutti ei enää esiinny konfiguroinneissa."
 "Please choose image(s).","Valitse kuva(t)."
+"As low as: ","Alkaen: "
 "Thanks for contacting us with your comments and questions. We'll respond to you very soon.","Kiitos yhteydenotostasi! Vastaamme sinulle pian."
 "An error occurred while processing your form. Please try again later.","Virhe käsiteltäessä lomaketta. Yritä myöhemmin uudelleen."
 "Write Us","Kirjoita meille"
@@ -2034,6 +2079,7 @@ save,tallenna
 "Default Cookie Settings","Evästeen oletusasetukset"
 "Cookie Lifetime","Evästeen elinikä"
 "Cookie Path","Evästeen polku"
+"Enter a valid cookie path. e.g. /","Anna kelvollinen evästeen polku. esim. /"
 "Cookie Domain","Evästeen verkkotunnus"
 "Use HTTP Only","Käytä vain HTTP:tä"
 "Cookie Restriction Mode",Evästerajoitustila
@@ -2127,6 +2173,7 @@ Unlock,Avaa
 "There was an error detecting Customer Group.","Asiakasryhmän tunnistamisessa tapahtui virhe."
 "Validate VAT Number","Tarkista y-tunnus"
 "Date of Birth",Syntymäaika
+Today,Tänään
 "Bad request.","Virheellinen pyyntö."
 "This confirmation key is invalid or has expired.","Vahvistusavain on virheellinen tai vanhentunut."
 "There was an error confirming the account","Tilin vahvistamisessa tapahtui virhe"
@@ -2202,6 +2249,7 @@ Unlock,Avaa
 Male,Mies
 Female,Nainen
 "NOT LOGGED IN","EI KIRJAUTUNEENA SISÄÄN"
+"Delete address","Poista osoite"
 Visitor,Vierailija
 "Personal Information","Henkilökohtaiset tiedot"
 "Last Logged In:","Viimeksi kirjautunut:"
@@ -2290,6 +2338,9 @@ Strong,Vahva
 "All Customers","Kaikki asiakkaat"
 "Now Online","Nyt paikalla"
 "Customer Configuration","Asiakkaiden hallinnointi"
+"Account Sharing Options","Tilin jakamisen asetukset"
+"Default Group",Oletusryhmä
+"Show VAT Number on Storefront","Näytä ALV-numero/Y-tunnus kaupan etusivulla"
 "Default Welcome Email",Oletustervetuliaisviesti
 "Welcome Email",Tervetuliaissähköposti
 "Password Options",Salasana-asetukset
@@ -2307,6 +2358,8 @@ Strong,Vahva
 "Show Company","Näytä yritys"
 "Show Fax","Näytä faksi"
 "Assign a Customer Group","Määritä asiakasryhmä"
+"Name Prefix","Nimen etuliite"
+"Name Suffix","Nimen jälkiliite"
 Group,Ryhmä
 "Add New Customer","Lisää uusi asiakas"
 "Subscribe to Newsletter","Tilaa Uutiskirje"
@@ -3924,7 +3977,6 @@ Themes,Teemat
 "Theme Preview Image","Teeman esikatselukuva"
 "Copy of %1","%1:n kopio"
 "Allowed file types *.js.","Sallitut tiedostotyypit *.js."
-"Create Folder","Luo kansio"
 "Insert File","Lisää tiedosto"
 welcome,tervetuloa
 "You deleted the theme.","Poistit teeman."
@@ -4126,7 +4178,6 @@ Next/Previous,Seuraava/Edellinen
 "Menu Layout","Valikon asettelu"
 "Page ID","Sivun tunnus"
 Hierarchy,Hierarkia
-CMS,Sisällönhallinta
 Protected,Suojattu
 "Delete Multiple Hierarchies","Poista useita hierarkioita"
 Both,Molemmat
