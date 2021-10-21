@@ -607,7 +607,6 @@ Minute,Minuutti
 "This is only a demo store. You can browse and place orders, but nothing will be processed.","Tämä verkkokauppa on vain esittelykäytössä. Voit selata tuotteita ja tehdä tilauksia, mutta mitään ei käsitellä."
 "Report an Issue","Ongelmasta ilmoittaminen"
 "Stores Configuration","Kaupan asetukset"
-"Please confirm scope switching. All data that hasn't been saved will be lost.","Vahvista kohdekaupan vaihtaminen. Kaikki tallentamattomat tiedot menetetään."
 "Additional Cache Management","Lisävälimuistin hallinta"
 "Flush Catalog Images Cache","Tyhjennä katalogikuvien välimuisti"
 "Pregenerated product images files","Etukäteen luodut tuotekuva-tiedostot"
@@ -638,6 +637,7 @@ selected,valittu
 Loading...,Ladataan...
 "User Agent Rules","Käyttäjäagentin säännöt"
 "We could not detect a size.","Kokoa ei voitu tunnistaa."
+"Please confirm scope switching. All data that hasn't been saved will be lost.","Vahvista kohdekaupan vaihtaminen. Kaikki tallentamattomat tiedot menetetään."
 "Warning message",Varoitus
 "Allow everything","Salli kaikki"
 "Global Search","Globaali haku"
@@ -1604,7 +1604,6 @@ End,Loppu
 "No Backorders","Ei jälkitoimituksia"
 "Allow Qty Below 0","Salli määrät alle 0"
 "Allow Qty Below 0 and Notify Customer","Salli määrä alle 0 ja ilmoita asiakkaalle"
-"The most you may purchase is %1.","Suurin sallittu ostosmäärä on %1."
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Meillä ei ole niin montaa kappaletta tuotetta ""%1"" kuin haluat, mutta siirretään tilaukselle jäljellä olevat %2."
 "Stock Status",Varastotilanne
 "Only %1 left","Vain %1 jäljellä"
@@ -1689,7 +1688,6 @@ Path,Polku
 "You need to refresh the cache.","Sinun täytyy päivittää välimuistit."
 "Product URL Suffix","Tuotteen URL-jälkiliite"
 "Please choose a condition to add.","Valitse Lisättävä ehto."
-"Invalid method: %1","Epäkelpo menetelmä: %1"
 "My Cart (1 item)","Ostoskori (1 kohde)"
 "My Cart (%1 items)","Ostoskori (%1 kohdetta)"
 "My Cart",Ostoskori
@@ -1734,6 +1732,7 @@ Checkout,Kassa
 "Sorry, guest checkout is not available.","Pahoittelut, mutta ostot ilman sisäänkirjautumista eivät ole saatavilla."
 "You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","Sinulle on lähetetty sähköpostilla linkki, jolla voit vahvista tilisi tai <a href=""%1"">klikkaa tästä</a> tilataksesi uuden linkin."
 "Load customer quote error","Asiakkaan tarjouksen latausvirhe"
+"Invalid method: %1","Epäkelpo menetelmä: %1"
 Error!,Virhe!
 "DB exception",Tietokantavirhe
 "Print receipt","Tulosta kuitti"
@@ -3532,7 +3531,6 @@ Complete,Valmis
 "Suspected Fraud","Epäilty petos"
 "Payment Review","Maksun tarkastelu"
 "Email has not been sent","Sähköpostia ei ole lähetetty"
-" Transaction ID: ""%1"""," Tapahtumatunnus: ""%1"""
 "Group was removed","Ryhmä poistettiin"
 "No Payment Methods","Ei maksutapoja"
 "Order Comments","Tilauksen kommentit"
@@ -3855,11 +3853,11 @@ Calendar,Kalenteri
 "Store with the same code","Kauppa samalla koodilla"
 "Website with the same code","Sivusto samalla koodilla"
 "Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Sivustokoodi voi sisältää vain kirjaimia (a-z), numeroita (0-9) tai alaviivoja (_) ja ensimmäisen merkin on oltava kirjain."
-"Name is required","Nimi on pakollinen"
-"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Kauppakoodi voi sisältää vain kirjaimia (a-z), numeroita (0-9) tai alaviivoja (_) ja ensimmäisen merkin on oltava kirjain."
 "Store is inactive","Kauppa on inaktiivinen"
 "Invalid store parameter.","Virheellinen kaupan parametri."
 "Default store is inactive","Oletuskauppa on inaktiivinen"
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","Kauppakoodi voi sisältää vain kirjaimia (a-z), numeroita (0-9) tai alaviivoja (_) ja ensimmäisen merkin on oltava kirjain."
+"Name is required","Nimi on pakollinen"
 Language,Kieli
 "Select Store","Valitse kauppa"
 "Various XML configurations that were collected across modules and merged","Useita XML-määrityksiä, joita on kerätty ja yhdistelty eri moduulien välillä"
@@ -4069,8 +4067,6 @@ Keyword,Avainsana
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Kirjoita kelvollinen URL-osoite (Esimerkiksi: ”esimerkki-sivu”, ”esimerkki-sivu.html” tai ”toinentaso/esimerkki-sivu”)."
 "Please enter a valid zip code.","Anna kelvollinen postinumero."
 "Please select State/Province.","Valitse osavaltio/provinssi."
-"Please enter a value less than or equal to {0}.","Anna arvo joka on vähemmän tai yhtä suuri kuin {0}."
-"Please enter a value greater than or equal to {0}.","Anna arvo joka on enemmän tai yhtä suuri kuin {0}."
 "Please enter valid email addresses, separated by commas. For example, johndoe@domain.com, johnsmith@domain.com.","Anna voimassa olevat sähköpostiosoitteet, erotettuina pilkuilla. Esimerkiksi johndoe@domain.com, johnsmith@domain.com."
 "Please enter issue number or start date for switch/solo card type.","Kirjoita switch- tai solo -korttityypin julkaisunumero tai aloituspäivämäärä."
 "Please enter positive number in this field.","Syötä positiivinen numero tähän kenttään."
@@ -4350,6 +4346,8 @@ Translate,Käännä
 "Please enter at least {0} characters.","Kirjoita vähintään {0} merkkiä."
 "Please enter a value between {0} and {1} characters long.","Anna arvo, joka on {0}-{1} merkkiä pitkä."
 "Please enter a value between {0} and {1}.","Anna arvo, jonka arvo on välillä {0}-{1}."
+"Please enter a value less than or equal to {0}.","Anna arvo joka on vähemmän tai yhtä suuri kuin {0}."
+"Please enter a value greater than or equal to {0}.","Anna arvo joka on enemmän tai yhtä suuri kuin {0}."
 "Please enter a date between %min and %max.","Kirjoita päivämäärä väliltä %min ja %max."
 "Please enter a valid full date.","Anna kelvollinen päivämäärä."
 "Please enter a valid month (1-12).","Kirjoita kelvollinen kuukausi (1-12)."
