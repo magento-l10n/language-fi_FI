@@ -2329,6 +2329,7 @@ Password:,Salasana:
 "Your %store_name password has been changed","Sinun %store_name -salasanasi on muutettu"
 "We have received a request to change the following information associated with your account at %store_name: password.","Olemme saaneet pyynnön muuttaa salasanaasi %store_name -tilissäsi."
 "Check out faster","Tilaa nopeammin"
+"Show Password","Näytä salasana"
 "Are you sure you want to delete this address?","Oletko varma, että haluat poistaa tämän osoitteen?"
 Weak,Heikko
 Medium,Keskitaso
