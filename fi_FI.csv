@@ -3402,6 +3402,7 @@ Length,Pituus
 "Leave Comment","Jätä kommentti"
 "Customer %name has left a new comment:","Asiakas %name on jättänyt uuden kommentin:"
 "Create Packages","Luo paketteja"
+"Add Package","Lisää paketti"
 "Contact Name","Yhteyshenkilön Nimi"
 Feed,Syöte
 "Miscellaneous Feeds","Sekalaiset syötteet"
@@ -3784,6 +3785,8 @@ Live,Käytössä
 Contents,Sisällöt
 Girth,Ympärysmitta
 "Qty to Ship","Lähetettävä määrä"
+"Add Selected Product(s) to Package","Lisää valitut tuotteet pakettiin"
+"Add Products to Package","Lisää tuotteita pakettiin"
 in,tuumaa
 "Delete Package","Poista paketti"
 Explanation,Selitys
