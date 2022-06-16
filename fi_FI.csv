@@ -1771,6 +1771,8 @@ Total:,Yhteensä:
 "My billing and shipping address are the same","Laskutus- ja toimitusosoite ovat samat"
 Update,Päivitä
 "Save in address book","Tallenna osoitekirjaan"
+"Enter your destination to get a shipping estimate.","Syötä toimitusosoitteesi saadaksesi arvion toimituskuluista."
+"Sorry, no quotes are available for this order at this time","Valitettavasti toimituskuluja ei voida laskea tälle tilaukselle toistaiseksi"
 "Estimated Total","Arvioitu loppusumma"
 "You can create an account after checkout.","Voit luoda tilin kassan jälkeen."
 "You already have an account with us. Sign in or continue as guest.","Sinulla on jo tili. Kirjaudu sisään tai jatkaa vieraana."
