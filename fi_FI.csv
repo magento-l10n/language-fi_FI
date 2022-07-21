@@ -1476,7 +1476,7 @@ Prev,Edellinen
 "Items %1-%2 of %3","Tuotteet %1-%2 / %3"
 "%1 Item","%1 tuote"
 "%1 Items","%1 tuotetta"
-"Sort By",Järjestä
+"Sort By",Järjestys:
 "Set Ascending Direction","Aseta nousevaan järjestykseen"
 "Set Descending Direction","Aseta laskevaan järjestykseen"
 "More Information",Lisätietoja
@@ -1785,6 +1785,7 @@ Login,Kirjaudu
 "Cart Subtotal","Ostoskorin välisumma"
 "No Payment method available.","Maksutapaa ei ole saatavilla."
 "You can track your order status by creating an account.","Voit seurata tilaustasi luomalla asiakastilin."
+"Create an Account","Luo tili"
 "Forgot an Item?","Unohditko tuotteen?"
 "Edit Your Cart","Muokkaa ostoskoria"
 "Ship Here","Lähetä tänne"
@@ -1965,7 +1966,6 @@ Contacts,Kontaktit
 "Role Permissions","Roolin oikeudet"
 "Save Role","Tallenna rooli"
 "Add New User","Lisää uusi käyttäjä"
-"Create an Account","Luo tili"
 "Dear %name,","Hyvä %name,"
 "Dear %firstname","Hei %firstname"
 "Your account is locked","Tilisi on lukittu"
@@ -3932,6 +3932,7 @@ State,Lääni
 "Manage Tax Rates","Hallitse verokantoja"
 "New Tax Rate","Uusi verokanta"
 "You saved the tax rate.","Verokanta on tallennettu."
+"New Tax Rule","Uusi verosääntö"
 "Grand Total (Excl. Tax)","Loppusumma (veroton)"
 "Grand Total (Incl. Tax)","Loppusumma (verollinen)"
 "Shipping (Excl. Tax)","Toimituskulut (veroton)"
@@ -3991,6 +3992,7 @@ welcome,tervetuloa
 "This theme is not editable.","Tämä teema ei ole muokattavissa."
 "You saved the theme.","Tallensit teeman."
 "The CSS file must be less than %1M.","CSS-tiedoston on oltava pienempi kuin %1M."
+thumbnail,pienoiskuva
 "Browse Files","Selaa tiedostoja"
 "Help Us Keep Magento Healthy","Auta meitä pitämään Magento terveenä"
 "%1 Item(s)","%1 tuote(tta)"
@@ -4017,6 +4019,7 @@ Translations,Käännökset
 "Add New %1","Lisää uusi %1"
 "New %1","Uusi %1"
 "Unsupported bookmark action.","Tätä kirjanmerkkitoimintoa ei tueta."
+Columns,Sarakkeet
 "Active filters\\:","Aktiiviset suodattimet\\:"
 Filters,Suodattimet
 Selected,Valittu
@@ -4096,6 +4099,9 @@ Product:,Tuote:
 "Target Path",Kohdepolku
 "URL Rewrite Management","URL-uudelleenohjauksien hallinta"
 "You deleted the URL rewrite.","URL-uudelleenohjaus on poistettu."
+"Temporary (302)","Väliaikainen (302)"
+"Permanent (301)","Pysyvä (301)"
+"message %1","viesti %1"
 "Delete Role","Poista rooli"
 Roles,Roolit
 "Role Users",Roolikäyttäjät
@@ -4167,6 +4173,7 @@ Failures,Epäonnistumiset
 "First-Class Mail Large Envelope","First-Class Mail suuri kirjekuori"
 Gift,Lahja
 "Add New Variable","Lisää uusi muuttuja"
+"Variable Name","Muuttujan nimi"
 "No token found.","Tunnussanomaa ei löydy."
 "Wrong request.","Väärä pyyntö."
 "Deletion failure. Please try again.","Poistaminen epäonnistui. Yritä uudelleen."
@@ -4178,6 +4185,7 @@ Gift,Lahja
 "Page Properties","Sivun ominaisuudet"
 "Preview is not available.","Esikatselu ei ole käytettävissä."
 Next/Previous,Seuraava/Edellinen
+"Show in navigation menu.","Näytä navigointivalikossa."
 "Menu Layout","Valikon asettelu"
 "Page ID","Sivun tunnus"
 Hierarchy,Hierarkia
@@ -4188,7 +4196,9 @@ Both,Molemmat
 "Numbers (1, 2, 3, ...)","Numerot (1, 2, 3,...)"
 "Lower Alpha (a, b, c, ...)","Pienaakkoset (a, b, c...)"
 "Upper Alpha (A, B, C, ...)","Suuraakkoset (A, B, C...)"
+Circle,Ympyrä
 Disc,Levy
+Square,Neliö
 "This URL key is already in use.","Tämä URL-osoite on jo käytössä."
 Node,"Ei mikään"
 "Not Selected","Ei valittu"
@@ -4206,6 +4216,8 @@ Contains,Sisältää
 "Name: A - Z","Nimi: A - Z"
 "Name: Z - A","Nimi: Z - A"
 "Newest products first","Uusimmat tuotteet ensin"
+"Price: High to low","Hinta: Kallein ensin"
+"Price: Low to high","Hinta: Halvin ensin"
 "SKU: Ascending","Tuotenro: nouseva"
 "SKU: Descending","Tuotenro: laskeva"
 "Sort by color","Lajittele värin mukaan"
@@ -4233,6 +4245,8 @@ Logic,Logiikka
 Country/State,Maa/osavaltio
 "Total Incl. Tax","Verollinen yhteensä"
 "Final Price","Lopullinen hinta"
+"Incl. tax",Verollinen
+"Excl. tax",Veroton
 "Fixed Product Taxes","Kiinteät tuoteverot"
 "Enable FPT","Ota kiinteämääräinen vero käyttöön"
 "Display Prices In Emails","Näytä hinnat sähköposteissa"
@@ -4264,12 +4278,15 @@ description,kuvaus
 "Message length must not exceed %1 symbols","Viestin pituus ei saa ylittää %1 symbolia"
 "Your wish list has been shared.","Toivelistasi on jaettu."
 "%1 has been updated in your Wish List.","%1 on päivitetty toivelistallasi."
+"The requested Wish List doesn't exist.","Pyydettyä toivelistaa ei ole."
 "Display number of items in wish list","Näytä nimikkeiden määrä toivelistalla"
 "Product is not salable.","Tuote ei ole kysytty."
 Comment:,Kommentti:
 "We cannot retrieve the Wish List.","Toivelistaa ei voida noutaa."
+"The product is disabled","Tuote on pois käytöstä"
 error-message,virheviesti
 "Product Exception.","Tuotteen poikkeus."
+"Regular Price","Normaali hinta"
 "Share Wish List","Jaa toivelista"
 "Add All to Cart","Lisää kaikki ostoskoriin"
 "Update Wish List","Päivitä toivelista"
@@ -4277,6 +4294,7 @@ error-message,virheviesti
 "View Product","Tarkastele tuotetta"
 "This Wish List has no Items","Tällä toivelistalla ei ole nimikkeitä"
 "%1 has been added to your Wish List.","%1 on lisätty toivelistallasi."
+"%1 has been removed from your Wish List.","%1 on poistettu toivelistaltasi."
 "RSS Feed",RSS-syöte
 "Wish List is empty now.","Toivelista on nyt tyhjä."
 "Email addresses, separated by commas","Sähköpostiosoitteet, pilkuin erotettu"
@@ -4298,6 +4316,7 @@ error-message,virheviesti
 "No Items Found","Yhtään kohdetta ei löytynyt"
 "User Description","Käyttäjän kuvaus"
 "Product Details and Comment","Tuotetiedot ja kommentti"
+"Add To Wishlist","Lisää toivelistaan"
 "Credit card type",Luottokorttityyppi
 "CVV result",CVV-tulos
 "Postcode AVS check","Postinumeron AVS-tarkistus"
@@ -4305,7 +4324,10 @@ error-message,virheviesti
 "Not checked","Ei tarkistettu"
 "Not matched","Ei täsmää"
 "No such order id.","Tällaista tilausnumeroa ei ole."
+"Currency doesn't match.","Valuutta ei täsmää."
 Captured,Talteenotettu
+"Please click ","Napsauta "
+" if you are not redirected automatically."," jos sinua ei ohjata uudelleen automaattisesti."
 "Continue to Worldpay","Jatka Worldpayhyn"
 "Payment Response Password","Maksun vastaussalasana"
 "Allow To Edit Contact Information","Salli yhteystietojen muokkaus"
@@ -4320,6 +4342,8 @@ Captured,Talteenotettu
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>."
 "Backup options","Varmuuskopioinnin asetukset"
 Warning,Varoitus
+"Insert Variable","Lisää muuttuja"
+"The widget %1 is no longer available. Select a different widget.","Widget %1 ei ole enää käytettävissä. Valitse toinen widget."
 "Recent items","Äskeiset tuotteet"
 "Show all...","Näytä kaikki..."
 "Please enter a number greater 0 in this field.","Syötä nollaa (0) suurempi numero tähän kenttään."
@@ -4327,8 +4351,10 @@ Warning,Varoitus
 "Please specify Url.","Määritä URL-osoite."
 "Method %s does not exist on jQuery.decorate","Menetelmää %s ei ole jQuery.decorate:ssa"
 "Please wait...","Ole hyvä ja odota..."
+"All %1","Kaikki %1"
 Translate,Käännä
 "Please remove invalid characters: {0}.","Poista virheelliset merkit: {0}."
+"First character must be letter.","Ensimmäisen merkin on oltava kirjain."
 "Please select one of the options above.","Valitse yksi vaihtoehdoista edellä."
 "Please select a file.","Valitse tiedosto."
 "Please select one of the options.","Valitse yksi vaihtoehdoista."
@@ -4344,6 +4370,11 @@ Translate,Käännä
 "Please enter a valid number.","Anna kelvollinen luku."
 "This is required field","Tämä on pakollinen kenttä"
 "Admin is a required field in each row.","Pääkäyttäjä on pakollinen kenttä joka rivillä."
+"Please enter a quantity greater than 0.","Ole hyvä ja syötä määrä joka on suurempi kuin 0."
+"The fewest you may purchase is %1.","Pienin sallittu määrä jonka voit ostaa, on %1."
+"The maximum you may purchase is %1.","Suurin sallittu määrä jonka voit ostaa, on %1."
+"You can buy this product only in quantities of %1 at a time.","Voit ostaa tämän tuotteen vain määrinä %1 kerrallaan."
+"The password can't be the same as the email address. Create a new password and try again.","Salasana ei voi olla sama kuin sähköpostiosoite. Luo uusi salasana ja yritä uudelleen."
 "Please fix this field.","Korjaa tämä kenttä."
 "Please enter a valid URL.","Kirjoita kelvollinen URL."
 "Please enter a valid date (ISO).","Anna kelvollinen päivämäärä (ISO)."
