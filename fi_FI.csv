@@ -2704,6 +2704,7 @@ Remaining,Jäljellä
 Public,Julkinen
 Short,Lyhyt
 Long,Pitkä
+"%1 email(s) were sent.","%1 sähköposti(a) lähetettiin."
 "The wish list item has been added to this gift registry.","Toivelistan tuote on lisätty tähän lahjarekisteriin."
 "Please enter correct search options.","Anna oikeat hakuehdot."
 "Please enter at least 2 letters of the first name.","Kirjoita vähintään 2 etunimen merkkiä."
@@ -2732,6 +2733,7 @@ Location,Sijainti
 "Search By",Etsi
 "Unit Price",Yksikköhinta
 "Created For:","Luotu varten:"
+"Recipient Address","Vastaanottajan osoite"
 "General Options","Yleiset asetukset"
 "Gift Wrapping",Lahjapaketointi
 "Add Gift Wrapping","Lisää lahjan paketointi"
@@ -2768,12 +2770,15 @@ Filter,Suodin
 "Field separator",Kenttäerotin
 "File to Import","Tuotava tiedosto"
 "Select File to Import","Valitse tuotava tiedosto"
+"File %1 deleted","Tiedosto %1 poistettu"
 Import/Export,Tuo/Vie
 "Import History",Tuontihistoria
 "Import history",Tuontihistoria
+"Download full report","Lataa koko raportti"
 "Import successfully done","Tuonti suoritettu onnistuneesti"
 "Show more","Näytä lisää"
 "in row(s):",Riv(e)illä:
+"in row(s)",riv(e)illä
 Add/Update,Lisää/päivitä
 Replace,Korvaa
 User,Käyttäjä
@@ -2788,7 +2793,9 @@ Processing,Käsitellään
 "Field '%1' not found","Kenttää '%1' ei löydy"
 Indexer,Indeksoija
 Mode,Tila
+"Cheapest price","Halvin hinta"
 "Shipping Method",Toimitustapa
+"Button Text","Painikkeen teksti"
 Integrations,Integraatiot
 "Add New Integration","Lisää uusi integraatio"
 "Save & Activate","Tallenna & aktivoi"
@@ -2805,7 +2812,9 @@ Invitations,Kutsut
 "New Invitations","Uudet kutsut"
 "Invitations Information","Kutsujen tiedot"
 "Enter Each Email on New Line","Syötä jokainen sähköposti uudelle riville"
+"Save Invitation","Tallenna kutsu"
 "Send Invitation","Lähetä kutsu"
+"We sent %1 invitation(s).","%1 kutsu(a) lähetettiin."
 Accepted,Hyväksytty
 "Invitation Message",Kutsuviesti
 Link,Linkki
@@ -2933,6 +2942,7 @@ Wishlist,Toivelista
 "Back to Shipping Information","Takaisin toimitustietoihin"
 "Edit Items","Muokkaa tuotteita"
 "Check Out with Multiple Addresses","Siirry kassalle käyttäen useita toimitusosoitteita"
+Address,Osoite
 "Order Review","Tilauksen katselma"
 "Grand Total:",Loppusumma:
 "Submitting order information...","Lähetetään tilauksen tietoja..."
@@ -2949,14 +2959,23 @@ Error:,Virhe:
 "Subtotal (Excl. Tax)","Välisumma (veroton)"
 "Shipping & Handling","Toimitus- ja käsittelykulut"
 Qty:,Määrä:
+"Qty: ","Määrä: "
+"Estimated Tax","Arvioitu vero"
+"Something went wrong","Jotain meni pieleen"
+"%1 - deleted","%1 - poistettu"
 Expires,Vanhentuu
+Seller,Myyjä
 Cost,Kustannushinta
 "Click to change shipping method","Klikkaa vaihtaaksesi toimitustapaa"
+"Shipping address",Toimitusosoite
+Merge,Yhdistä
 Created:,Luotu:
 "No shipping information available","Lähetystietoja ei ole saatavilla"
 "Thank you,","Kiittäen,"
 "Cancel coupon","Peruuta alennuskoodi"
+"Allowed file formats: %1.","Sallitut tiedostomuodot: %1."
 "Go to Checkout","Siirry kassalle"
+"The shopping cart isn't empty","Ostoskori ei ole tyhjä"
 "Go to Checkout?","Siirry kassalle?"
 "Minimum Amount",Vähimmäismäärä
 "New Relic Reporting Section","New Relic -raporttiosio"
@@ -3118,6 +3137,10 @@ Dispute,Kiista
 "Finish Date",Päättymispäivä
 "Coupon Redemption","Alennuskoodin lunastus"
 Void,Mitätön
+Gold,Kulta
+Blue,Sininen
+Silver,Hopea
+Black,Musta
 "Every 3 days","3 päivän välein"
 "Every 7 days","7 päivän välein"
 "Every 10 days","10 päivän välein"
@@ -3145,6 +3168,7 @@ Manage,Hallitse
 "Place Order Using Billing Agreements","Tee tilaus laskutussopimusta käyttäen"
 "API Username",API-käyttäjänimi
 "Home Page",Kotisivu
+"Page Background Color","Sivun taustaväri"
 "PayPal recommends you set up an additional User on your account at manager.paypal.com, instead of entering your admin username and password here. This will enhance your security and prevent service interruptions if you later change your password. If you do not want to set up an additional User, you can re-enter your Merchant Login here.","PayPal suosittelee, että määrität ylimääräisiä käyttäjän manager.paypal.com, pääkäyttäjätunnuksesi ja salasanasi sijasta. Tämä parantaa turvallisuutta ja estää palvelun keskeytyksiä, jos muutat myöhemmin salasanasi. Jos et halua perustaa ylimääräistä käyttäjää, voit syöttää Merchant-kirjautumisen tästä."
 "Your shopping cart has been updated with new prices.","Ostoskorisi on päivitetty uusilla hinnoilla."
 "We cannot load the configuration from file %1.","Konfiguraatiota tiedostosta %1 ei voida ladata."
@@ -3173,15 +3197,25 @@ Url,Osoite
 "YouTube and Vimeo supported.","YouTube ja Vimeo ovat tuettuja."
 "Vimeo supported.<br />To add YouTube video, please <a href=""%1"">enter YouTube API Key</a> first.","Vimeo on tuettu.<br />YouTube videon lisäämiseksi <a href=""%1"">syötä YouTube API avain</a> ensin."
 "Add Video","Lisää video"
+"Delete image in all store views","Poista kuva kaikista kauppanäkymistä"
 "Delete video","Poista video"
+Uploaded:,Lähetetty:
+Uploader:,Lähettäjä:
 Duration:,Kesto:
 "Unknown video type","Tuntematon videotyyppi"
+"Invalid video url","Virheellinen videon URL-osoite"
+"New Video","Uusi video"
 "Edit Video","Muokkaa videota"
 "Images and Videos","Kuvat ja videot"
+"YouTube API Key","YouTube API-avain"
 "Images And Videos","Kuvat ja videot"
 "Edit Catalog Price Rules","Muokkaa tuoteluettelon hintasääntöjä"
 "Edit Cart Price Rules","Muokkaa ostoskorin hintasääntöjä"
 "Edit Automated Email Reminder Rules","Muokkaa automaattisien sähköpostimuistutuksien sääntöjä"
+"Add from File","Lisää tiedostosta"
+"File must be in .csv format and include ""SKU"" and ""QTY"" columns","Tiedoston tulee olla .csv-muodossa ja sisältää ""SKU"" ja ""QTY"" -sarakkeet"
+"Choose File","Valitse tiedosto"
+"Enter Multiple SKUs","Syötä useita SKU: ita"
 "Product that you are trying to add is not available.","Tuote, jota yrität lisätä, ei ole saatavilla."
 "This is the wrong quote item id to update configuration.","Tämä on väärä tarjottavan tuotteen tunnus kokoonpanon päivittämiseksi."
 "This shipping method is not available. To use this shipping method, please contact us.","Tämä toimitustapa ei ole käytettävissä. Ota meihin yhteyttä käyttääksesi tätä toimitustapaa."
@@ -3287,9 +3321,17 @@ Refunds,Hyvitykset
 "Refresh Lifetime Statistics","Virkistä elinikäiset tilastot"
 "Invalid item option format.","Virheellinen nimikkeen vaihtoehdon muoto."
 "Cannot specify product.","Tuotetta ei voida määrittää."
+"The requested qty is not available","Pyydettyä määrää ei ole saatavilla"
 Exception,Poikkeus
+Rename,Uudelleennimeä
 "Edit item","Muokkaa tuotetta"
+"Copy Selected","Kopioi valitut"
 Copy,Kopioi
+"Move Selected","Siirrä valitut"
+"Remove Selected","Poista valitut"
+"Please Select Product","Valitse tuote"
+"Name & Description","Nimi & kuvaus"
+"Latest Activity","Viimeisin toiminta"
 "Save Review","Tallenna arvostelu"
 "New Review","Lisää arvostelu"
 "Review Details","Näytä yksityiskohdat"
@@ -3387,6 +3429,7 @@ RMA,Palautus
 "Products should be added to package(s)","Tuotteet tulisi lisätä paketteihin"
 "Please enter a valid value.","Anna kelvollinen arvo."
 "You submitted the RMA request.","Olet ilmoittanut palautuksesta."
+"Create New Return","Luo uusi palautus"
 "My Returns","Omat palautukseni"
 "Tracking Information",Seurantatiedot
 "Page not found","Sivua ei löydy"
@@ -3455,6 +3498,7 @@ Feed,Syöte
 ALL,KAIKKI
 ANY,"MIKÄ TAHANSA"
 TRUE,TOTTA
+"This won't take long . . .","Tämä ei kestä kauan. . ."
 "Credit Memos",Hyvityslaskut
 Invoices,Laskut
 "Create New Order","Luo uusi tilaus"
@@ -3489,6 +3533,7 @@ Invoices,Laskut
 "Submit Invoice","Hyväksy lasku"
 "Credit Memo",Hyvityslasku
 Capture,Talteenotto
+"The invoice email was sent.","Laskun sähköposti lähetettiin."
 "Order Statuses","Tilausten tilat"
 "Create New Status","Luo uusi tila"
 "Edit Order Status","Muokkaa tilauksen tilaa"
@@ -3543,6 +3588,7 @@ Value,Arvo
 "The order no longer exists.","Tilausta ei ole enää olemassa."
 "Edit Order","Muokkaa tilausta"
 "You put the order on hold.","Tilaus on laitettu pitoon."
+"New Invoice","Uusi lasku"
 "The payment has been accepted.","Maksu on hyväksytty."
 "The payment has been denied.","Maksu on hylätty."
 "Transaction has been approved.","Tapahtuma on hyväksytty."
@@ -3578,6 +3624,7 @@ Complete,Valmis
 "Order Comments","Tilauksen kommentit"
 "Order Currency:","Tilauksen valuutta:"
 "Same As Billing Address","Sama kuin laskutusosoite"
+"Add to address book","Lisää osoitekirjaan"
 "Gift Message for the Entire Order","Lahjaviesti koko tilaukselle"
 "Custom Price","Mukautettu hinta"
 "Move to Shopping Cart","Siirrä ostoskoriin"
@@ -3590,6 +3637,7 @@ Complete,Valmis
 "Return to Stock","Palauta varastoon"
 "Qty to Refund","Hyvitettävä määrä"
 "No Items","Ei kohteita"
+"Customer Name: %1","Asiakkaan nimi: %1"
 "Purchased From: %1","Ostettu kohteesta: %1"
 "Create Shipment","Luo lähetys"
 "Qty to Invoice","Laskutettava määrä"
@@ -3612,6 +3660,7 @@ Complete,Valmis
 "Purchased From","Ostettu kohteesta"
 "Placed from IP","Tilaus tehty IP-osoitteesta"
 "Notes for this Order","Merkinnät tälle tilaukselle"
+"Comment added","Kommentti lisätty"
 "Shipped By",Lähettäjä
 "Tracking Number",Seurantanumero
 "Billing Last Name","Laskutettavan sukunimi"
@@ -4085,10 +4134,12 @@ Translations,Käännökset
 "Unsupported bookmark action.","Tätä kirjanmerkkitoimintoa ei tueta."
 "Select from Gallery","Valitse galleriasta"
 "Maximum file size","Tiedoston enimmäiskoko"
+"Allowed file types","Sallitut tiedostotyypit"
 "Delete bookmark","Poista kirjanmerkki"
 "Edit bookmark","Muokkaa kirjanmerkkiä"
 Columns,Sarakkeet
 "Active filters\\:","Aktiiviset suodattimet\\:"
+"Clear all","Tyhjennä kaikki"
 Filters,Suodattimet
 Selected,Valittu
 On,Käytössä
@@ -4176,6 +4227,7 @@ Product:,Tuote:
 "Temporary (302)","Väliaikainen (302)"
 "Permanent (301)","Pysyvä (301)"
 "message %1","viesti %1"
+"Delete record #%1","Poista tietue #%1"
 "Delete Role","Poista rooli"
 Roles,Roolit
 "Role Users",Roolikäyttäjät
@@ -4245,9 +4297,11 @@ username,käyttäjätunnus
 "Last login","Viimeisin kirjautuminen"
 Failures,Epäonnistumiset
 "First-Class Mail Large Envelope","First-Class Mail suuri kirjekuori"
+Letter,Kirje
 Regular,Tavallinen
 Large,Suuri
 Gift,Lahja
+"Allowed Methods","Sallitut tavat"
 "Add New Variable","Lisää uusi muuttuja"
 "Variable Name","Muuttujan nimi"
 "No token found.","Tunnussanomaa ei löydy."
@@ -4276,6 +4330,7 @@ Circle,Ympyrä
 Disc,Levy
 Square,Neliö
 "This URL key is already in use.","Tämä URL-osoite on jo käytössä."
+"Please select a website or store view.","Valitse sivusto tai kauppanäkymä."
 Node,"Ei mikään"
 "Not Selected","Ei valittu"
 Page:,Sivu:
@@ -4288,6 +4343,7 @@ Page:,Sivu:
 Equal,"Yhtä suuri"
 "Greater than","Suurempi kuin"
 "Greater than or equal to","Suurempi tai yhtä suuri kuin"
+"Less than","Vähemmän kuin"
 "Less than or equal to","Vähemmän tai yhtä suuri kuin"
 Contains,Sisältää
 "Name: A - Z","Nimi: A - Z"
@@ -4298,6 +4354,7 @@ Contains,Sisältää
 "SKU: Ascending","Tuotenro: nouseva"
 "SKU: Descending","Tuotenro: laskeva"
 "Sort by color","Lajittele värin mukaan"
+"Enter SKUs below, one per line","Syötä SKU:t alle, yksi per rivi"
 "Product image",Tuotekuva
 "You can create a rule only to the existing categories.","Voit luoda säännön vain olemassa oleviin kategorioihin."
 Attribute,Ominaisuus
@@ -4388,6 +4445,7 @@ error-message,virheviesti
 "Max Emails Allowed to be Sent","Sähköpostien lähettämisen sallittu enimmäismäärä"
 "10 by default. Max - 10000","Oletus 10. Max - 10000"
 "Email Text Length Limit","Sähköpostin tekstin enimmäispituus"
+"255 by default. Max - 10000","Oletus 255. Max - 10000"
 "Show in Sidebar","Näytä sivupalkissa"
 "My Wish List Link","Toivelistan linkki"
 "Display Wish List Summary","Näytä toivelistan yhteenveto"
@@ -4403,9 +4461,11 @@ error-message,virheviesti
 "Not matched","Ei täsmää"
 "No such order id.","Tällaista tilausnumeroa ei ole."
 "Currency doesn't match.","Valuutta ei täsmää."
+"Amount doesn't match.","Summa ei täsmää."
 Captured,Talteenotettu
 "Please click ","Napsauta "
 " if you are not redirected automatically."," jos sinua ei ohjata uudelleen automaattisesti."
+"You will be redirected to the Worldpay website.","Sinut uudelleenohjataan Worldpay -sivustolle."
 "Continue to Worldpay","Jatka Worldpayhyn"
 "Payment Response Password","Maksun vastaussalasana"
 "Allow To Edit Contact Information","Salli yhteystietojen muokkaus"
@@ -4417,6 +4477,7 @@ Captured,Talteenotettu
 "Quick Checkout","Nopea tilaus"
 "Store alternative addresses","Tallenna vaihtoehtoinen osoite"
 "For shipping to multiple family members and friends","Jos haluat useita toimitusosoitteita eri perheenjäseniä ja ystäviä varten"
+"View past orders","Tarkastele aiempia tilauksia"
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>."
 "Backup options","Varmuuskopioinnin asetukset"
 "Insert Variable","Lisää muuttuja"
