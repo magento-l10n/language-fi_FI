@@ -1613,6 +1613,7 @@ Days,Päivää
 "Catalog Events","Luettelon tapahtumat"
 "Block Custom Width","Lohkon mukautettu leveys"
 "If empty, we'll automatically set the width value in pixels.","Jos tyhjä, leveys määritetään automaattisesti pikseleinä."
+"Category ID","Kategoria ID"
 Start,Aloita
 End,Loppu
 "Category doesn't exist","Kategoriaa ei ole olemassa"
@@ -1645,6 +1646,7 @@ Stock,Varasto
 "Category Permissions","Kategorian käyttöoikeudet"
 "Display Product Prices","Näytä tuotehinnat"
 "No, Redirect to Landing Page","Ei, ohjaa aloitussivulle"
+"You cannot add ""%1"" to the cart.","Et voi lisätä ""%1"" ostoskoriin."
 "All Customer Groups","Kaikki asiakasryhmät"
 Allow,Salli
 Deny,Estä
@@ -1819,6 +1821,7 @@ Login,Kirjaudu
 edit,muokkaa
 "Shipping Address",Toimitusosoite
 "New Address","Uusi osoite"
+"Shipping Methods",Toimitustavat
 "Order Summary","Tilauksen yhteenveto"
 "Provided Zip/Postal Code seems to be invalid.","Syöttämäsi postinumero näyttäisi olevan virheellinen."
 " Example: "," Esimerkki: "
@@ -1839,6 +1842,7 @@ edit,muokkaa
 "Number of Items to Display Pager","Tuotteiden määrä näytöllä"
 "My Cart Link",Ostoskorini-linkki
 "Display Cart Summary","Näytä ostoskorin yhteenveto"
+"Mini Cart",Miniostoskori
 "Number of Items to Display Scrollbar","Tuotteiden määrä näytön vierityspalkilla"
 "Maximum Number of Items to Display","Maksimimäärä tuotteita näytöllä"
 "Payment Failed Emails","Epäonnistuneen maksun sähköpostit"
@@ -1964,7 +1968,10 @@ Gender:,Sukupuoli:
 "Thank you! We're reviewing your request and will contact you soon","Kiitos! Pyyntöäsi käsitellään ja otamme sinuun yhteyttä mahdollisimman pian"
 "Create New Company","Luo uusi yritys"
 "A total of %1 record(s) were updated.","Yhteensä %1 tietuetta päivitettiin."
+"can not be saved","ei voida tallentaa"
 "A total of %1 record(s) were deleted.","Yhteensä %1 tietue(tta) poistettiin."
+"You cannot delete yourself.","Et voi poistaa itseäsi."
+"Cannot delete this user.","Käyttäjää ei voi poistaa."
 "Add New Role","Lisää uusi rooli"
 "Edit Role","Muokkaa roolia"
 "Roles and Permissions","Roolit ja oikeudet"
@@ -1994,6 +2001,7 @@ Contacts,Kontaktit
 "Add New User","Lisää uusi käyttäjä"
 "Dear %name,","Hyvä %name,"
 "Dear %firstname","Hei %firstname"
+"Your account is now active","Tilisi on nyt aktiivinen"
 "Your account is locked","Tilisi on lukittu"
 "When you sign in to your account, you will be able to:","Kirjauduttuasi tilillesi voit:"
 "Show All Users","Näytä kaikki käyttäjät"
@@ -2158,6 +2166,7 @@ Sent,Lähetetty
 Sending,Lähettäminen
 Paused,Keskeytetty
 Unknown,Tuntematon
+"Order #","Tilaus #"
 "Bill-to Name","Laskutusasiakkaan nimi"
 "Ship-to Name","Vastaanottajan nimi"
 "Purchase Point",Ostopiste
@@ -2361,7 +2370,9 @@ Weak,Heikko
 Medium,Keskitaso
 Strong,Vahva
 "Very Strong","Erittäin vahva"
+"Invalid date","Virheellinen päivämäärä"
 "All Customers","Kaikki asiakkaat"
+"Reset password","Vaihda salasana"
 "Now Online","Nyt paikalla"
 "Customer Configuration","Asiakkaiden hallinnointi"
 "Account Sharing Options","Tilin jakamisen asetukset"
@@ -2384,6 +2395,7 @@ Strong,Vahva
 "Show Company","Näytä yritys"
 "Show Fax","Näytä faksi"
 "Assign a Customer Group","Määritä asiakasryhmä"
+"Update Address","Päivitä osoite"
 "Name Prefix","Nimen etuliite"
 "Name Suffix","Nimen jälkiliite"
 Group,Ryhmä
@@ -2531,7 +2543,6 @@ Downloads,Lataukset
 "Default label",Oletusselite
 "Decimal Number",Desimaaliluku
 "Unique constraint violation found","Yksilöllinen rajoite rikkomus löytyi"
-"Invalid date","Virheellinen päivämäärä"
 "The value of attribute ""%1"" is invalid.","Attribuutin ""%1"" arvo on virheellinen."
 "EAV types and attributes","EAV-tyypit ja attribuutit"
 "Could not ping search engine: %1","Ei voitu pingata hakukonetta: %1"
@@ -2900,7 +2911,6 @@ Wishlist,Toivelista
 "Ship to Multiple Addresses","Toimitus useampaan osoitteeseen"
 "Billing Information - %1","Laskutustiedot - %1"
 "Review Order - %1","Tarkista tilaus - %1"
-"Shipping Methods",Toimitustavat
 "Edit Billing Address","Muokkaa laskutusosoitetta"
 "Edit Shipping Address","Muokkaa toimitusosoitetta"
 "Create Billing Address","Luo laskutusosoite"
