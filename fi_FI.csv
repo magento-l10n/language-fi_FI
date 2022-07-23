@@ -1,8 +1,10 @@
 All,Kaikki
 None,"Poista valinnat"
 "Allowed Scopes","Sallitut kauppanäkymät"
+"More permissions are needed to delete the ""%1"" item.","Lisää käyttöoikeuksia tarvitaan kohteen ”%1” poistamiseen."
 "You need more permissions to apply some of the rule updates.","Joidenkin sääntöpäivitysten lisääminen vaatii enemmän käyttöoikeuksia."
 "More permissions are needed to save this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen tallentamiseen."
+"More permissions are needed to delete this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen poistamiseen."
 "You need more permissions to access website ""%1"".","Lisää käyttöoikeuksia tarvitaan pääsemiseksi sivustolle ""%1""."
 "Role Scopes","Roolien toimintaoikeudet"
 Custom,Mukautettu
@@ -97,6 +99,7 @@ Configure,Määritä
 "Shopping cart management is disabled for this customer.","Ostoskorin hallinta ei ole käytössä tälle asiakkaalle."
 Customers,Asiakkaat
 "Shopping Cart",Ostoskori
+"An error occurred. For details, see the error log.","Tapahtui virhe. Lisätietoja saat virhelokista."
 "You do not have access to this.","Sinulla ei ole pääsyä tähän."
 "An error has occurred. See error log for details.","Tapahtui virhe. Katso lisätietoja virhelokista."
 "You cannot configure a product.","Et voi määrittää tuotetta."
@@ -373,9 +376,14 @@ Environment,Ympäristö
 options,asetukset
 "Select all","Valitse kaikki"
 "Deselect all","Poista kaikki valinnat"
+Page,Sivu
+Previous,Edellinen
+"You're currently reading page","Luet tällä hetkellä sivua"
+Next,Seuraava
 Show,Näytä
 "per page","per sivu"
 "%s of %s selected","%s / %s valittuna"
+"This is a required field.","Tämä on pakollinen kenttä."
 "B2B Features","B2B ominaisuudet"
 "Invalid Form Key. Please refresh the page.","Virheellinen lomakkeen avain. Ole hyvä ja päivitä sivu."
 "You entered an invalid Secret Key. Please refresh the page.","Syötit virheellisen salausavaimen. Päivitä sivu."
@@ -562,6 +570,7 @@ System,Järjestelmä
 "You saved the store.","Tallensit kaupan."
 "Something went wrong while saving. Please review the error log.","Tapahtui virhe tallennettaessa. Tarkista virheloki."
 "Authentication storage is incorrect.","Virheellinen todennusvarasto."
+Today,Tänään
 "Last 24 Hours","Viimeiset 24 tuntia"
 "Last 7 Days","Edelliset 7 päivää"
 "Current Month","Nykyinen kuukausi"
@@ -597,8 +606,6 @@ password,salasana
 "Sign Out","Kirjaudu ulos"
 "About the calendar","Tietoja kalenterista"
 "Go Today","Siirry päivään"
-Previous,Edellinen
-Next,Seuraava
 Time,Aika
 Hour,Tunti
 Minute,Minuutti
@@ -636,9 +643,13 @@ selected,valittu
 "The information in this tab has been changed.","Tämän välilehden tietoja on muutettu."
 Loading...,Ladataan...
 "User Agent Rules","Käyttäjäagentin säännöt"
+"Previous Page","Edellinen sivu"
+"Next Page","Seuraava sivu"
+"Use Default Value","Käytä oletusarvoa"
 "We could not detect a size.","Kokoa ei voitu tunnistaa."
 "Please confirm scope switching. All data that hasn't been saved will be lost.","Vahvista kohdekaupan vaihtaminen. Kaikki tallentamattomat tiedot menetetään."
 "Warning message",Varoitus
+"This operation can take a long time","Tämä toiminto voi kestää kauan"
 "Allow everything","Salli kaikki"
 "Global Search","Globaali haku"
 Marketing,Markkinointi
@@ -655,6 +666,10 @@ Attributes,Attribuutit
 "Connect Manager","Yhteyden hallinta"
 "Package Extensions","Paketoidut laajennukset"
 Tools,Työkalut
+"Cache Types Management","Välimuistityyppien hallinta"
+"Toggle Cache Type","Vaihda välimuistityyppi"
+"Refresh Cache Type","Virkistä välimuistityyppi"
+"Catalog Images Cache","Tuoteluettelokuvien välimuisti"
 Currency,Valuutta
 Communications,Viestinnät
 Services,Palvelut
@@ -720,6 +735,7 @@ Host,Isäntä
 "Enable Frontend Resize","Ota käyttöön kuvan rajaaminen käyttöliittymässä"
 "Maximum Width","Suurin leveys"
 "Maximum Height",Enimmäiskorkeus
+"Maximum allowed height for uploaded image.","Suurin sallittu korkeus ladatulle kuvalle."
 Admin,Ylläpito
 "Admin User Emails","Järjestelmänvalvojan sähköpostit"
 "Forgot Password Email Template","""Unohtuiko salasana"" -sähköpostimalli"
@@ -744,7 +760,9 @@ Security,Turvallisuusasetukset
 Web,Verkko
 "Url Options",Url-asetukset
 "Add Store Code to Urls","Lisää kaupan kielikoodi URL-osoitteisiin"
+"<strong class=""colorRed"">Warning!</strong> When using Store Code in URLs, in some cases system may not work properly if URLs without Store Codes are specified in the third-party services (e.g. PayPal etc.).","<strong class=""colorRed"">Varoitus!</strong> Kun käytät kaupan kielikoodia URL-osoitteissa, joissakin tapauksissa on mahdollista ettei järjestelmä toimi oikein, mikäli kolmannen osapuolen palveluissa on määritetty URL-osoitteet ilman kielikoodeja (kuten PayPal jne.)."
 "Auto-redirect to Base URL","Automaattisesti uudelleenohjaa Base URL:ään"
+"I.e. redirect from http://example.com/store/ to http://www.example.com/store/","Esim. uudelleenohjaa URL:stä http://esimerkki.fi/kauppa/ osoitteeseen http://www.esimerkki.fi/kauppa/"
 "Search Engine Optimization",Hakukoneoptimointi
 "Use Web Server Rewrites","Käytä Web-palvelimen uudelleenkirjoitus -asetusta"
 "Base URLs","Base URL:t"
@@ -907,6 +925,8 @@ Header,Ylätunniste
 "One at the time, Random","Yksi kerrallaan, Random"
 "One at the time, Series","Yksi kerrallaan sarja"
 "One at the time, Shuffle","Yksi kerrallaan, shuffle"
+"Enable Dynamic Block","Ota käyttöön dynaaminen lohko"
+"Add Selected","Lisää valitut"
 Visibility,Näkyvyys
 "All Segments","Kaikki segmentit"
 "Allowed Credit Card Types","Sallitut luottokorttityypit"
@@ -1082,7 +1102,6 @@ Fixed,Kiinteä
 "Bundle Items",Pakettituotteet
 "Add Products to Option","Tuotteiden lisääminen ryhmään"
 "What are you looking for?","Mitä olet etsimässä?"
-"Use Default Value","Käytä oletusarvoa"
 "Price Range",Hintahaarukka
 "As Low as",Alkaen
 Together,Yhdessä
@@ -1383,6 +1402,9 @@ Category,Kategoria
 "Use config","Käytä kokoonpanon asetuksia"
 "Attribute Set already exists.","Attribuuttiryhmä on jo olemassa."
 "The product can't be saved.","Tuotetta ei voida tallentaa."
+"The product doesn't exist. Verify and try again.","Tuotetta ei ole olemassa. Tarkista ja yritä uudelleen."
+"The image doesn't exist. Verify and try again.","Kuvaa ei ole olemassa. Vahvista ja yritä uudelleen."
+"The image doesn't exist.","Kuvaa ei ole olemassa."
 "File '%1' is not an image.","Tiedosto '%1' ei ole kuva."
 "Could not save Prices.","Hintoja ei voitu tallentaa."
 "Could not delete Prices","Hintoja ei voitu poistaa"
@@ -1398,7 +1420,6 @@ message,viesti
 "Customer Group",Asiakasryhmä
 "Special Price From","Tarjoushinta alkaen"
 "Product Alerts",Tuotehälytykset
-"Add Selected","Lisää valitut"
 "Select Attribute","Valitse attribuutti"
 "Create New Attribute","Luo uusi attribuutti"
 "Custom options let customers choose the product variations they want.","Mukautetut vaihtoehdot antavat asiakkaiden valita haluamansa tuotevariaatiot."
@@ -1412,7 +1433,6 @@ message,viesti
 "Schedule Update From","Ajoita päivitys alkaen"
 "Product in Websites","Tuote sivustoilla"
 name,nimi
-"This operation can take a long time","Tämä toiminto voi kestää kauan"
 "Collapse All","Sulje kaikki"
 "Expand All","Laajenna kaikki"
 "Please confirm site switching. All data that hasn't been saved will be lost.","Vahvista sivuston vaihtaminen. Kaikki tallentamattomat tiedot menetetään."
@@ -1441,6 +1461,7 @@ Backorders,Jälkitoimitukset
 "Add Product To Websites","Lisää tuote sivustoille"
 "Item Price","Tuotteen hinta"
 "and above","ja yli"
+"Product In Websites","Tuote sivustoilla"
 "Delete image","Poista kuva"
 Hidden,Piilotettu
 "Alt Text","Alt teksti"
@@ -1490,6 +1511,8 @@ remaining,jäljellä
 Inventory,Varasto
 "Catalog Section","Katalogin osa"
 Small,Pieni
+"Custom image","Mukautettu kuva"
+"Date and Time","Päivämäärä ja aika"
 "Product Fields Auto-Generation","Tuotteen tietokenttien automaattinen luonti"
 Storefront,Etusivu
 "List Mode",Luettelotila
@@ -1503,6 +1526,7 @@ Comma-separated.,"Pilkuin erotettu."
 "Product Image Placeholders","Tuotekuvien paikanpitäjät"
 "Page Title Separator","Sivuotsikon erotinmerkki"
 "Use JavaScript Calendar","Käytä JavaScript-kalenteria"
+"Time Format",Aikamuoto
 "Please use a four-digit year format.","Käytä nelinumeroista vuosilukua."
 "Top Level Category","Ylätason kategoria"
 Quality,Laatu
@@ -1517,10 +1541,12 @@ Quality,Laatu
 "Number of Products to Display","Näytettävien tuotteiden määrä"
 Template,Malli
 "Select Product...","Valitse tuote..."
+"If empty, we'll use the product name here.","Jos tyhjä, käytämme tuotteen nimeä täällä."
 "Select Category...","Valitse kategoria..."
 "Recently Viewed Products","Äskettäin katsotut tuotteet"
 "Number of Products to display","Näytettävien tuotteiden määrä"
 Image,Kuva
+"Learn More Link","Lue lisää-linkki"
 "Buttons to show","Näytettävät painikkeet"
 "Add to Wishlist","Lisää toivelistaan"
 "Recently Compared Products","Äskettäin vertaillut tuotteet"
@@ -1993,7 +2019,6 @@ Purchased,Ostettu
 "Order # %1","Tilaus # %1"
 "Credit Limit",Luottoraja
 "Cancel the Order","Peruuta tilaus"
-"This is a required field.","Tämä on pakollinen kenttä."
 Date,Päivämäärä
 "Payment Methods",Maksutavat
 "Default Config",Oletusasetukset
@@ -2174,7 +2199,6 @@ Unlock,Avaa
 "There was an error detecting Customer Group.","Asiakasryhmän tunnistamisessa tapahtui virhe."
 "Validate VAT Number","Tarkista y-tunnus"
 "Date of Birth",Syntymäaika
-Today,Tänään
 "Bad request.","Virheellinen pyyntö."
 "This confirmation key is invalid or has expired.","Vahvistusavain on virheellinen tai vanhentunut."
 "There was an error confirming the account","Tilin vahvistamisessa tapahtui virhe"
@@ -3996,7 +4020,6 @@ thumbnail,pienoiskuva
 "Browse Files","Selaa tiedostoja"
 "Help Us Keep Magento Healthy","Auta meitä pitämään Magento terveenä"
 "%1 Item(s)","%1 tuote(tta)"
-Page,Sivu
 "1 column","1 sarake"
 "Default welcome msg!",Oletustervetuliaisviesti!
 "Theme Information","Teeman tiedot"
