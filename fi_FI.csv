@@ -1981,10 +1981,14 @@ Blocked,Estetty
 "This account is locked.","Tili on lukittu."
 test,testi
 "Error message",Virhesanoma
+"Could not save role","Roolia ei voitu tallentaa"
 "Role Name","Roolin nimi"
+"Company Name","Yrityksen nimi"
 Company:,Yritys:
 "User Role",Käyttäjärooli
+"User Roles",Käyttäjäroolit
 "VAT/TAX ID","Y-tunnus /VAT-numero"
+"Please select an option.","Valitse vaihtoehto."
 "Please select a region, state or province.","Valitse alue, osavaltio tai provinssi."
 "Phone Number",Puhelinnumero
 "Job Title",Tehtävänimike
@@ -3687,6 +3691,7 @@ Operations,Toiminnot
 "Coupon Qty","Kuponkien määrä"
 "Code Prefix","Koodin etuliite"
 "Code Suffix","Koodin jälkiliite"
+"Times Used",Käyttökertoja
 "Are you sure you want to delete the selected coupon(s)?","Oletko varma että haluat poistaa valitu(n/t) alennuskoodi(n/t)?"
 "We can't delete the rule right now. Please review the log and try again.","Sääntöä ei voida poistaa juuri nyt. Tarkista loki ja yritä uudelleen."
 "New Cart Price Rule","Uusi ostoskorin hintasääntö"
@@ -3698,8 +3703,10 @@ Operations,Toiminnot
 "Quantity in cart","Määrä ostoskorissa"
 "Price in cart","Hinta ostoskorissa"
 "total quantity",kokonaismäärä
+"%1 coupon(s) have been generated.","%1 kuponki(a) luotiin."
 "Your coupon was successfully applied.","Kuponki käytettiin onnistuneesti."
 "Use Auto Generation","Käytä automaattista luontia"
+"Uses per Coupon","Käyttökertaa per kuponki"
 "Uses per Customer","Käyttömäärä per asiakas"
 "Public In RSS Feed","Julkinen RSS-syötteessä"
 "Future Update in this time range already exists. Select a different range to add a new Future Update.","Tuleva päivitys tällä aikavälillä on jo olemassa. Valitse toinen aikaväli uuden tulevan päivityksen lisäämiseksi."
@@ -3719,9 +3726,14 @@ Operations,Toiminnot
 "Scheduled Import","Ajastettu tuonti"
 "Connecting to server","Yhdistetään palvelimeen"
 "Unknown file format","Tuntematon tiedostomuoto"
+"Local Server","Paikallinen palvelin"
 "Stop Import","Pysäytä tuonti"
 "Continue Processing","Jatka käsittelyä"
 Successful,Onnistui
+"Entity type:","Entiteetin tyyppi:"
+"Error Email Recipient","Virhesähköpostin vastaanottaja"
+"Error Email Sender","Virhesähköpostin lähettäjä"
+"Error Email Template","Virhesähköpostin mallipohja"
 "Search Term",Hakusana
 "Search Synonyms","Hakutulosten synonyymit"
 "New Synonym Group","Uusi synonyymiryhmä"
@@ -3776,10 +3788,14 @@ Synonyms,Synonyymit
 "All other open sessions for this account were terminated.","Kaikki muut tämän tilin avoimet istunnot lopetettiin."
 "We couldn't logout because of an error.","Ei voitu kirjautua ulos virheen vuoksi."
 "Someone logged into this account from another device or browser. Your current session is terminated.","Joku kirjautui tälle tilille toisesta laitteesta tai selaimesta. Nykyinen istunto keskeytetään."
+"Your account is temporarily disabled. Please try again later.","Tilisi on väliaikaisesti poistettu käytöstä. Yritä myöhemmin uudelleen."
 "Your current session has been expired.","Nykyinen istuntosi on vanhentunut."
+"By IP and Email","IP-osoitteen ja sähköpostin mukaan"
 "By Email",Sähköpostitse
 "This administrator account is open in more than one location. Note that other locations might be different browsers or sessions on the same computer.","Järjestelmänvalvojatili on avoinna useammassa kuin yhdessä sijainnissa. Huomaa, että muut sijainnit saattavat olla eri selaimia tai istuntoja samassa tietokoneessa."
 "Log out all other sessions","Kirjaudu ulos muista istunnoista"
+"This computer is using IP address %1.","Tämä tietokone käyttää IP-osoitetta %1."
+Warning,Varoitus
 "The link to a friend was sent.","Linkki kaverille lähetettiin."
 "Some emails were not sent.","Joitain sähköposteja ei lähetetty."
 "Please enter a sender name.","Anna lähettäjän nimi."
@@ -3792,10 +3808,13 @@ Synonyms,Synonyymit
 "%sender_name wants to share this product with you:","%sender_name haluaa jakaa tiedon tästä tuotteesta sinulle:"
 "Select Email Template","Valitse sähköpostimalli"
 "Allow for Guests","Salli vieraille"
+"Linked Products","Linkitetyt tuotteet"
 Pricing,Hinnoittelu
 "New Shared Catalog","Uusi jaettu katalogi"
 "The shared catalog was deleted successfully.","Jaettu katalogi poistettiin onnistuneesti."
 "Requested product doesn't exist: %1.","Pyydettyä tuotetta ei ole olemassa: %1."
+Store:,Kauppa:
+Website:,Sivusto:
 of,/
 Assigned,Osoitettu
 "Adjust Fixed Price","Muuta kiinteää hintaa"
@@ -3816,6 +3835,9 @@ Assigned,Osoitettu
 "Cannot add tracking number.","Seurantakoodia ei voida lisätä."
 "You created the shipping label.","Osoitekortti luotiin."
 "New Shipment","Uusi lähetys"
+"The shipment has been created.","Lähetys on luotu."
+"Cannot save shipment.","Lähetystä ei voi tallentaa."
+"This shipment no longer exists.","Tätä lähetystä ei ole enää olemassa."
 Live,Käytössä
 "Signature Confirmation","Vaadi allekirjoitus"
 Contents,Sisällöt
@@ -3849,6 +3871,7 @@ Track:,Seuraa:
 "Shipping Settings",Toimitusasetukset
 Origin,Lähtöpaikka
 "Shipping Policy",Toimitusehdot
+"Track your order","Seuraa tilaustasi"
 "API Key","API avain"
 "API URL",API-osoite
 "Save & Generate","Tallenna & luo"
@@ -3883,6 +3906,7 @@ Yearly,Vuosittain
 "Edit Existing Update","Muokkaa olemassa olevaa päivitystä"
 "Something went wrong while removing the %1.","Tapahtui virhe poistettaessa %1."
 "Can not be rescheduled","Ei voida ajoittaa uudelleen"
+"Delete Update","Poista päivitys"
 Test,Testi
 "This action is unavailable","Tämä toiminto ei ole käytettävissä"
 Calendar,Kalenteri
@@ -3934,6 +3958,8 @@ Top,Ylös
 "No data","Ei tietoja"
 "System Report",Järjestelmäraportti
 Logs,Lokit
+"New Backup","Uusi varmuuskopio"
+"New Report","Uusi raportti"
 "Update Product Preview Image","Päivitä tuotteen esikatselukuva"
 "Filtering by this attribute will update the product image on catalog page","Tällä attribuutilla suodattaminen päivittää tuotekuvan katalogisivulla"
 "Choose a color","Valitse väri"
@@ -3967,6 +3993,9 @@ State,Lääni
 "New Tax Rate","Uusi verokanta"
 "You saved the tax rate.","Verokanta on tallennettu."
 "New Tax Rule","Uusi verosääntö"
+"No (price without tax)","Ei (hinta ilman veroja)"
+"Yes (only price with tax)","Kyllä (vain verollinen hinta)"
+"Both (without and with tax)","Molemmat (veroton ja verollinen hinta)"
 "Grand Total (Excl. Tax)","Loppusumma (veroton)"
 "Grand Total (Incl. Tax)","Loppusumma (verollinen)"
 "Shipping (Excl. Tax)","Toimituskulut (veroton)"
@@ -3983,6 +4012,7 @@ Taxes,Verot
 "Tax Section",Vero-osio
 "Tax Classes",Veroluokat
 "Tax Class for Shipping","Toimituksen veroluokat"
+"Calculation Settings","Laskennan asetukset"
 "Catalog Prices","Katalogin hinta"
 "Shipping Prices",Toimitushinnat
 "Default Post Code",Oletuspostinumero
@@ -4040,6 +4070,7 @@ Account,Tili
 "2 columns with left bar","2 saraketta ja vasen palkki"
 "2 columns with right bar","2 saraketta ja oikea palkki"
 "3 columns","3 saraketta"
+"TinyMCE 3 (deprecated)","TinyMCE 3 (vanhentunut)"
 "Dictionary (Translation on Storefront side)","Sanakirja (käännös kaupan Etusivun puolella)"
 "Embedded (Translation on Admin side)","Upotettu (käännös Admin-puolella)"
 "Error while translating phrase ""%s"" in file %s.","Virhe käännettäessä lausetta ”%s” tiedostossa %s."
@@ -4052,6 +4083,10 @@ Translations,Käännökset
 "Add New %1","Lisää uusi %1"
 "New %1","Uusi %1"
 "Unsupported bookmark action.","Tätä kirjanmerkkitoimintoa ei tueta."
+"Select from Gallery","Valitse galleriasta"
+"Maximum file size","Tiedoston enimmäiskoko"
+"Delete bookmark","Poista kirjanmerkki"
+"Edit bookmark","Muokkaa kirjanmerkkiä"
 Columns,Sarakkeet
 "Active filters\\:","Aktiiviset suodattimet\\:"
 Filters,Suodattimet
@@ -4083,7 +4118,6 @@ Keyword,Avainsana
 "Please enter a valid IP v6 address.","Kirjoita kelvollinen IPv6-osoite."
 "Invalid format.","Virheellinen muoto."
 "HTML tags are not allowed.","HTML-tunnisteet eivät ole sallittuja."
-"Please select an option.","Valitse vaihtoehto."
 "Empty Value.","Tyhjä arvo."
 "Please use only letters (a-z or A-Z), numbers (0-9) or spaces only in this field.","Käytä vain kirjaimia (a – ö tai A-Z), numeroita (0-9) tai välilyöntejä tässä kentässä."
 "Please use only letters (a-z or A-Z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Ole hyvä ja käytä vain kirjaimia (a – ö tai A-Z), numeroita (0-9) tai alaviivaa (_), ensimmäisen merkin on oltava kirjain."
@@ -4106,6 +4140,7 @@ Keyword,Avainsana
 "The value is not within the specified range.","Arvo ei ole määritetyissä rajoissa."
 "Please use letters only (a-z or A-Z) in this field.","Käytä vain kirjaimia (a-z tai A-Z) tässä kentässä."
 "Please use only letters (a-z or A-Z) or numbers (0-9) in this field. No spaces or other characters are allowed.","Käytä ainoastaan kirjaimia (a–ö tai A-Ö) tai numeroita (0-9) tässä kentässä. Välilyöntejä tai muita merkkejä ei sallita."
+"First character must be letter.","Ensimmäisen merkin on oltava kirjain."
 "Please enter a valid date.","Anna kelvollinen päivämäärä."
 "Please enter a valid URL Key (Ex: ""example-page"", ""example-page.html"" or ""anotherlevel/example-page"").","Kirjoita kelvollinen URL-osoite (Esimerkiksi: ”esimerkki-sivu”, ”esimerkki-sivu.html” tai ”toinentaso/esimerkki-sivu”)."
 "Please enter a valid zip code.","Anna kelvollinen postinumero."
@@ -4114,9 +4149,13 @@ Keyword,Avainsana
 "Please enter issue number or start date for switch/solo card type.","Kirjoita switch- tai solo -korttityypin julkaisunumero tai aloituspäivämäärä."
 "Please enter positive number in this field.","Syötä positiivinen numero tähän kenttään."
 "Please enter a valid value, ex: 10,20,30","Kirjoita kelvollinen arvo, esimerkiksi 10,20,30"
+"Please enter a quantity greater than 0.","Ole hyvä ja syötä määrä joka on suurempi kuin 0."
+"The fewest you may purchase is %1.","Pienin sallittu määrä jonka voit ostaa, on %1."
+"The maximum you may purchase is %1.","Suurin sallittu määrä jonka voit ostaa, on %1."
 "The date is not within the specified range.","Päivämäärä ei ole määritetyissä rajoissa."
 Attention,Huomio
 "UPS Today Dedicated Courrier","UPS Today Dedicated Courier"
+"Not Required","Ei vaadittu"
 "User ID",Käyttäjätunnus
 "Edit URL Rewrite for a Category","Muokkaa kategorian URL-uudelleenohjausta"
 "Add URL Rewrite for a Category","Lisää URL-uudelleenohjaus kategorialle"
@@ -4130,7 +4169,9 @@ Product:,Tuote:
 "Edit URL Rewrite","Muokkaa URL-uudelleenohjausta"
 "Add New URL Rewrite","Lisää uusi URL-uudelleenohjaus"
 "Target Path",Kohdepolku
+"Redirect Type","Uudelleenohjauksen tyyppi"
 "URL Rewrite Management","URL-uudelleenohjauksien hallinta"
+"Add URL Rewrite","Lisää URL-uudelleenohjaus"
 "You deleted the URL rewrite.","URL-uudelleenohjaus on poistettu."
 "Temporary (302)","Väliaikainen (302)"
 "Permanent (301)","Pysyvä (301)"
@@ -4179,6 +4220,7 @@ username,käyttäjätunnus
 "Your password must be at least %1 characters.","Salasanassa pitää olla vähintään %1 merkkiä."
 "Your password must include both numeric and alphabetic characters.","Salasanan tulee sisältää sekä numeroja, että kirjaimia."
 "Your password confirmation must match your password.","Salasanan vahvistuksen on oltava sama kuin salasana."
+"It's time to change your password.","On aika vaihtaa salasana."
 "It's time to <a href=""%1"">change your password</a>.","On aika vaihtaa <a href=""%1"">salasana</a>."
 "Your password has expired; please contact your administrator.","Salasanasi on vanhentunut; ole hyvä ja ota yhteyttä ylläpitäjään."
 "Password Help",Salasanaohje
@@ -4196,7 +4238,6 @@ username,käyttäjätunnus
 "If you requested this change, reset your password here:","Jos olet pyytänyt tämän muutoksen, palauta salasanasi tästä:"
 "New %changes for %user_name","Uusia %changes käyttäjälle %user_name"
 "We have received a request to change the following information associated with your account at %store_name: %changes.","Olemme saaneet pyynnön muuttaa seuraavia tietoja %store_name -tilissäsi: %changes."
-"User Roles",Käyttäjäroolit
 "User Notification Template","Käyttäjäilmoitusten malli"
 "We will disable this feature if the value is empty.","Poistamme tämän ominaisuuden käytöstä, jos arvo on tyhjä."
 "Password Lifetime (days)","Salasanan voimassaoloaika (päivää)"
@@ -4204,6 +4245,8 @@ username,käyttäjätunnus
 "Last login","Viimeisin kirjautuminen"
 Failures,Epäonnistumiset
 "First-Class Mail Large Envelope","First-Class Mail suuri kirjekuori"
+Regular,Tavallinen
+Large,Suuri
 Gift,Lahja
 "Add New Variable","Lisää uusi muuttuja"
 "Variable Name","Muuttujan nimi"
@@ -4245,6 +4288,7 @@ Page:,Sivu:
 Equal,"Yhtä suuri"
 "Greater than","Suurempi kuin"
 "Greater than or equal to","Suurempi tai yhtä suuri kuin"
+"Less than or equal to","Vähemmän tai yhtä suuri kuin"
 Contains,Sisältää
 "Name: A - Z","Nimi: A - Z"
 "Name: Z - A","Nimi: Z - A"
@@ -4280,6 +4324,7 @@ Country/State,Maa/osavaltio
 "Final Price","Lopullinen hinta"
 "Incl. tax",Verollinen
 "Excl. tax",Veroton
+"Total incl. tax","Verollinen yhteensä"
 "Fixed Product Taxes","Kiinteät tuoteverot"
 "Enable FPT","Ota kiinteämääräinen vero käyttöön"
 "Display Prices In Emails","Näytä hinnat sähköposteissa"
@@ -4374,7 +4419,6 @@ Captured,Talteenotettu
 "For shipping to multiple family members and friends","Jos haluat useita toimitusosoitteita eri perheenjäseniä ja ystäviä varten"
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>."
 "Backup options","Varmuuskopioinnin asetukset"
-Warning,Varoitus
 "Insert Variable","Lisää muuttuja"
 "The widget %1 is no longer available. Select a different widget.","Widget %1 ei ole enää käytettävissä. Valitse toinen widget."
 "Recent items","Äskeiset tuotteet"
@@ -4387,7 +4431,6 @@ Warning,Varoitus
 "All %1","Kaikki %1"
 Translate,Käännä
 "Please remove invalid characters: {0}.","Poista virheelliset merkit: {0}."
-"First character must be letter.","Ensimmäisen merkin on oltava kirjain."
 "Please select one of the options above.","Valitse yksi vaihtoehdoista edellä."
 "Please select a file.","Valitse tiedosto."
 "Please select one of the options.","Valitse yksi vaihtoehdoista."
@@ -4403,9 +4446,6 @@ Translate,Käännä
 "Please enter a valid number.","Anna kelvollinen luku."
 "This is required field","Tämä on pakollinen kenttä"
 "Admin is a required field in each row.","Pääkäyttäjä on pakollinen kenttä joka rivillä."
-"Please enter a quantity greater than 0.","Ole hyvä ja syötä määrä joka on suurempi kuin 0."
-"The fewest you may purchase is %1.","Pienin sallittu määrä jonka voit ostaa, on %1."
-"The maximum you may purchase is %1.","Suurin sallittu määrä jonka voit ostaa, on %1."
 "You can buy this product only in quantities of %1 at a time.","Voit ostaa tämän tuotteen vain määrinä %1 kerrallaan."
 "The password can't be the same as the email address. Create a new password and try again.","Salasana ei voi olla sama kuin sähköpostiosoite. Luo uusi salasana ja yritä uudelleen."
 "Please fix this field.","Korjaa tämä kenttä."
