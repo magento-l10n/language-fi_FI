@@ -2342,7 +2342,7 @@ Newsletters,Uutiskirjeet
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Tilin luomisesta on monia etuja: nopeammat tilaukset, useiden osoitteiden säilyttäminen, tilausten seuranta ja paljon muuta."
 Fax,Faksi
 "Welcome to %store_name","Tervetuloa %store_name -kauppaan"
-"Welcome to %store_name.","Tervetuloa %store_name -kauppaan."
+"Welcome to %store_name.","Tervetuloa %store_name -kauppaan!"
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","Kirjautuaksesi sivustollemme, käytä näitä tunnistetietoja kassalla tai <a href=""%customer_url"">Oma tili</a> -sivulla:"
 Email:,Sähköposti:
 Password:,Salasana:
@@ -4477,7 +4477,7 @@ Captured,Talteenotettu
 "Quick Checkout","Nopea tilaus"
 "Store alternative addresses","Tallenna vaihtoehtoinen osoite"
 "For shipping to multiple family members and friends","Jos haluat useita toimitusosoitteita eri perheenjäseniä ja ystäviä varten"
-"View past orders","Tarkastele aiempia tilauksia"
+"View past orders","Tarkastella aiempia tilauksia"
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>."
 "Backup options","Varmuuskopioinnin asetukset"
 "Insert Variable","Lisää muuttuja"
