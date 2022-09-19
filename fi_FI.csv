@@ -1799,6 +1799,7 @@ Total:,Yhteensä:
 "My billing and shipping address are the same","Laskutus- ja toimitusosoite ovat samat"
 Update,Päivitä
 "Save in address book","Tallenna osoitekirjaan"
+"Enter your billing address to get a tax estimate.","Syötä laskutusosoitteesi saadaksesi veroa koskevan arvion."
 "Enter your destination to get a shipping estimate.","Syötä toimitusosoitteesi saadaksesi arvion toimituskuluista."
 "Sorry, no quotes are available for this order at this time","Valitettavasti toimituskuluja ei voida laskea tälle tilaukselle toistaiseksi"
 "Estimated Total","Arvioitu loppusumma"
@@ -2310,9 +2311,9 @@ Newsletters,Uutiskirjeet
 "Change Shipping Address","Muuta toimitusosoite"
 "You have no default shipping address in your address book.","Sinulla ei ole oletustoimitusosoitetta osoitekirjassasi."
 "Street Address %1","Katuosoite %1"
-"It's a default billing address.","Se on oletuslaskutusosoite."
+"It's a default billing address.","Tämä on oletuslaskutusosoite."
 "Use as my default billing address","Käytä oletuslaskutusosoitteenani"
-"It's a default shipping address.","Se on oletustoimitusosoite."
+"It's a default shipping address.","Tämä on oletustoimitusosoite."
 "Use as my default shipping address","Käytä oletustoimitusosoitteenani"
 "Go back",Takaisin
 "Additional Address Entries",Lisäosoitteet
