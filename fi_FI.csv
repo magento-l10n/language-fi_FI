@@ -3854,10 +3854,13 @@ Warning,Varoitus
 "Please specify at least one recipient.","Määritä vähintään yksi vastaanottaja."
 "No more than %1 emails can be sent at a time.","Enintään %1 sähköposti(a) voidaan lähettää kerrallaan."
 "Remove Recipent","Poista vastaanottaja"
+Invitee,Vastaanottaja
+"Add Invitee","Lisää vastaanottaja"
 "Welcome, %name","Tervetuloa, %name"
 "%sender_name wants to share this product with you:","%sender_name haluaa jakaa tiedon tästä tuotteesta sinulle:"
 "Select Email Template","Valitse sähköpostimalli"
 "Allow for Guests","Salli vieraille"
+"Max Recipients","Vastaanottajien enimmäismäärä"
 "Linked Products","Linkitetyt tuotteet"
 Pricing,Hinnoittelu
 "New Shared Catalog","Uusi jaettu katalogi"
