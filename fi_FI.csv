@@ -4055,6 +4055,7 @@ State,Lääni
 "Shipping (Incl. Tax)","Toimituskulut (sis. verot)"
 "Before Discount","Ennen alennusta"
 "After Discount","Alennuksen jälkeen"
+"Including and Excluding Tax","Verollinen sekä veroton"
 "customer group",asiakasryhmä
 product,tuote
 "Excl. tax:",Veroton:
