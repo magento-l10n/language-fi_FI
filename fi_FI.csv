@@ -3,6 +3,7 @@ None,"Poista valinnat"
 "Allowed Scopes","Sallitut kauppanäkymät"
 "More permissions are needed to delete the ""%1"" item.","Lisää käyttöoikeuksia tarvitaan kohteen ”%1” poistamiseen."
 "You need more permissions to apply some of the rule updates.","Joidenkin sääntöpäivitysten lisääminen vaatii enemmän käyttöoikeuksia."
+"More permissions are needed to view this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen näyttämiseen."
 "More permissions are needed to save this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen tallentamiseen."
 "More permissions are needed to delete this item.","Lisää käyttöoikeuksia tarvitaan tämän kohteen poistamiseen."
 "You need more permissions to access website ""%1"".","Lisää käyttöoikeuksia tarvitaan pääsemiseksi sivustolle ""%1""."
@@ -1779,7 +1780,7 @@ Error!,Virhe!
 "You added %1 to your <a href=""%2"">shopping cart</a>.","%1 lisättiin <a href=""%2"">ostoskoriin</a>."
 "Order #",Tilausnumero
 "Proceed to Checkout","Siirry kassalle"
-"Your order number is: %1.","Tilauksesi numero on: %1."
+"Your order number is: %1.","Tilausnumerosi on: %1."
 "Your order # is: <span>%1</span>.","Sinun tilauksesi # on: <span>%1</span>."
 "We'll email you an order confirmation with details and tracking info.","Lähetämme sinulle tilausvahvistuksen ja seurantatiedot tilauksessa käytettyyn sähköpostiosoitteeseen."
 "Payment Transaction Failed Reminder","Maksamisen epäonnistumisen muistutus"
@@ -4365,7 +4366,9 @@ Contains,Sisältää
 Attribute,Ominaisuus
 Logic,Logiikka
 "Add Condition","Lisää ehto"
+"Wait loading...","Odota ladataan..."
 "Save and Close","Tallenna ja sulje"
+Sort,Järjestä
 "Sort order",Järjestys
 "Operation allowed only in HTTPS","Käyttö sallittu vain HTTPS:llä"
 "Requested service is not available: ""%1""","Pyydetty palvelu ei ole saatavilla: ""%1"""
@@ -4418,11 +4421,13 @@ description,kuvaus
 "Message length must not exceed %1 symbols","Viestin pituus ei saa ylittää %1 symbolia"
 "Your wish list has been shared.","Toivelistasi on jaettu."
 "%1 has been updated in your Wish List.","%1 on päivitetty toivelistallasi."
+"Can't update wish list","Toivelistaa ei voida päivittää"
 "The requested Wish List doesn't exist.","Pyydettyä toivelistaa ei ole."
 "Display number of items in wish list","Näytä nimikkeiden määrä toivelistalla"
 "Product is not salable.","Tuote ei ole kysytty."
 Comment:,Kommentti:
 "We cannot retrieve the Wish List.","Toivelistaa ei voida noutaa."
+"%1's Wishlist","Käyttäjän %1 toivelista"
 "The product is disabled","Tuote on pois käytöstä"
 error-message,virheviesti
 "Product Exception.","Tuotteen poikkeus."
@@ -4479,6 +4484,8 @@ Captured,Talteenotettu
 "Payment was canceled","Maksu peruutettiin"
 "Please ","Ole hyvä "
 "continue shopping","jatka ostoksia"
+"Transaction has been canceled","Tapahtuma on peruutettu"
+"Transaction has been declined","Tapahtuma on hylätty"
 "Quick Checkout","Nopea tilaus"
 "Store alternative addresses","Tallenna vaihtoehtoinen osoite"
 "For shipping to multiple family members and friends","Jos haluat useita toimitusosoitteita eri perheenjäseniä ja ystäviä varten"
@@ -4497,6 +4504,7 @@ Captured,Talteenotettu
 "All %1","Kaikki %1"
 Translate,Käännä
 "Please remove invalid characters: {0}.","Poista virheelliset merkit: {0}."
+"Forbidden extensions has been used. Avoid usage of ","Kiellettyjä laajennuksia on käytetty. Vältä käyttämästä "
 "Please select one of the options above.","Valitse yksi vaihtoehdoista edellä."
 "Please select a file.","Valitse tiedosto."
 "Please select one of the options.","Valitse yksi vaihtoehdoista."
