@@ -3323,6 +3323,7 @@ Nickname,Nimimerkki
 "Edit Review '%1'","Muokkaa arvostelua ""%1"""
 "Pending Reviews of Customer `%1`","Asiakkaan '%1' odottavat arvioinnit"
 "Pending Reviews","Odottavat tuotearvostelut"
+"All Reviews of Customer `%1`","Asiakkaan '%1' arvioinnit"
 "All Reviews","Kaikki arvostelut"
 "Add New Rating","Lisää uusi arvostelu"
 "Save Rating","Tallenna arvostelu"
