@@ -1623,7 +1623,16 @@ End,Loppu
 "No Backorders","Ei jälkitoimituksia"
 "Allow Qty Below 0","Salli määrät alle 0"
 "Allow Qty Below 0 and Notify Customer","Salli määrä alle 0 ja ilmoita asiakkaalle"
+"Not all of your products are available in the requested quantity.","Kaikkia tuotteitasi ei ole saatavilla pyydetyssä määrässä."
+"Product with SKU ""%1"" does not exist","Tuotetta tunnuksella ""%1"" ei ole olemassa"
+"The fewest you may purchase is %1.","Pienin sallittu ostosmäärä on %1."
+"Please correct the quantity for some products.","Korjaa joidenkin tuotteiden määrä."
+"The most you may purchase is %1.","Suurin sallittu ostosmäärä on %1."
+"We don't have as many ""%1"" as you requested.","Meillä ei ole pyytämääsi määrää tuotetta ""%1""."
 "We don't have as many ""%1"" as you requested, but we'll back order the remaining %2.","Meillä ei ole niin montaa kappaletta tuotetta ""%1"" kuin haluat, mutta siirretään tilaukselle jäljellä olevat %2."
+"We don't have ""%1"" in the requested quantity, so we'll back order the remaining %2.","Meillä ei ole ""%1"" pyydetyssä määrässä, joten siirretään tilaukselle jäljellä olevat %2."
+"You can buy %1 only in quantities of %2 at a time.","Voit ostaa %1 vain määrinä %2 kerrallaan."
+"You can buy this product only in quantities of %1 at a time.","Voit ostaa tämän tuotteen vain määrinä %1 kerrallaan."
 "Stock Status",Varastotilanne
 "Only %1 left","Vain %1 jäljellä"
 "Product availability","Tuotteen saatavuus"
@@ -1631,6 +1640,8 @@ End,Loppu
 "Only X left Threshold","""Vain X jäljellä"" kynnysarvo"
 "Display Products Availability in Stock on Storefront","Näytä tuotteiden määrä varastossa kaupan etusivulla"
 Stock,Varasto
+"The Product with the ""%1"" SKU doesn't exist.","Tuotetta tunnuksella ""%1"" ei ole olemassa."
+"The requested qty is not available","Pyydettyä määrää ei ole saatavilla"
 "New Permission","Uusi oikeus"
 "You already have a permission with this scope.","Sinulla on jo käyttöoikeus vaikutusalueen kanssa."
 (Allow),(Salli)
@@ -3302,7 +3313,6 @@ Refunds,Hyvitykset
 "Refresh Lifetime Statistics","Virkistä elinikäiset tilastot"
 "Invalid item option format.","Virheellinen nimikkeen vaihtoehdon muoto."
 "Cannot specify product.","Tuotetta ei voida määrittää."
-"The requested qty is not available","Pyydettyä määrää ei ole saatavilla"
 Exception,Poikkeus
 Rename,Uudelleennimeä
 "Edit item","Muokkaa tuotetta"
@@ -4450,11 +4460,17 @@ Captured,Talteenotettu
 "continue shopping","jatka ostoksia"
 "Transaction has been canceled","Tapahtuma on peruutettu"
 "Transaction has been declined","Tapahtuma on hylätty"
+"Account Dashboard","Tilin hallintapaneeli"
 "Quick Checkout","Nopea tilaus"
 "Store alternative addresses","Tallenna vaihtoehtoinen osoite"
 "For shipping to multiple family members and friends","Jos haluat useita toimitusosoitteita eri perheenjäseniä ja ystäviä varten"
 "View past orders","Tarkastella aiempia tilauksia"
+"<a href=%url_about_us>About Us</a>","<a href=%url_about_us>Meistä</a>"
+"<a href=url_customer_service>Customer Service</a>","<a href=url_customer_service>Asiakaspalvelu</a>"
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Aukioloajat: <br /> <span class=""no-link"">%store_hours</span>."
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","Jos sinulla on kysyttävää tilauksestasi, voit lähettää meille sähköpostia osoitteeseen <a href=""mailto:%store_email"">%store_email</a>."
+"Shipping Info",Toimitustiedot
+"About Us",Meistä
 "Backup options","Varmuuskopioinnin asetukset"
 Warning,Varoitus
 "Recent items","Äskeiset tuotteet"
@@ -4498,7 +4514,6 @@ Translate,Käännä
 "Please enter a valid year (1900-%1).","Kirjoita kelvollinen vuosi (1900-%1)."
 "Please enter a valid day (1-%1).","Kirjoita kelvollinen päivä (1-%1)."
 "Please enter a date from the past.","Kirjoita päivämäärä menneisyydestä."
-"You can buy this product only in quantities of %1 at a time.","Voit ostaa tämän tuotteen vain määrinä %1 kerrallaan."
 "Forbidden extensions has been used. Avoid usage of ","Kiellettyjä laajennuksia on käytetty. Vältä käyttämästä "
 "Insert Variable","Lisää muuttuja"
 "The widget %1 is no longer available. Select a different widget.","Widget %1 ei ole enää käytettävissä. Valitse toinen widget."
