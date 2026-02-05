@@ -1,8 +1,11 @@
 All,Kaikki
 None,"Poista valinnat"
 "Allowed Scopes","Sallitut kauppanäkymät"
+"You need more permissions to delete this item(s): %1.","Tämän kohte(en/iden) poistaminen vaatii enemmän käyttöoikeuksia: %1."
 "You need more permissions to apply some of the rule updates.","Joidenkin sääntöpäivitysten lisääminen vaatii enemmän käyttöoikeuksia."
+"You need more permissions to save this item.","Tämän kohteen tallentaminen vaatii enemmän käyttöoikeuksia."
 "You need more permissions to access website ""%1"".","Lisää käyttöoikeuksia tarvitaan pääsemiseksi sivustolle ""%1""."
+"Incorrect store ID: %1","Virheellinen kaupan tunnus: %1"
 "Role Scopes","Roolien toimintaoikeudet"
 Custom,Mukautettu
 "More permissions are needed to delete the ""%1"" item.","Lisää käyttöoikeuksia tarvitaan kohteen ”%1” poistamiseen."
@@ -312,7 +315,7 @@ authorize,valtuuta
 "authorize and capture","valtuuta ja talteenota"
 capture,talteenota
 refund,hyvitä
-void,mitätön
+void,mitätöi
 "Gateway error: %1","Gateway-virhe: %1"
 "Something went wrong in the payment gateway.","Maksukäytävässä tapahtui virhe."
 "Invalid amount for capture.","Virheellinen hyvityssumma."
@@ -792,13 +795,18 @@ Pagination,Sivutus
 "Alternative text for the next pages link in the pagination menu. If empty, default arrow image is used.","Vaihtoehtoinen teksti sivutus-valikossa olevalle linkille tuleviin sivuihin. Jos tämä on tyhjä, oletusarvoisesti käytetään nuolen kuvaa."
 "Anchor Text for Next","Ankkuroi teksti tulevaan"
 "Theme Name","Teeman nimi"
+"Page not found.","Sivua ei löydy."
+"For Windows server only.","Vain Windows-palvelimelle."
+"Images Upload Configuration","Kuvien lataamisen asetukset"
 "Maximum Width","Suurin leveys"
+"Maximum allowed width for uploaded image.","Suurin sallittu leveys ladatulle kuvalle."
 "Maximum Height",Enimmäiskorkeus
 "Maximum allowed height for uploaded image.","Suurin sallittu korkeus ladatulle kuvalle."
 "I.e. redirect from http://example.com/store/ to http://www.example.com/store/","Esim. uudelleenohjaa URL:stä http://esimerkki.fi/kauppa/ osoitteeseen http://www.esimerkki.fi/kauppa/"
 "If no value is specified, the system default is used. The system default may be modified by third-party extensions.","Jos arvoa ei määritetä, käytetään järjestelmän oletusta. Kolmansien osapuolten laajennukset saattavat muokata Järjestelmän oletusarvoja."
 "Enable Frontend Resize","Ota käyttöön kuvan rajaaminen käyttöliittymässä"
 "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","Tilille kirjautumisessa on virhe tai tilisi on pois poistettu tilapäisesti. Odota hetki ja yritä myöhemmin uudelleen."
+"Parameter Value",Parametriarvo
 "System Backup","Järjestelmän varmuuskopiointi"
 "Database and Media Backup","Tietokannan ja median varmuuskopiointi"
 "Database Backup","Tietokannan varmuuskopiointi"
@@ -861,16 +869,23 @@ Exclude,"Rajaa pois"
 "Create Backup","Luo varmuuskopio"
 Rollback,Palautus
 "Enable Scheduled Backup","Ota ajoitettu varmuuskopiointi käyttöön"
+"Backup Type","Varmuuskopioinnin tyyppi"
 Frequency,Tiheys
 "Maintenance Mode",Huoltotila
 "Are you sure you want to delete the selected backup(s)?","Oletko varma että haluat poistaa valitut varmuuskopiot?"
 Size(bytes),Koko(tavua)
 Type,Tyyppi
 Download,Lataa
+"Backup functionality is disabled","Varmuuskopiointitoiminto ei ole käytössä"
 "Backup Settings","Varmuuskopioinnin asetukset"
 "Enable Backup","Ota varmuuskopiointi käyttöön"
 "Scheduled Backup Type","Ajoitetun varmuuskopioinnin tyyppi"
+"Disabled by default for security reasons","Oletusarvoisesti poissa käytöstä turvallisuussyistä"
+"Add Banner","Lisää banneri"
+"Save Banner","Tallenna banneri"
+"Delete Banner","Poista banneri"
 "Save and Continue Edit","Tallenna ja jatka muokkaamista"
+"New Banner","Uusi banneri"
 "Default Content",Oletussisältö
 "No Default Content","Ei oletussisältöä"
 "Store View Specific Content","Kauppanäkymäkohtainen sisältö"
@@ -879,13 +894,22 @@ Download,Lataa
 Rule,Sääntö
 "Start Date",Alkamispäivä
 "End Date",Päättymispäivä
+"Banner Properties","Bannerin ominaisuudet"
+"Banner Name","Bannerin nimi"
 Active,Aktiivinen
 Inactive,"Ei käytössä"
 "Applies To","Liittyy kohteeseen"
 "Specify Types","Määritä tyypit"
+"Banner Information","Bannerin tiedot"
+Banner,Banneri
+"Banner Type",Bannerityyppi
 Visibility,Näkyvyys
+"Related Banners","Liittyvät bannerit"
 Position,Sijainti
 "This rule no longer exists.","Tätä sääntöä ei ole enää olemassa."
+"You deleted the banner.","Banneri poistettiin."
+"This banner no longer exists.","Tätä banneria ei ole enää olemassa."
+"Edit Banner","Muokkaa banneria"
 "You deleted %1 record(s).","%1 merkintä(ä) poistettu."
 "Please enter a name.","Kirjoita nimi."
 "-- None --","--Ei mitään --"
@@ -982,6 +1006,8 @@ URL,Osoite
 "Credit card number is prohibited.","Luottokorttinumero on kielletty."
 "Addresses must have at least one field filled in.","Osoitteessa on oltava vähintään yksi kenttä täytetty."
 "First name is too long.","Etunimi on liian pitkä."
+"Postal code is required.","Postinumero on pakollinen."
+"Street address is required.","Osoite on pakollinen."
 "Street address is too long.","Katuosoite on liian pitkä."
 "US state codes must be two characters to meet PayPal Seller Protection requirements.","Yhdysvaltain valtion on oltava kaksi merkkiä täyttää PayPal myyjän vaatimukset."
 "Incomplete PayPal account information.","Epätäydellinen PayPal tilin tiedot."
@@ -1738,7 +1764,6 @@ Path,Polku
 "One-page checkout is turned off.","Yhden sivun kassa on poistettu käytöstä."
 "Guest checkout is disabled.","Vieraana tilaaminen on poistettu käytöstä."
 Checkout,Kassa
-"Page not found.","Sivua ei löydy."
 "Something went wrong while processing your order. Please try again later.","Jokin meni vikaan tilauksen käsittelyssä. Yritä myöhemmin uudelleen."
 "Payment Method",Maksutapa
 "Payment Page",Maksusivu
@@ -3127,7 +3152,7 @@ Dispute,Kiista
 "We cannot cancel this order.","Tätä tilausta ei voida peruuttaa."
 "Finish Date",Päättymispäivä
 "Coupon Redemption","Alennuskoodin lunastus"
-Void,Mitätön
+Void,Mitätöi
 "Every 3 days","3 päivän välein"
 "Every 7 days","7 päivän välein"
 "Every 10 days","10 päivän välein"
@@ -4320,6 +4345,7 @@ Node,"Ei mikään"
 Page:,Sivu:
 "You're currently reading page","Luet tällä hetkellä sivua"
 "CMS Hierarchy","CMS hierarkia"
+"Please wait...","Ole hyvä ja odota..."
 "Search All Products","Etsi kaikista tuotteista"
 "Add Product by SKU","Lisää tuote SKU:n mukaan"
 "%s SKU(s) processed successfully","%s tuotenro(a) käsitelty onnistuneesti"
@@ -4479,9 +4505,10 @@ Warning,Varoitus
 "Please select one of each ratings above.","Valitse yksi jokaisesta ylläolevasta luokitukseta."
 "Please specify Url.","Määritä URL-osoite."
 "Method %s does not exist on jQuery.decorate","Menetelmää %s ei ole jQuery.decorate:ssa"
-"Please wait...","Ole hyvä ja odota..."
+"All ","Kaikki "
 Translate,Käännä
 "Please remove invalid characters: {0}.","Poista virheelliset merkit: {0}."
+"Please use only letters (a-z), numbers (0-9) or underscore (_) in this field, and the first character should be a letter.","Ole hyvä ja käytä tässä kentässä vain kirjaimia (a–z tai A-Z), numeroita (0-9) tai alaviivaa (_), ensimmäisen merkin on oltava kirjain."
 "Please select one of the options above.","Valitse yksi vaihtoehdoista edellä."
 "Please select a file.","Valitse tiedosto."
 "Please select one of the options.","Valitse yksi vaihtoehdoista."
@@ -4497,6 +4524,7 @@ Translate,Käännä
 "Please enter a valid number.","Anna kelvollinen luku."
 "This is required field","Tämä on pakollinen kenttä"
 "Admin is a required field in each row.","Pääkäyttäjä on pakollinen kenttä joka rivillä."
+"Password cannot be the same as email address.","Salasana ei voi olla sama kuin sähköpostiosoite."
 "Please fix this field.","Korjaa tämä kenttä."
 "Please enter a valid URL.","Kirjoita kelvollinen URL."
 "Please enter a valid date (ISO).","Anna kelvollinen päivämäärä (ISO)."
@@ -4514,6 +4542,7 @@ Translate,Käännä
 "Please enter a valid year (1900-%1).","Kirjoita kelvollinen vuosi (1900-%1)."
 "Please enter a valid day (1-%1).","Kirjoita kelvollinen päivä (1-%1)."
 "Please enter a date from the past.","Kirjoita päivämäärä menneisyydestä."
+"Maximum length of this field must be equal or less than %1 symbols.","Kentän enimmäispituus on oltava yhtä suuri tai pienempi kuin %1 merkkiä."
 "Forbidden extensions has been used. Avoid usage of ","Kiellettyjä laajennuksia on käytetty. Vältä käyttämästä "
 "Insert Variable","Lisää muuttuja"
 "The widget %1 is no longer available. Select a different widget.","Widget %1 ei ole enää käytettävissä. Valitse toinen widget."
