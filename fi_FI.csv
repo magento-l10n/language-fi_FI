@@ -1231,6 +1231,7 @@ Scope,Kohde
 "Visible in Advanced Search","Näkyvissä tarkennetussa haussa"
 "Comparable on Storefront","Vertailtavissa kaupan etusivulla"
 "Use for Promo Rule Conditions","Käytä mainossäännön ehdoissa"
+"Enable WYSIWYG","Ota WYSIWYG-editori käyttöön"
 "Allow HTML Tags on Storefront","Salli HTML-tunnisteet kaupan etusivulla"
 "Visible on Catalog Pages on Storefront","Näkyvillä katalogin sivuilla kaupassa"
 "Used in Product Listing","Käytetään tuotelistauksessa"
@@ -1361,6 +1362,7 @@ Categories,Kategoriat
 "A total of %1 record(s) have been deleted.","Yhteensä %1 tietue(tta) poistettu."
 "A total of %1 record(s) have been updated.","Yhteensä %1 tietue(tta) päivitetty."
 "Something went wrong while updating the product(s) status.","Jotain meni pieleen päivitettäessa tuotteiden tilaa."
+"Unable to save product","Tuotetta ei voida tallentaa"
 "You saved the product.","Tuote tallennettiin."
 "SKU for product %1 has been changed to %2.","SKU tuotteelle %1 on muutettu %2."
 "The image cannot be removed as it has been assigned to the other image role","Kuvaa ei voida poistaa, koska se on liitetty toiseen tuotteeseen tai rooliin"
@@ -1397,6 +1399,7 @@ List,Luettelo
 "List Only","Vain luettelo"
 "Grid (default) / List","Ruudukko (oletus) / luettelo"
 "List (default) / Grid","Luettelo (oletus) / Ruudukko"
+"Automatic (equalize product counts)","Automaattinen (tasaa tuotemäärät)"
 Manual,Käsin
 "-- Please select --","--- Valitse ---"
 24h,24t
@@ -1417,6 +1420,8 @@ Category,Kategoria
 "Please enter a valid number in this field.","Kirjoita kelvollinen numero tähän kenttään."
 "Use config","Käytä kokoonpanon asetuksia"
 "Attribute Set already exists.","Attribuuttiryhmä on jo olemassa."
+"Cannot save product.","Tuotetta ei voida tallentaa."
+"The image could not be resized: ","Kuvan kokoa ei voitu muuttaa: "
 "File '%1' is not an image.","Tiedosto '%1' ei ole kuva."
 "Could not save Prices.","Hintoja ei voitu tallentaa."
 "Could not delete Prices","Hintoja ei voitu poistaa"
