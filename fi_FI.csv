@@ -2014,6 +2014,7 @@ test,testi
 "Role Name","Roolin nimi"
 "Company Name","Yrityksen nimi"
 Company:,Yritys:
+"User Role",Käyttäjärooli
 "VAT/TAX ID","Y-tunnus /VAT-numero"
 "Please select a region, state or province.","Valitse alue, osavaltio tai provinssi."
 "Phone Number",Puhelinnumero
@@ -2022,7 +2023,6 @@ Company:,Yritys:
 "Add Team","Lisää tiimi"
 "Edit Selected","Muokkaa valittuja"
 "Delete Selected","Poista valitut"
-"User Role",Käyttäjärooli
 "VAT/TAX ID: ","Y-tunnus /VAT-numero: "
 "You have no other address entries in your address book.","Osoitekirjassasi ei ole muita tallennettuja osoitteita."
 Contacts,Kontaktit
@@ -2036,7 +2036,6 @@ Contacts,Kontaktit
 "No results","Ei tuloksia"
 Proceed,Jatka
 "Edit User","Muokkaa käyttäjää"
-"Delete this user?","Poista tämä käyttäjä?"
 Comment,Kommentti
 ZIP,Postinumero
 Gender,Sukupuoli
